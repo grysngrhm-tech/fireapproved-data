@@ -1,7 +1,7 @@
 # Plants evidence directory
 
 The full FireApproved plant directory as machine-readable evidence records:
-2,123 plants carrying 5,008 flammability evidence rows (source, verdict,
+3,801 plants carrying 26,878 flammability evidence rows (source, verdict,
 verbatim quoted claim, edition, access date), identifiers (GBIF, Wikidata,
 iNaturalist, ITIS, USDA symbol where resolved), state placements, and growth
 facts.
@@ -25,4 +25,5 @@ can recompute or re-weigh it yourself.
 **Citation:** FireApproved.com (2026). *Plants evidence directory* [Data set].
 https://fireapproved.com/plants/ — CC BY 4.0.
 
-The live site is the source of truth; this mirror is refreshed manually.
+The live site is the source of truth. This mirror is rebuilt from the built site by
+`scripts/build-data-mirror.mjs` in the fireapproved-com repository.
