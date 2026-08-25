@@ -7,7 +7,12 @@
   "creator": {
     "@type": "Organization",
     "name": "FireApproved",
-    "url": "https://fireapproved.com"
+    "url": "https://fireapproved.com",
+    "description": "A citation directory for wildfire-resistant construction and plants — every status, rating and requirement linked to the source document it came from.",
+    "sameAs": [
+      "https://github.com/grysngrhm-tech",
+      "https://github.com/grysngrhm-tech/fireapproved-data"
+    ]
   },
   "version": "2026.08.25",
   "dataset": [
@@ -16,9 +21,24 @@
       "name": "Plant flammability evidence directory",
       "description": "3801 plants carrying 26878 cited flammability evidence rows, plus the 112-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
       "url": "https://fireapproved.com/plants/",
+      "mainEntityOfPage": "https://fireapproved.com/plants/",
+      "citation": "FireApproved.com (2026). Plant flammability evidence directory [Data set]. https://fireapproved.com/plants/",
+      "keywords": [
+        "wildfire",
+        "defensible space",
+        "home hardening",
+        "plant flammability",
+        "building codes",
+        "wildland-urban interface"
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "FireApproved",
+        "url": "https://fireapproved.com"
+      },
+      "isAccessibleForFree": true,
       "sameAs": "https://github.com/grysngrhm-tech/fireapproved-data/tree/main/datasets/plants-evidence",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "isAccessibleForFree": true,
       "creator": {
         "@type": "Organization",
         "name": "FireApproved",
@@ -52,9 +72,24 @@
       "name": "CAL FIRE OSFM Building Materials Listing — WUI category censuses",
       "description": "276 listed wildland-urban-interface building products across 16 OSFM category codes, from a frozen snapshot. Every listing in a covered category is present. Each row keeps the listing ID, the product name as the listing records it, the BML application number, and the expiry.",
       "url": "https://fireapproved.com/data/",
+      "mainEntityOfPage": "https://fireapproved.com/data/",
+      "citation": "FireApproved.com (2026). CAL FIRE OSFM Building Materials Listing — WUI category censuses [Data set]. https://fireapproved.com/data/",
+      "keywords": [
+        "wildfire",
+        "defensible space",
+        "home hardening",
+        "plant flammability",
+        "building codes",
+        "wildland-urban interface"
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "FireApproved",
+        "url": "https://fireapproved.com"
+      },
+      "isAccessibleForFree": true,
       "sameAs": "https://github.com/grysngrhm-tech/fireapproved-data/tree/main/datasets/osfm-bml-censuses",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "isAccessibleForFree": true,
       "creator": {
         "@type": "Organization",
         "name": "FireApproved",
@@ -78,9 +113,24 @@
       "name": "ORSC R327 local adoption",
       "description": "5 Oregon municipalities that have adopted ORSC Section R327, each cited to the state list or the ordinance itself.",
       "url": "https://fireapproved.com/data/r327-adoption/",
+      "mainEntityOfPage": "https://fireapproved.com/data/r327-adoption/",
+      "citation": "FireApproved.com (2026). ORSC R327 local adoption [Data set]. https://fireapproved.com/data/r327-adoption/",
+      "keywords": [
+        "wildfire",
+        "defensible space",
+        "home hardening",
+        "plant flammability",
+        "building codes",
+        "wildland-urban interface"
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "FireApproved",
+        "url": "https://fireapproved.com"
+      },
+      "isAccessibleForFree": true,
       "sameAs": "https://github.com/grysngrhm-tech/fireapproved-data/tree/main/datasets/r327-adoption",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "isAccessibleForFree": true,
       "creator": {
         "@type": "Organization",
         "name": "FireApproved",

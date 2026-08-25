@@ -25,46 +25,69 @@ carries the `lastVerified` date inside the JSON.
 
 ## About FireApproved.com
 
-[FireApproved.com](https://fireapproved.com) is a citation directory for
-wildfire-resistant construction and plants. Every status, rating and
-requirement on the site links to the source document it came from, and the
-site issues no rating of its own — the evidence is the product.
+**Every wildfire plant list contradicts the next one, and almost none of them
+say why.** One extension bulletin calls a shrub fire-resistant, the next calls
+it a hazard, and neither shows its work.
 
-Four things make this data unusual enough to cite:
+[**FireApproved.com**](https://fireapproved.com) is where you find out what is
+actually behind the advice. Look up a plant and you see every source that
+rated it, the exact words each one used, when it was published — and where
+they disagree, laid side by side instead of averaged into one anonymous
+verdict you have to take on faith.
 
-1. **Every verdict keeps the source's own words.** Each evidence row carries
-   the source's phrasing of its finding, the edition it appeared in, and the
-   date the document was read — not a normalised label invented later.
-2. **Classifications are computed, never hand-assigned.** A published rule
-   turns evidence rows into a class. See
+It covers the whole decision, not just the planting list:
+
+- 🌿 **[Plants](https://fireapproved.com/plants/)** — thousands of taxa with
+  every cited rating, browsable [by genus](https://fireapproved.com/plants/genus/),
+  [by state](https://fireapproved.com/plants/state/) and
+  [by USDA zone](https://fireapproved.com/plants/zone/), each tracing to
+  [the source that rated it](https://fireapproved.com/plants/source/).
+- 🏠 **[Materials](https://fireapproved.com/materials/)** — the vents, siding,
+  decking, windows and roofing that are actually listed and tested, with the
+  [standards](https://fireapproved.com/standards/) behind them and a
+  [lapse log](https://fireapproved.com/materials/lapse-log/) for listings that
+  have expired.
+- 📍 **[States and requirements](https://fireapproved.com/states/)** — what the
+  code adopted where you live [actually says](https://fireapproved.com/requirements/),
+  cited to the ordinance rather than to a summary of it.
+- 📚 **[Guides](https://fireapproved.com/guides/)** — plain-language answers,
+  from [where to start](https://fireapproved.com/guides/hardening-ladder/) to
+  [how to read a plant page](https://fireapproved.com/guides/how-to-read-a-plant-page/),
+  with a [glossary](https://fireapproved.com/glossary/) for the terms the codes
+  use.
+- 🔎 **[Findings](https://fireapproved.com/findings/)** — the places where a
+  test result or a jurisdiction contradicts what everyone repeats.
+
+**Start here:** [fireapproved.com](https://fireapproved.com) ·
+[the plant directory](https://fireapproved.com/plants/) ·
+[the materials directory](https://fireapproved.com/materials/) ·
+[how this is built](https://fireapproved.com/methodology/)
+
+### Why this data is worth citing
+
+The site issues no rating of its own. Every status is computed from cited
+evidence by a published rule, and four properties make that reproducible:
+
+1. **Every verdict keeps the source's own words** — its phrasing, its edition,
+   and the date the document was read, not a label invented later.
+2. **Classifications are computed, never hand-assigned.** See
    [the methodology](https://fireapproved.com/methodology/).
-3. **Evidence is deduplicated by lineage, not by row.** A rater who publishes
-   the same finding in five places counts once, so a widely-republished
-   opinion cannot outvote a laboratory result.
-4. **Conflicts are preserved, not averaged.** When sources disagree, the
-   record says so and shows both sides rather than emitting a tidy score.
+3. **Evidence deduplicates by lineage, not by row.** A rater who republishes
+   the same finding in five places counts once, so a widely-copied opinion
+   cannot outvote a laboratory result.
+4. **Conflicts are preserved, not averaged.** When sources disagree the record
+   says so and shows both sides.
 
-### Where this data comes from
+The source registry ships alongside the evidence, so you can recompute or
+re-weigh every classification yourself rather than trusting ours.
 
-- [Plants](https://fireapproved.com/plants/) — the plant directory, one page
-  per taxon, grouped by [genus](https://fireapproved.com/plants/genus/), with
-  every [cited source](https://fireapproved.com/plants/source/) listed.
-- [Materials](https://fireapproved.com/materials/) — listed and tested
-  home-hardening products, with the
-  [standards](https://fireapproved.com/standards/) they were tested to.
-- [Datasets](https://fireapproved.com/data/) — the census pages these files
-  mirror, each with a JSON twin.
-- [Requirements](https://fireapproved.com/requirements/) and
-  [states](https://fireapproved.com/states/) — what the adopted code actually
-  says, per place.
-- [Guides](https://fireapproved.com/guides/) and
-  [glossary](https://fireapproved.com/glossary/) — how to read a plant page,
-  what limited evidence means, and the terms used here.
-- [Findings](https://fireapproved.com/findings/) — where a jurisdiction or
-  test result contradicts a common assumption.
+The live site is the source of truth and is always current. Machine-readable
+entry points: [llms.txt](https://fireapproved.com/llms.txt) ·
+[llms-full.txt](https://fireapproved.com/llms-full.txt) ·
+[every page has a JSON twin](https://fireapproved.com/data/) (the `.json`
+replaces the trailing slash).
 
-The live site is the source of truth. Machine-readable entry points:
-[llms.txt](https://fireapproved.com/llms.txt) and
-[llms-full.txt](https://fireapproved.com/llms-full.txt).
+*FireApproved is a citation directory. It is not a listing body, an insurer,
+or a building official — verify at the source before you specify.*
 
 <!-- about:end -->

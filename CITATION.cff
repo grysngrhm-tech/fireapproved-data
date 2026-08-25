@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite it as below, and link the canonical page."
+title: FireApproved.com structured data
+version: "2026.08.25"
+date-released: "2026-08-25"
+license: CC-BY-4.0
+type: dataset
+url: https://fireapproved.com
+repository-code: https://github.com/grysngrhm-tech/fireapproved-data
+abstract: >-
+  Structured data from FireApproved.com, a citation directory for
+  wildfire-resistant construction and plants: plant flammability evidence
+  with the source's own wording preserved, and complete censuses of the
+  CAL FIRE OSFM Building Materials Listing. Every status links to the
+  source document it came from; classifications are computed from the
+  cited evidence by a published rule, never hand-assigned.
+keywords:
+  - wildfire
+  - defensible space
+  - home hardening
+  - plant flammability
+  - building codes
+  - wildland-urban interface
+  - fire-resistant plants
+  - open data
+authors:
+  - family-names: Graham
+    given-names: Grayson
+    website: https://fireapproved.com
