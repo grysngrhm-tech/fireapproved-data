@@ -1,0 +1,305 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "arrayShape": "cr:arrayShape",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "containedIn": "cr:containedIn",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "equivalentProperty": "cr:equivalentProperty",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isArray": "cr:isArray",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "samplingRate": "cr:samplingRate",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "CAL FIRE OSFM Building Materials Listing — WUI category censuses",
+  "description": "276 listed wildland-urban-interface building products across 16 OSFM category codes, from a frozen snapshot. Every listing in a covered category is present. Each row keeps the listing ID, the product name as the listing records it, the BML application number, and the expiry.",
+  "conformsTo": "http://mlcommons.org/croissant/1.1",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://fireapproved.com/data/",
+  "version": "2026.08.25",
+  "datePublished": "2026-08-25",
+  "creator": {
+    "@type": "Organization",
+    "name": "FireApproved",
+    "url": "https://fireapproved.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FireApproved",
+    "url": "https://fireapproved.com"
+  },
+  "keywords": [
+    "wildfire",
+    "defensible space",
+    "home hardening",
+    "plant flammability",
+    "building codes",
+    "wildland-urban interface"
+  ],
+  "citeAs": "FireApproved.com (2026). CAL FIRE OSFM Building Materials Listing — WUI category censuses [Data set]. https://fireapproved.com/data/",
+  "sameAs": "https://github.com/grysngrhm-tech/fireapproved-data/tree/main/datasets/osfm-bml-censuses",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "osfm-bml-censuses.csv",
+      "name": "osfm-bml-censuses.csv",
+      "contentUrl": "osfm-bml-censuses.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "134178 B",
+      "sha256": "cda957633ff7fa22922b0b0acb14591b42aa6ece7b436c96302f276120d2d247"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "osfm-bml-censuses.jsonl",
+      "name": "osfm-bml-censuses.jsonl",
+      "contentUrl": "osfm-bml-censuses.jsonl",
+      "encodingFormat": "application/jsonl",
+      "contentSize": "125829 B",
+      "sha256": "45fda1a1141959132e815d0718a4544774865e6bb6756e090a50e65b99ddff0c"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "osfm-bml-censuses",
+      "name": "osfm-bml-censuses",
+      "description": "Every listing from every in-scope OSFM category, flattened. JSONL twins stay per-category.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/categoryCode",
+          "name": "categoryCode",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "categoryCode"
+            }
+          },
+          "description": "OSFM category code (e.g. 8110 decking)"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/category",
+          "name": "category",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "category"
+            }
+          },
+          "description": "Official category name"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/listingId",
+          "name": "listingId",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "listingId"
+            }
+          },
+          "description": "OSFM listing number"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/brand",
+          "name": "brand",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "brand"
+            }
+          },
+          "description": "Brand slug on FireApproved, or the company as the listing records it"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/productName",
+          "name": "productName",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "productName"
+            }
+          },
+          "description": "Product name as the listing records it"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/productId",
+          "name": "productId",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "productId"
+            }
+          },
+          "description": "Present when the product has a record on the site"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/scopeRoute",
+          "name": "scopeRoute",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "scopeRoute"
+            }
+          },
+          "description": "Present when it does not — and why"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/application",
+          "name": "application",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "application"
+            }
+          },
+          "description": "Vent placement. Only meaningful in the 8165 vent census"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/protocol",
+          "name": "protocol",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "protocol"
+            }
+          },
+          "description": "Test standard, where the linked record carries one. Absent rather than guessed: the BML snapshot itself records no test standard"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/sourceUrl",
+          "name": "sourceUrl",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "sourceUrl"
+            }
+          },
+          "description": "The BML search interface"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/productPage",
+          "name": "productPage",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "productPage"
+            }
+          },
+          "description": "The product's record on FireApproved.com, where the listing has earned one"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/categoryPage",
+          "name": "categoryPage",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "categoryPage"
+            }
+          },
+          "description": "The census page this row came from"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "osfm-bml-censuses/notes",
+          "name": "notes",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "osfm-bml-censuses.csv"
+            },
+            "extract": {
+              "column": "notes"
+            }
+          },
+          "description": "BML application number, issue date, expiry date, snapshot date"
+        }
+      ]
+    }
+  ]
+}

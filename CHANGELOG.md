@@ -30,6 +30,14 @@ Added:
   unpublished.
 - `datapackage.json` (Frictionless) and `dataset.jsonld` (schema.org
   `DataCatalog`, which is what Google Dataset Search reads).
+- `datasets/plants-evidence/croissant.json` and
+  `datasets/osfm-bml-censuses/croissant.json` — Croissant 1.1, generated
+  from `scripts/build-data-mirror.mjs` and validated with `mlcroissant
+  validate --jsonld` (exit 0). Hugging Face and Kaggle read this format.
+  `r327-adoption` has none; it is too thin for a standalone dataset page.
+- `LICENSE` — the CC BY 4.0 legal code, fetched from
+  creativecommons.org, so GitHub can detect the licence. `LICENSE.md`
+  remains the human summary.
 - A documented column reference for every field, including the two distinct
   meanings of `original`.
 
@@ -44,13 +52,6 @@ Removed:
 
 - `datasets/osfm-8165-vents/` — superseded by `osfm-bml-censuses`, which
   contains it. Nothing external referenced it.
-
-Known gap:
-
-- No Croissant metadata yet. It is what Hugging Face and Kaggle read and would
-  be the most valuable of the three metadata formats; it is absent rather than
-  guessed, because the session that built this could not reach the spec to
-  check the vocabulary.
 
 ## 2026.08.24
 

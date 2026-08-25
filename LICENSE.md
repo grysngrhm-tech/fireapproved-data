@@ -2,7 +2,9 @@
 
 `SPDX-License-Identifier: CC-BY-4.0`
 
-The full legal code is at https://creativecommons.org/licenses/by/4.0/legalcode
+The full legal code is in `LICENSE` (fetched from
+https://creativecommons.org/licenses/by/4.0/legalcode.txt) and at
+https://creativecommons.org/licenses/by/4.0/legalcode
 
 The structured data in this repository is published by FireApproved.com under
 Creative Commons Attribution 4.0 International.

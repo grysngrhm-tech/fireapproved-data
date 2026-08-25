@@ -1,0 +1,699 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "arrayShape": "cr:arrayShape",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "containedIn": "cr:containedIn",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "equivalentProperty": "cr:equivalentProperty",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isArray": "cr:isArray",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "samplingRate": "cr:samplingRate",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "Plant flammability evidence directory",
+  "description": "3801 plants carrying 26878 cited flammability evidence rows, plus the 112-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
+  "conformsTo": "http://mlcommons.org/croissant/1.1",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://fireapproved.com/plants/",
+  "version": "2026.08.25",
+  "datePublished": "2026-08-25",
+  "creator": {
+    "@type": "Organization",
+    "name": "FireApproved",
+    "url": "https://fireapproved.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "FireApproved",
+    "url": "https://fireapproved.com"
+  },
+  "keywords": [
+    "wildfire",
+    "defensible space",
+    "home hardening",
+    "plant flammability",
+    "building codes",
+    "wildland-urban interface"
+  ],
+  "citeAs": "FireApproved.com (2026). Plant flammability evidence directory [Data set]. https://fireapproved.com/plants/",
+  "sameAs": "https://github.com/grysngrhm-tech/fireapproved-data/tree/main/datasets/plants-evidence",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "plants-evidence.csv",
+      "name": "plants-evidence.csv",
+      "contentUrl": "plants-evidence.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "20408397 B",
+      "sha256": "1aec63920762b8a106763d8c335daa82290d4115ed9a19c57c10c84d53d2040f"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "plants-evidence.jsonl",
+      "name": "plants-evidence.jsonl",
+      "contentUrl": "plants-evidence.jsonl",
+      "encodingFormat": "application/jsonl",
+      "contentSize": "21043437 B",
+      "sha256": "005ba565e31158e3b151501bfcfd0c0b56e2d0c2e72e2c0cf0cace7521656a35"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "plant-sources.csv",
+      "name": "plant-sources.csv",
+      "contentUrl": "plant-sources.csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "116198 B",
+      "sha256": "8c1d46de6db26226653f1ef133d651bf6e9213cc1ad7e119e0fdc9977ef6506e"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "plant-sources.json",
+      "name": "plant-sources.json",
+      "contentUrl": "plant-sources.json",
+      "encodingFormat": "application/json",
+      "contentSize": "138014 B",
+      "sha256": "d85579180e068ec6e796f6dd5d769a93542d4962800bfb51e80bf3402444a151"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "plants-evidence",
+      "name": "plants-evidence",
+      "description": "One row per flammability evidence row. Join `source` to plant-sources.slug.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/plantId",
+          "name": "plantId",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "plantId"
+            }
+          },
+          "description": "Stable id; the last segment of the canonical URL"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/scientificName",
+          "name": "scientificName",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "scientificName"
+            }
+          },
+          "description": "Name as the directory files it"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/acceptedName",
+          "name": "acceptedName",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "acceptedName"
+            }
+          },
+          "description": "Currently accepted name where it differs"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/family",
+          "name": "family",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "family"
+            }
+          },
+          "description": "Botanical family"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/plantForm",
+          "name": "plantForm",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "plantForm"
+            }
+          },
+          "description": "tree / shrub / grass / etc."
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/flammabilityClass",
+          "name": "flammabilityClass",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "flammabilityClass"
+            }
+          },
+          "description": "Computed: fire-resistant, mixed-evidence, highly-flammable"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/ratingReason",
+          "name": "ratingReason",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "ratingReason"
+            }
+          },
+          "description": "Why: consensus, majority, disputed, conditional, mid-scale, limited-evidence"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/recommendation",
+          "name": "recommendation",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "recommendation"
+            }
+          },
+          "description": "User-facing resolution: on-list, avoid, candidate, conflict"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/canonicalUrl",
+          "name": "canonicalUrl",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "canonicalUrl"
+            }
+          },
+          "description": "The plant's page on FireApproved.com"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/source",
+          "name": "source",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "source"
+            }
+          },
+          "description": "Registry slug this row is attributed to — joins to plant-sources.slug",
+          "references": {
+            "field": {
+              "@id": "plant-sources/slug"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/sourcePage",
+          "name": "sourcePage",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "sourcePage"
+            }
+          },
+          "description": "The page for that source on FireApproved.com, listing everything else it rated"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/original",
+          "name": "original",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "original"
+            }
+          },
+          "description": "When it names a registry slug, a chain-to-root pointer; otherwise a bibliographic citation key for the primary study named by a compilation"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/via",
+          "name": "via",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "via"
+            }
+          },
+          "description": "The intermediate that republished the claim, where one is recorded"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/verdict",
+          "name": "verdict",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "verdict"
+            }
+          },
+          "description": "Normalised direction: recommend, avoid, mid, and similar"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/verdictRaw",
+          "name": "verdictRaw",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "verdictRaw"
+            }
+          },
+          "description": "The source's own wording of its finding"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/claims",
+          "name": "claims",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "claims"
+            }
+          },
+          "description": "Supporting statements extracted from the source, pipe-separated"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/claimOriginal",
+          "name": "claimOriginal",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "claimOriginal"
+            }
+          },
+          "description": "The claim in the original language where the source is not English"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/score",
+          "name": "score",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "score"
+            }
+          },
+          "description": "The source's own numeric score, where it published one — scales are not interchangeable between sources"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/plantPart",
+          "name": "plantPart",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "plantPart"
+            }
+          },
+          "description": "What was tested or observed (foliage, litter, whole plant)"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/condition",
+          "name": "condition",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "condition"
+            }
+          },
+          "description": "Stated condition, e.g. irrigated — a rating can be conditional on it"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/sourcePlacement",
+          "name": "sourcePlacement",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "sourcePlacement"
+            }
+          },
+          "description": "The source's own placement rule, in its own zone vocabulary"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/edition",
+          "name": "edition",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "edition"
+            }
+          },
+          "description": "Which edition of the source"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/documentDate",
+          "name": "documentDate",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "documentDate"
+            }
+          },
+          "description": "The source document's date"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/sourceUrl",
+          "name": "sourceUrl",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "sourceUrl"
+            }
+          },
+          "description": "The source document itself"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plants-evidence/accessedOn",
+          "name": "accessedOn",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plants-evidence.csv"
+            },
+            "extract": {
+              "column": "accessedOn"
+            }
+          },
+          "description": "When the document was read"
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "plant-sources",
+      "name": "plant-sources",
+      "description": "The source registry. Join key is slug. Editions are flattened here and intact in plant-sources.json.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/slug",
+          "name": "slug",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "slug"
+            }
+          },
+          "description": "Join key"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/name",
+          "name": "name",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "name"
+            }
+          },
+          "description": "The document"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/publisher",
+          "name": "publisher",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "publisher"
+            }
+          },
+          "description": "Who published it"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/url",
+          "name": "url",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "url"
+            }
+          },
+          "description": "Where the document is"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/region",
+          "name": "region",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "region"
+            }
+          },
+          "description": "Geographic scope the source speaks to"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/tier",
+          "name": "tier",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "tier"
+            }
+          },
+          "description": "Evidence tier. Tier 1 sources classify; others corroborate. Unset where the source states no method"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/evidenceKind",
+          "name": "evidenceKind",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "evidenceKind"
+            }
+          },
+          "description": "lab-tested, field-trial, post-fire-survey, expert-curated, and similar"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/lineage",
+          "name": "lineage",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "lineage"
+            }
+          },
+          "description": "The root this source's findings trace to. Sources sharing a lineage are not independent"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/editions",
+          "name": "editions",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "editions"
+            }
+          },
+          "description": "Editions and dates, flattened; intact as an array in the JSON"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/canonicalUrl",
+          "name": "canonicalUrl",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "canonicalUrl"
+            }
+          },
+          "description": "The source's page on FireApproved.com, listing every plant it covers"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/scaleNotes",
+          "name": "scaleNotes",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "scaleNotes"
+            }
+          },
+          "description": "How the source's own scale was mapped to a verdict — read this before comparing scores across sources"
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "plant-sources/notes",
+          "name": "notes",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "plant-sources.csv"
+            },
+            "extract": {
+              "column": "notes"
+            }
+          },
+          "description": "Reconciliation decisions, held rows, and honest gaps"
+        }
+      ],
+      "key": {
+        "@id": "plant-sources/slug"
+      }
+    }
+  ]
+}
