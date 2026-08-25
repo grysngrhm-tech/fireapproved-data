@@ -15,7 +15,7 @@ dataset's README.
 | Dataset | Records | Canonical page |
 |---|---|---|
 | [ORSC R327 local adoption](datasets/r327-adoption/) | 5 municipalities | https://fireapproved.com/data/r327-adoption/ |
-| [OSFM 8165 ember- and flame-resistant vents census](datasets/osfm-8165-vents/) | 15 listings | https://fireapproved.com/data/osfm-8165-vents/ |
+| [OSFM BML WUI category censuses](datasets/osfm-bml-censuses/) | 276 listings across 16 categories | https://fireapproved.com/data/ |
 | [Plants evidence directory](datasets/plants-evidence/) | 3,801 plant records | https://fireapproved.com/plants/ (one JSON twin per plant) |
 
 ## How the data is built
