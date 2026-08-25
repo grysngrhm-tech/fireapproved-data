@@ -12,11 +12,11 @@ dataset's README.
 
 ## Datasets
 
-| Dataset | Records | Canonical page |
-|---|---|---|
-| [ORSC R327 local adoption](datasets/r327-adoption/) | 5 municipalities | https://fireapproved.com/data/r327-adoption/ |
-| [OSFM BML WUI category censuses](datasets/osfm-bml-censuses/) | 276 listings across 16 categories | https://fireapproved.com/data/ |
-| [Plants evidence directory](datasets/plants-evidence/) | 3,801 plant records | https://fireapproved.com/plants/ (one JSON twin per plant) |
+| Dataset | Records | Canonical page | Published copies |
+|---|---|---|---|
+| [ORSC R327 local adoption](datasets/r327-adoption/) | 5 municipalities | https://fireapproved.com/data/r327-adoption/ | not minted standalone |
+| [OSFM BML WUI category censuses](datasets/osfm-bml-censuses/) | 276 listings across 16 categories | https://fireapproved.com/data/ | [Zenodo](https://doi.org/10.5281/zenodo.22099756) · [Hugging Face](https://huggingface.co/datasets/fireapproved/osfm-bml-censuses) · [Kaggle](https://www.kaggle.com/datasets/fireapproved/osfm-bml-censuses) |
+| [Plants evidence directory](datasets/plants-evidence/) | 3,801 plant records | https://fireapproved.com/plants/ (one JSON twin per plant) | [Zenodo](https://doi.org/10.5281/zenodo.22099746) · [Hugging Face](https://huggingface.co/datasets/fireapproved/plants-evidence) · [Kaggle](https://www.kaggle.com/datasets/fireapproved/plants-evidence) |
 
 ## How the data is built
 

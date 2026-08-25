@@ -16,6 +16,10 @@ registry, so you can recompute or re-weigh it yourself.**
 - **Methodology:** https://fireapproved.com/methodology/
 - **Records:** 3,801 plants carrying 26,878 flammability evidence rows, and
   112 registered sources.
+- **Published copies (v2026.08.25):**
+  [Zenodo DOI 10.5281/zenodo.22099746](https://doi.org/10.5281/zenodo.22099746)
+  · [Hugging Face](https://huggingface.co/datasets/fireapproved/plants-evidence)
+  · [Kaggle](https://www.kaggle.com/datasets/fireapproved/plants-evidence)
 
 ## Files
 

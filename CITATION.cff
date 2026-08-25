@@ -7,6 +7,13 @@ license: CC-BY-4.0
 type: dataset
 url: https://fireapproved.com
 repository-code: https://github.com/grysngrhm-tech/fireapproved-data
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22099746
+    description: Plant flammability evidence directory
+  - type: doi
+    value: 10.5281/zenodo.22099756
+    description: CAL FIRE OSFM Building Materials Listing — WUI category censuses
 abstract: >-
   Structured data from FireApproved.com, a citation directory for
   wildfire-resistant construction and plants: plant flammability evidence

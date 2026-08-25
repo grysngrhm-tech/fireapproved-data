@@ -7,6 +7,22 @@ source of truth; each entry here says what changed in the mirror.
 Versions are dated snapshots (`YYYY.MM.DD`), matching `version` in
 `datapackage.json` and `dataset.jsonld`.
 
+## 2026.08.25 (published copies)
+
+The two submitable datasets now have live registry records. The GitHub
+release tag `v2026.08.25` remains the version pin; these URLs cite that
+snapshot. `r327-adoption` is not minted standalone. Zenodo's
+GitHub-release webhook was not enabled (that would have been a third
+overlapping DOI).
+
+- Plants: [10.5281/zenodo.22099746](https://doi.org/10.5281/zenodo.22099746)
+  · [huggingface.co/datasets/fireapproved/plants-evidence](https://huggingface.co/datasets/fireapproved/plants-evidence)
+  · [kaggle.com/datasets/fireapproved/plants-evidence](https://www.kaggle.com/datasets/fireapproved/plants-evidence)
+- OSFM BML censuses:
+  [10.5281/zenodo.22099756](https://doi.org/10.5281/zenodo.22099756)
+  · [huggingface.co/datasets/fireapproved/osfm-bml-censuses](https://huggingface.co/datasets/fireapproved/osfm-bml-censuses)
+  · [kaggle.com/datasets/fireapproved/osfm-bml-censuses](https://www.kaggle.com/datasets/fireapproved/osfm-bml-censuses)
+
 ## 2026.08.25
 
 **The export became reproducible.** Previously the evidence rows attributed
