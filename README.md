@@ -15,8 +15,8 @@ dataset's README.
 | Dataset | Records | Canonical page | Published copies |
 |---|---|---|---|
 | [ORSC R327 local adoption](datasets/r327-adoption/) | 5 municipalities | https://fireapproved.com/data/r327-adoption/ | not minted standalone |
-| [OSFM BML WUI category censuses](datasets/osfm-bml-censuses/) | 276 listings across 16 categories | https://fireapproved.com/data/ | [Zenodo](https://doi.org/10.5281/zenodo.22099756) · [Hugging Face](https://huggingface.co/datasets/fireapproved/osfm-bml-censuses) · [Kaggle](https://www.kaggle.com/datasets/fireapproved/osfm-bml-censuses) |
-| [Plants evidence directory](datasets/plants-evidence/) | 3,801 plant records | https://fireapproved.com/plants/ (one JSON twin per plant) | [Zenodo](https://doi.org/10.5281/zenodo.22099746) · [Hugging Face](https://huggingface.co/datasets/fireapproved/plants-evidence) · [Kaggle](https://www.kaggle.com/datasets/fireapproved/plants-evidence) |
+| [OSFM BML WUI category censuses](datasets/osfm-bml-censuses/) | 276 listings across 16 categories. California listings issued 2026-03-19 through 2026-08-19, frozen 2026-08-25. | https://fireapproved.com/data/ | [Zenodo](https://doi.org/10.5281/zenodo.22099756) · [Hugging Face](https://huggingface.co/datasets/fireapproved/osfm-bml-censuses) · [Kaggle](https://www.kaggle.com/datasets/fireapproved/osfm-bml-censuses) · [Wikidata](https://www.wikidata.org/wiki/Q141177780) |
+| [Plants evidence directory](datasets/plants-evidence/) | 3,801 plant records. Source documents dated 1968–2026 across the US, Europe, the Mediterranean, Australia, New Zealand, South America, and other named regions. | https://fireapproved.com/plants/ (one JSON twin per plant) | [Zenodo](https://doi.org/10.5281/zenodo.22099746) · [Hugging Face](https://huggingface.co/datasets/fireapproved/plants-evidence) · [Kaggle](https://www.kaggle.com/datasets/fireapproved/plants-evidence) · [Wikidata](https://www.wikidata.org/wiki/Q141177673) |
 
 ## How the data is built
 

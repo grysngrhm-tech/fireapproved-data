@@ -16,10 +16,15 @@ registry, so you can recompute or re-weigh it yourself.**
 - **Methodology:** https://fireapproved.com/methodology/
 - **Records:** 3,801 plants carrying 26,878 flammability evidence rows, and
   112 registered sources.
+- **Coverage:** source documents dated 1968 through 2026-08-25
+  (23,103 of 26,878 rows carry a document date). 112 sources in the
+  United States, Europe, the Mediterranean, Australia, New Zealand,
+  South America, and other named regions. Not a global flora census.
 - **Published copies (v2026.08.25):**
   [Zenodo DOI 10.5281/zenodo.22099746](https://doi.org/10.5281/zenodo.22099746)
   · [Hugging Face](https://huggingface.co/datasets/fireapproved/plants-evidence)
   · [Kaggle](https://www.kaggle.com/datasets/fireapproved/plants-evidence)
+  · [Wikidata Q141177673](https://www.wikidata.org/wiki/Q141177673)
 
 ## Files
 

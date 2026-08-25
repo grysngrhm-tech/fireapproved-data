@@ -16,10 +16,13 @@ puts it outside a wildfire-hardening directory. An honest absence is data.
   each with a JSON twin at `/data/{id}.json`)
 - **Methodology:** https://fireapproved.com/methodology
 - **Records:** 276 listings across 16 category codes.
+- **Coverage:** California OSFM WUI listings issued 2026-03-19 through
+  2026-08-19, frozen 2026-08-25. Not a nationwide materials census.
 - **Published copies (v2026.08.25):**
   [Zenodo DOI 10.5281/zenodo.22099756](https://doi.org/10.5281/zenodo.22099756)
   · [Hugging Face](https://huggingface.co/datasets/fireapproved/osfm-bml-censuses)
   · [Kaggle](https://www.kaggle.com/datasets/fireapproved/osfm-bml-censuses)
+  · [Wikidata Q141177780](https://www.wikidata.org/wiki/Q141177780)
 - **Files here:**
   - `osfm-bml-censuses.csv` — **Start here.** Every row from every category
     flattened into one table, with `categoryCode`, `category` and
