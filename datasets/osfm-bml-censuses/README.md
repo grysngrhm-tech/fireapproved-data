@@ -17,11 +17,14 @@ puts it outside a wildfire-hardening directory. An honest absence is data.
 - **Methodology:** https://fireapproved.com/methodology
 - **Records:** 276 listings across 16 category codes.
 - **Files here:**
+  - `osfm-bml-censuses.csv` — **Start here.** Every row from every category
+    flattened into one table, with `categoryCode`, `category` and
+    `categoryPage` columns added so the set is usable as a single file.
+    Values are otherwise unaltered.
   - `osfm-bml-censuses.jsonl` — one line per category page, each line the
     verbatim JSON twin published on the site.
-  - `osfm-bml-censuses.csv` — every row from every category flattened into one
-    table, with `categoryCode`, `category` and `categoryPage` columns added so
-    the set is usable as a single file. Values are otherwise unaltered.
+  - `croissant.json` — Croissant 1.1 metadata (what Hugging Face and Kaggle
+    read). Validated with `mlcroissant validate --jsonld`.
 
 ## What this is not
 

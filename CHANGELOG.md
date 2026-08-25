@@ -38,6 +38,8 @@ Added:
 - `LICENSE` — the CC BY 4.0 legal code, fetched from
   creativecommons.org, so GitHub can detect the licence. `LICENSE.md`
   remains the human summary.
+- Dataset README file tables now list `croissant.json`. `CITATION.cff`
+  lead author is FireApproved.com (Grayson Graham remains as the person).
 - A documented column reference for every field, including the two distinct
   meanings of `original`.
 

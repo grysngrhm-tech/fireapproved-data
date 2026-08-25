@@ -25,6 +25,7 @@ registry, so you can recompute or re-weigh it yourself.**
 | `plants-evidence.jsonl` | Lossless. One line per plant, each the verbatim JSON twin published on the site, including fields the flat table drops (photo metadata, common names, identifiers, review notes). |
 | `plant-sources.csv` | The source registry, one row per source (112). |
 | `plant-sources.json` | The same registry, lossless, keyed by slug — editions stay an array. |
+| `croissant.json` | Croissant 1.1 metadata (what Hugging Face and Kaggle read). Validated with `mlcroissant validate --jsonld`. |
 
 Join `plants-evidence.source` to `plant-sources.slug`.
 
