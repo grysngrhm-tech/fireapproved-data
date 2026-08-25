@@ -1,0 +1,103 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DataCatalog",
+  "name": "FireApproved.com structured data",
+  "url": "https://fireapproved.com/data/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Organization",
+    "name": "FireApproved",
+    "url": "https://fireapproved.com"
+  },
+  "version": "2026.08.25",
+  "dataset": [
+    {
+      "@type": "Dataset",
+      "name": "Plant flammability evidence directory",
+      "description": "3801 plants carrying 26878 cited flammability evidence rows, plus the 112-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
+      "url": "https://fireapproved.com/plants/",
+      "sameAs": "https://github.com/grysngrhm-tech/fireapproved-data/tree/main/datasets/plants-evidence",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "FireApproved",
+        "url": "https://fireapproved.com"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/grysngrhm-tech/fireapproved-data/main/datasets/plants-evidence/plants-evidence.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/grysngrhm-tech/fireapproved-data/main/datasets/plants-evidence/plants-evidence.jsonl"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/grysngrhm-tech/fireapproved-data/main/datasets/plants-evidence/plant-sources.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/grysngrhm-tech/fireapproved-data/main/datasets/plants-evidence/plant-sources.json"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "CAL FIRE OSFM Building Materials Listing — WUI category censuses",
+      "description": "276 listed wildland-urban-interface building products across 16 OSFM category codes, from a frozen snapshot. Every listing in a covered category is present. Each row keeps the listing ID, the product name as the listing records it, the BML application number, and the expiry.",
+      "url": "https://fireapproved.com/data/",
+      "sameAs": "https://github.com/grysngrhm-tech/fireapproved-data/tree/main/datasets/osfm-bml-censuses",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "FireApproved",
+        "url": "https://fireapproved.com"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/grysngrhm-tech/fireapproved-data/main/datasets/osfm-bml-censuses/osfm-bml-censuses.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/grysngrhm-tech/fireapproved-data/main/datasets/osfm-bml-censuses/osfm-bml-censuses.jsonl"
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "ORSC R327 local adoption",
+      "description": "5 Oregon municipalities that have adopted ORSC Section R327, each cited to the state list or the ordinance itself.",
+      "url": "https://fireapproved.com/data/r327-adoption/",
+      "sameAs": "https://github.com/grysngrhm-tech/fireapproved-data/tree/main/datasets/r327-adoption",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "isAccessibleForFree": true,
+      "creator": {
+        "@type": "Organization",
+        "name": "FireApproved",
+        "url": "https://fireapproved.com"
+      },
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "text/csv",
+          "contentUrl": "https://raw.githubusercontent.com/grysngrhm-tech/fireapproved-data/main/datasets/r327-adoption/r327-adoption.csv"
+        },
+        {
+          "@type": "DataDownload",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://raw.githubusercontent.com/grysngrhm-tech/fireapproved-data/main/datasets/r327-adoption/r327-adoption.json"
+        }
+      ]
+    }
+  ]
+}
