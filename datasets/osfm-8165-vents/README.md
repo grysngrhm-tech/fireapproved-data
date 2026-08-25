@@ -8,7 +8,7 @@ adoption table.
 - **Canonical page:** https://fireapproved.com/data/osfm-8165-vents
 - **Canonical JSON:** https://fireapproved.com/data/osfm-8165-vents.json
 - **Methodology:** https://fireapproved.com/methodology
-- **Records:** 13 listings. Each row carries the OSFM listing ID, brand, the
+- **Records:** 15 listings. Each row carries the OSFM listing ID, brand, the
   product record it maps to on the site, and the source URL (the OSFM Building
   Materials Listing).
 - **Files here:** `osfm-8165-vents.json` (the JSON twin, verbatim) and
