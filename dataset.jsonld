@@ -19,7 +19,7 @@
     {
       "@type": "Dataset",
       "name": "Plant flammability evidence directory",
-      "description": "3801 plants carrying 26878 cited flammability evidence rows, plus the 112-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
+      "description": "3801 plants carrying 27007 cited flammability evidence rows, plus the 130-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
       "url": "https://fireapproved.com/plants/",
       "mainEntityOfPage": "https://fireapproved.com/plants/",
       "citation": "FireApproved.com (2026). Plant flammability evidence directory [Data set]. https://fireapproved.com/plants/",

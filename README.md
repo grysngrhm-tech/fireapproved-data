@@ -51,31 +51,41 @@ verdict you have to take on faith.
 
 It covers the whole decision, not just the planting list:
 
+- 📍 **[Places](https://fireapproved.com/places/)** — start with where you are.
+  One briefing per state covering what the code adopted there
+  [actually says](https://fireapproved.com/requirements/), cited to the
+  ordinance rather than to a summary of it.
 - 🌿 **[Plants](https://fireapproved.com/plants/)** — thousands of taxa with
-  every cited rating, browsable [by genus](https://fireapproved.com/plants/genus/),
-  [by state](https://fireapproved.com/plants/state/) and
-  [by USDA zone](https://fireapproved.com/plants/zone/), each tracing to
-  [the source that rated it](https://fireapproved.com/plants/source/).
+  every cited rating, browsable [by genus](https://fireapproved.com/plants/genus/)
+  or [by the source that rated it](https://fireapproved.com/plants/source/), and
+  grouped for a place on [Grow](https://fireapproved.com/grow/).
 - 🏠 **[Materials](https://fireapproved.com/materials/)** — the vents, siding,
   decking, windows and roofing that are actually listed and tested, with the
   [standards](https://fireapproved.com/standards/) behind them and a
   [lapse log](https://fireapproved.com/materials/lapse-log/) for listings that
-  have expired.
-- 📍 **[States and requirements](https://fireapproved.com/states/)** — what the
-  code adopted where you live [actually says](https://fireapproved.com/requirements/),
-  cited to the ordinance rather than to a summary of it.
-- 📚 **[Guides](https://fireapproved.com/guides/)** — plain-language answers,
+  have expired. [Build](https://fireapproved.com/build/) walks the house by
+  assembly.
+- 📚 **[Learn](https://fireapproved.com/learn/)** — plain-language answers,
   from [where to start](https://fireapproved.com/guides/hardening-ladder/) to
   [how to read a plant page](https://fireapproved.com/guides/how-to-read-a-plant-page/),
   with a [glossary](https://fireapproved.com/glossary/) for the terms the codes
-  use.
+  use and [the full guide index](https://fireapproved.com/guides/).
 - 🔎 **[Findings](https://fireapproved.com/findings/)** — the places where a
   test result or a jurisdiction contradicts what everyone repeats.
 
 **Start here:** [fireapproved.com](https://fireapproved.com) ·
+[where you are](https://fireapproved.com/places/) ·
 [the plant directory](https://fireapproved.com/plants/) ·
 [the materials directory](https://fireapproved.com/materials/) ·
 [how this is built](https://fireapproved.com/methodology/)
+
+> **Changed since the 2026-08-25 snapshot.** The site reorganized around
+> location on 2026-08-26. `/states/`, `/plants/state/` and `/plants/zone/` are
+> gone; [`/places/`](https://fireapproved.com/places/) is the state trunk, and
+> [Build](https://fireapproved.com/build/), [Grow](https://fireapproved.com/grow/)
+> and [Learn](https://fireapproved.com/learn/) are the three branches off it.
+> Record URLs in the data files (`/plants/{id}/`, `/materials/{id}/`) did not
+> move, so rows published against the earlier snapshot still resolve.
 
 ### Why this data is worth citing
 

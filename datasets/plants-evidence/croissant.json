@@ -51,7 +51,7 @@
   },
   "@type": "sc:Dataset",
   "name": "Plant flammability evidence directory",
-  "description": "3801 plants carrying 26878 cited flammability evidence rows, plus the 112-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
+  "description": "3801 plants carrying 27007 cited flammability evidence rows, plus the 130-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
   "conformsTo": "http://mlcommons.org/croissant/1.1",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "url": "https://fireapproved.com/plants/",
@@ -84,8 +84,8 @@
       "name": "plants-evidence.csv",
       "contentUrl": "plants-evidence.csv",
       "encodingFormat": "text/csv",
-      "contentSize": "20408397 B",
-      "sha256": "1aec63920762b8a106763d8c335daa82290d4115ed9a19c57c10c84d53d2040f"
+      "contentSize": "20550153 B",
+      "sha256": "a8b1c2cf3e2b897c6a17ba2f5c8b3e592ac59435c43844c511e7b959617994af"
     },
     {
       "@type": "cr:FileObject",
@@ -93,8 +93,8 @@
       "name": "plants-evidence.jsonl",
       "contentUrl": "plants-evidence.jsonl",
       "encodingFormat": "application/jsonl",
-      "contentSize": "21043437 B",
-      "sha256": "005ba565e31158e3b151501bfcfd0c0b56e2d0c2e72e2c0cf0cace7521656a35"
+      "contentSize": "30775933 B",
+      "sha256": "d87ee575f13a41f4825783e13fe5529ab12da87bb7d9e29f5189ad9b79c19857"
     },
     {
       "@type": "cr:FileObject",
@@ -102,8 +102,8 @@
       "name": "plant-sources.csv",
       "contentUrl": "plant-sources.csv",
       "encodingFormat": "text/csv",
-      "contentSize": "116198 B",
-      "sha256": "8c1d46de6db26226653f1ef133d651bf6e9213cc1ad7e119e0fdc9977ef6506e"
+      "contentSize": "142640 B",
+      "sha256": "674f3f19ea175095ca88b05a82fa34c20927e1b062e668e3c5ab028494a80177"
     },
     {
       "@type": "cr:FileObject",
@@ -111,8 +111,8 @@
       "name": "plant-sources.json",
       "contentUrl": "plant-sources.json",
       "encodingFormat": "application/json",
-      "contentSize": "138014 B",
-      "sha256": "d85579180e068ec6e796f6dd5d769a93542d4962800bfb51e80bf3402444a151"
+      "contentSize": "265144 B",
+      "sha256": "ad27ddb0e965f21e25899846114431f96b452ba96c50a116926efe825746a913"
     }
   ],
   "recordSet": [

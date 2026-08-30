@@ -13,7 +13,31 @@
       }
     ],
     "scaleNotes": "The 56 printed taxa in the source's Alaska firewise-landscape examples map to recommend with its placement-and-maintenance condition. Four genus examples under Characteristics of plants that ignite and burn readily map to avoid. Accepted-name reconciliation collapses the 60 entries to 58 evidence owners.",
-    "notes": "All printed scientific identities were retained at their printed rank. Source spelling damage and obsolete combinations were reconciled only through explicit corrections and exact GBIF matches; source spellings remain in the parser and evidence claims. The taxon-free \"Ferns, native and non-native\" row was held. The guide gives no test method or citations, so tier remains unset and lineage unknown. Official PDF SHA-256: 68afb4eedbffab6e049e7c771326c1e9bd7a4f071ab2a754d256178b0fc7755e."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Alaska-DOF-Fire-Resistant-Vegetation-2005-04-27",
+      "sourceUrl": "https://forestry.alaska.gov/Assets/pdfs/community/publications/05FireResistVeg.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "68afb4eedbffab6e049e7c771326c1e9bd7a4f071ab2a754d256178b0fc7755e"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "AK"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Alaska Division of Forestry opens with the wildfire threat to Alaskans and publishes Alaska firewise-landscape examples. FireApproved publishes 58 exact source owners from its 60 taxon entries and holds the taxon-free fern label. State publication scope does not establish suitability for every Alaska climate, site, or home-ignition-zone placement.",
+        "asOf": "2005-04-27",
+        "sourceVersion": "Alaska-DOF-Fire-Resistant-Vegetation-2005-04-27"
+      }
+    ],
+    "notes": "All printed scientific identities were retained at their printed rank. Source spelling damage and obsolete combinations were reconciled only through explicit corrections and exact GBIF matches; source spellings remain in the parser and evidence claims. The taxon-free \"Ferns, native and non-native\" row was held. The guide gives no test method or citations, so tier remains unset and lineage unknown. The current official 74,657-byte download was reopened on 2026-08-26. Official PDF SHA-256: 68afb4eedbffab6e049e7c771326c1e9bd7a4f071ab2a754d256178b0fc7755e."
   },
   "al-afc-firewise-woodland-homes-2001": {
     "name": "Firewise Landscaping for Woodland Homes",
@@ -25,12 +49,27 @@
     "lineage": "firewise-national",
     "editions": [
       {
-        "edition": "2002 archived booklet",
-        "date": "2002-02-25"
+        "edition": "AFC-FP-04 (printed 1999; recovered PDF metadata 2002-02-25)",
+        "date": "1999"
       }
     ],
     "scaleNotes": "The booklet separates suggested trees, shrubs, and groundcovers from four fire-prone plants to avoid within 30 feet of the house. Suggested rows map to recommend and the explicit avoid rows map to avoid.",
-    "notes": "The five-page Alabama Forestry Commission PDF was recovered from its 2002-09-13 Wayback capture after disappearing from the live site in 2003. Thirty-one printed occurrences resolve to 27 exact GBIF owners; the repeated Acer genus row is represented once. Three rows are held rather than broadened: one schema-inexpressible form and two named cultivars. Printed errors corrected transparently for matching are Celtis occidentallis -> Celtis occidentalis, Llex -> Ilex, and Magnolia stellara -> Magnolia stellata. PDF SHA-256: 760c681c6083d0ff6342ff2d4aacd5015b76005fee8358c9ac25979a51f5c74f."
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "AL"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The Alabama Forestry Commission's five-page AFC-FP-04 booklet is an Alabama publication and contains 31 printed suggested or fire-prone plant occurrences. FireApproved publishes 27 exact species or genus owners and holds one infraspecific form plus two named cultivars; this historical source scope does not establish current site suitability for a particular Alabama property.",
+        "sourceVersion": "AFC-FP-04-1999"
+      }
+    ],
+    "notes": "The five-page Alabama Forestry Commission PDF was recovered from its 2002-09-13 Wayback capture after disappearing from the live site in 2003. The final printed page carries the Alabama Forestry Commission imprint, publication code AFC-FP-04, and year 1999; the PDF metadata is dated 2002-02-25. Thirty-one printed occurrences resolve to 27 exact GBIF owners; the repeated Acer genus row is represented once. Three rows are held rather than broadened: one schema-inexpressible form and two named cultivars. Printed errors corrected transparently for matching are Celtis occidentallis -> Celtis occidentalis, Llex -> Ilex, and Magnolia stellara -> Magnolia stellata. PDF SHA-256: 760c681c6083d0ff6342ff2d4aacd5015b76005fee8358c9ac25979a51f5c74f."
   },
   "anaheim-2018": {
     "name": "Recommended Acceptable Fire Resistive Plant Species",
@@ -64,6 +103,14 @@
       }
     ],
     "scaleNotes": "Two classes: fire-resistant (52 plants that will not burn in the face of continued flame) and fire-retardant (92 plants that resist the first wave of a bushfire but may burn once dried out). Both classes map to recommend, with the class preserved verbatim on each row.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated; publisher page carries a copyright notice",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "APS-Victoria-page-captured-2026-08-23",
+      "sourceUrl": "https://apsvic.org.au/fire-resistant-and-retardant-plants/",
+      "retrievedOn": "2026-08-23",
+      "sha256": "e02c12cca696e72012d78fb3f8b9439a2fce09f0ad761b8732209965d1beffca"
+    },
     "notes": "Member-experience curation from burnt properties plus a foliage flare-up test — closer to field observation than list-copying, and independent of the CFA lineage. Carries the Sweet Pittosporum delisting: previously fire-retardant, now noted as highly flammable once dried, agreeing with Tasmania's X-coded row."
   },
   "ashland-best-practices": {
@@ -80,7 +127,7 @@
   "ashland-prohibited": {
     "name": "Prohibited Flammable Plants (Ashland Municipal Code 9.04)",
     "publisher": "City of Ashland, Oregon (Fire & Rescue / Weed Abatement)",
-    "url": "https://ashlandoregon.gov/DocumentCenter/View/3202/PLANT_LIST_PROHIBITED_BW_2025",
+    "url": "https://ashlandoregon.gov/323/Prohibited-Flammable-Plants",
     "region": "Ashland, Oregon",
     "tier": 1,
     "evidenceKind": "regulatory",
@@ -91,8 +138,35 @@
         "date": "2025"
       }
     ],
-    "scaleNotes": "A municipal prohibition list: the named trees, shrubs, and grasses may not be newly planted or allowed to propagate within 30 feet of any structure (AMC 9.04), with canopy- and shrub-spacing standards under AMC 18.3.10.100. Verdict map: prohibited = avoid. Starred taxa may receive dwarf or prostrate-variety exceptions with fire department approval.",
-    "notes": "Regulatory evidence, not a flammability measurement — an adopted ordinance that corroborates avoid verdicts. Assigned to the pnw590 tree conservatively: an Oregon ordinance in the PNW-guidance sphere has not been demonstrated independent of that lineage, and independence must be shown, never assumed and matters directly to the Oregon audience. Mostly genus-level rows (all pines, all junipers, all cedars), which attach to genus records and leave species-level lab evidence undisturbed."
+    "scaleNotes": "A municipal prohibition list: the named trees, shrubs, and grasses may not be newly planted or allowed to propagate within 30 feet of any structure (AMC 9.04), with canopy- and shrub-spacing standards under AMC 18.3.10.100. Verdict map: prohibited = avoid. Starred taxa may receive dwarf or prostrate-variety exceptions only with fire department approval, placement beyond five feet, and ordinance-compliant spacing.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official City of Ashland PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Ashland-Prohibited-Flammable-Plants-2025",
+      "sourceUrl": "https://ashlandoregon.gov/DocumentCenter/View/3796/PLANT_LIST_PROHIBITED_BW_2025",
+      "retrievedOn": "2026-08-26",
+      "sha256": "5a38ca9ad1ccd08cf48583a28d4253694686855b8dde6feab54b86533973c5d6"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "OR"
+          ],
+          "regions": [
+            "City of Ashland"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "This is a City of Ashland adoption fact, not statewide Oregon guidance or an experimental flammability result. FireApproved publishes 24 taxonomy-safe owners as city-level regulatory context. It applies to new planting and propagation within 30 feet of structures, including structures on adjacent lots; it is not projected as a blanket removal order for every established listed plant.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "Ashland-Prohibited-Flammable-Plants-2025"
+      }
+    ],
+    "notes": "Regulatory evidence, not a flammability measurement — an adopted ordinance that corroborates avoid verdicts. Assigned to the pnw590 tree conservatively: an Oregon ordinance in the PNW-guidance sphere has not been demonstrated independent of that lineage, and independence must be shown, never assumed and matters directly to the Oregon audience. Mostly genus-level rows (all pines, all junipers, all cedars), which attach to genus records and leave species-level lab evidence undisturbed. The source's historical Rosmarinus spp. row is held rather than projected onto the much broader modern Salvia genus."
   },
   "bardon-2005": {
     "name": "Firewise Landscaping in North Carolina (E05-44596)",
@@ -109,6 +183,14 @@
       }
     ],
     "scaleNotes": "Four-tier flammability rating (Low / Medium / High / Extreme) for ~200 North Carolina natives, by growth form with habitat columns. Verdict map: Low = recommend, Medium = mixed, High and Extreme = avoid.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated in the publication PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "E05-44596-July-2005",
+      "sourceUrl": "https://sunsetbeachnc.gov/vertical/sites/%7BC59DF5BC-1B90-44CB-AD2A-9DAE0D811CD0%7D/uploads/firewise-landscaping-in-north-carolina.pdf",
+      "retrievedOn": "2026-08-23",
+      "sha256": "9a4737111f3ee0aeab05e7a90d315774df57e996c583ae2fde932f8d88f995ae"
+    },
     "notes": "The root of all NC ratings, including (near-certainly) the Plant Toolbox, whose signature four-value scale this document originated. National Fire Plan funded. Agency copy retired; town mirrors persist."
   },
   "batista-2013-green-barriers-gtr245": {
@@ -180,6 +262,154 @@
       }
     ],
     "scaleNotes": "The public selector exposes a Fire Retardant Yes/No filter and repeats the selected attribute on each result card. Only Yes rows map to recommend. No is absence of the positive selector attribute and is not converted to an avoid verdict.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated; selector pages carry a copyright notice",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Canberra-Plant-Selector-fire-retardant-capture-2026-08-25",
+      "sourceUrl": "https://plantselector.com.au/browse-plants/?fire_retardant%5B0%5D=1",
+      "retrievedOn": "2026-08-25",
+      "sha256": "8c128f247c068624c055164d794f71f322f2eb93a92b36300543d93b722ecc90",
+      "inputs": [
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-1.html",
+          "bytes": 113565,
+          "sha256": "ffe16a576c9e8dbf79587393b69f965b616e247975511bfa554cfed7bda4ce80",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-2.html",
+          "bytes": 114946,
+          "sha256": "1996b3cc09c7a9d2956db90b861e29a7c9bee88075bbfff3b4aa7b9385f6bf33",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-3.html",
+          "bytes": 113766,
+          "sha256": "e28973352521f3def54974c3971d36de47b1163515ec4ff7350099db52e3b7e8",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-4.html",
+          "bytes": 114197,
+          "sha256": "c928982c33d79b57e1b674a84d7a398d68dff8209a381b2af21c3ddcfe5d1bf9",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-5.html",
+          "bytes": 114374,
+          "sha256": "5eb91398f9179aa5d51f62445dd0bd35d9970cddac61ecff744b0d3fd5728978",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-6.html",
+          "bytes": 113280,
+          "sha256": "4697937356ecc2561a801a0658c333cfab54004012cdacd33af8dc51f0b0b51e",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-7.html",
+          "bytes": 113667,
+          "sha256": "b1fd3e869effc09e906ebd8232847f0807e4bfb4d1f95009a6869b4a99745825",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-8.html",
+          "bytes": 113158,
+          "sha256": "0013da4f7aa8d7400a07e611c82ecd6528e287a8f817a3957321eb0c863f2c40",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-9.html",
+          "bytes": 113720,
+          "sha256": "023785076dd1d7c969bda0ce3c165d6ca8950a6215edd1eeb9eb4fca540dc28b",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-10.html",
+          "bytes": 113724,
+          "sha256": "970cd8cf8ff13ca57012e7a62c3c8fe54956384104b6e3b72e82140fe2f387f0",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-11.html",
+          "bytes": 114394,
+          "sha256": "a16b1c43c5cf2f04dd2f629038521b0729928d253878bf4617e6ad21277d7d98",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-12.html",
+          "bytes": 114786,
+          "sha256": "e614fe0081cd67d0ae2608238fc2a4d315056856013941e1e98bcf76c0b3e79a",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-13.html",
+          "bytes": 113363,
+          "sha256": "1a16325470d52d2aec13133ff10421b1cbd79e37dd2f1cf37e00fa4026ca1ebe",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-14.html",
+          "bytes": 113525,
+          "sha256": "db0c09c0729d53c27928381ed8edb5faa567f9525cd77704adb1173b62a9d253",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-15.html",
+          "bytes": 113295,
+          "sha256": "3367a790d9987bab2fdb660c437693a6266756e795f595fed0f1f139a932b455",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-16.html",
+          "bytes": 113933,
+          "sha256": "d96d028d6084dfc7fa3667460b740389f24a452f7911f4ae6cfcb03716ea35b6",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-17.html",
+          "bytes": 113899,
+          "sha256": "b73a79c2b44948503d5d5b8b43c3bf89d32ddb56deeb908c1a4105670a03a06d",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-18.html",
+          "bytes": 114174,
+          "sha256": "f9a0f1387f48ac9f67a43af62fe2ae2b1e1cffad8cef47d36786cff64cd43c94",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-19.html",
+          "bytes": 114194,
+          "sha256": "e5235fbe43a27c36851a2e962cc96fbe09367c6ccd2eb082833eae9c7583fc1b",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-20.html",
+          "bytes": 114600,
+          "sha256": "6179fe7488c69ae65194e610d0d8727ab9932d26f3481617112542c6d864e790",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-21.html",
+          "bytes": 114301,
+          "sha256": "18a511e201d654f12458dd1f9c9796f380858326b2cb3b527ec776f9270ce64c",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-page-22.html",
+          "bytes": 104111,
+          "sha256": "26f72bf592923ea29992525e4f2818ca3763f1e6dc3a5c088213b671e9e8af60",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/canberra-plant-selector-fire-retardant-captures.sha256",
+          "bytes": 3071,
+          "sha256": "23c93c53b02e260f80984731e04e3b0ed855549180ecd7eb9dffb04b439bd89b",
+          "role": "supplemental"
+        }
+      ]
+    },
     "notes": "The live 2026-08-25 tool reports 259 total plants and 131 Fire Retardant: Yes plants, replacing the registry's stale estimate of 342. All 22 filtered result pages were captured at one request per second. Named cultivars were collapsed only where the printed label also states a species; genus-only hybrid/cultivar labels, two authorless homonyms, an unrepresentable subspecies row, and a variety collapsed by GBIF were held. Of 131 printed Yes rows, 122 exact GBIF owners are represented (72 existing records enriched and 50 records created); nine rows are retained in the ledger as held."
   },
   "cflo-2023-caatinga-fire-behavior": {
@@ -198,6 +428,40 @@
     ],
     "scaleNotes": "Ten species were compared in three replicated outdoor 1 m² burns. Tables 6-9 report ignition attempts/time, flame height, combustibility index, spread rate, fire intensity, and severity. Only Cnidoscolus quercifolius and Aristida adscensionis receive explicit overall flammability conclusions.",
     "notes": "Leaves and branches no more than 0.7 cm in diameter were air-dried for 30 days; each treatment used 9 kg of fuel. Cnidoscolus quercifolius did not sustain flame spread, so it is absent from the later metric tables and its fire intensity is described as zero. PDF SHA-256: e982b13fcd9d796607f66d7b1cec059e2bcd8ac621296b1506612f4c67579c75."
+  },
+  "colorado-8-ccr-1206-2-v10787": {
+    "name": "Colorado Noxious Weed Act Rules (8 CCR 1206-2)",
+    "publisher": "Colorado Department of Agriculture and Colorado Secretary of State",
+    "url": "https://www.sos.state.co.us/CCR/GenerateRulePdf.do?fileName=8+CCR+1206-2&ruleVersionId=10787",
+    "region": "Colorado",
+    "evidenceKind": "regulatory-list",
+    "lineage": "colorado-8-ccr-1206-2",
+    "scaleNotes": "List A is a statewide eradication designation. List B is statewide listed with management objectives that can vary by county or rule plan. List C supports local integrated management and education.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "8-CCR-1206-2-ruleVersionId-10787",
+      "sourceUrl": "https://www.sos.state.co.us/CCR/GenerateRulePdf.do?fileName=8+CCR+1206-2&ruleVersionId=10787",
+      "retrievedOn": "2026-08-26",
+      "sha256": "83c59b2f55df3133098fbc677b8261c8352f7c788a760a5c235e055f38be0db3"
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "CO"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "The bounded enumerations at Part 3 section 3.1, Part 4 section 4.1, and Part 5 section 5.1 account for 26 List A, 37 List B, and 18 List C rows. Exact same-rank uncomplicated species may publish; compound, hybrid, and infraspecific rows remain reviewed without projection.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "8-CCR-1206-2-ruleVersionId-10787"
+      }
+    ],
+    "notes": "The official current rules portal identifies immutable ruleVersionId 10787, including the amendment effective 2023-05-15 and later management provisions. The snapshot is text-extractable and is parsed only within asserted section boundaries with exact expected counts. The source states no reusable upstream license; derived FireApproved rows remain CC BY 4.0."
   },
   "corbett-safer-gardens-2021": {
     "name": "Safer Gardens: Plant Flammability & Planning for Fire",
@@ -252,7 +516,31 @@
       }
     ],
     "scaleNotes": "114 ignition-resistant plants scored 7.5-10 on the 0-10 ignitability scale, with the fact sheet's own doctrine that only plants scoring 8, 9, or 10 belong in defensible-space zones 1 and 2. Verdict map: 8-10 = recommend, 7.5 = mixed (below the source's own zone-1-2 bar). The sheet credits \"the Idaho materials\" as the basis of the scoring, so rows whose scores duplicate the Idaho Firewise master database resolve to that root.",
-    "notes": "The 2025 revision replaces the unscored FireWise Plant Materials lists of the 2001-2010 editions (Wayback captures archived for edition-diffing). A recommend-side list only; it condemns nothing. Exact replay audited 2026-08-25: all 114 rows resolve to existing GBIF owners, using nine documented exact corrections. Seventy-eight score-identical rows resolve to Idaho via original; 36 rows remain CSU-original. The hardened parser creates no records and every row carries full table placement and lineage."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "CSFS-CSU-Fact-Sheet-6.305-2025-07",
+      "sourceUrl": "https://csfs.colostate.edu/wp-content/uploads/2025/08/CSFS_CSU-Ext_Fact-Sheets_IRLP_2025_081825-2_web_accessible.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "212a02e650522f10b3b15a38d313217985274baaede43bc83d0249081cedd235"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "CO"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Colorado State University Extension and the Colorado State Forest Service publish Fact Sheet 6.305 for Colorado's WUI and varied ecosystems. FireApproved exposes all 114 exact source owners at Colorado publication scope while retaining score, elevation, water, and Idaho-carrier lineage. Publication scope is not suitability for every Colorado site or zone.",
+        "asOf": "2025-07-01",
+        "sourceVersion": "CSFS-CSU-Fact-Sheet-6.305-2025-07"
+      }
+    ],
+    "notes": "The 2025 revision replaces the unscored FireWise Plant Materials lists of the 2001-2010 editions (Wayback captures archived for edition-diffing). A recommend-side list only; it condemns nothing. Exact replay audited 2026-08-25: all 114 rows resolve to existing GBIF owners, using nine documented exact corrections. Seventy-eight score-identical rows resolve to Idaho via original; 36 rows remain CSU-original. The hardened parser creates no records and every row carries full table placement and lineage. The live official 911,932-byte PDF exactly matched the pinned input on 2026-08-26; SHA-256: 212a02e650522f10b3b15a38d313217985274baaede43bc83d0249081cedd235."
   },
   "dehane-2017-cork-oak-companions": {
     "name": "Flammability of some companion species in cork oak forests",
@@ -271,6 +559,76 @@
     ],
     "scaleNotes": "K-means classifications of fresh and oven-dried fuels differ. The paper's abstract explicitly identifies Calicotome spinosa, Tetraclinis articulata, Juniperus oxycedrus, and Pinus halepensis as highly flammable. Verdict map: this explicit overall high group = avoid; all other measured taxa = mixed. No recommend verdict is inferred from a favorable fresh-only cluster.",
     "notes": "The complete article is publicly archived in HAL. All ten exact species are represented. Fresh twigs with foliage and paired oven-dried samples were tested by mass-loss calorimeter. Hernando, Guijarro, and Madrigal place this in the INIA Madrid fire-lab program already represented by Ganteaume; the Algerian samples are new data but share one inia-madrid-tree vote."
+  },
+  "delaware-3-de-admin-code-806-2026": {
+    "name": "Delaware 3 DE Admin. Code 806 Invasive Plant and Plant Watch Lists",
+    "publisher": "Delaware Department of Agriculture",
+    "url": "https://agriculture.delaware.gov/plant-industries/nursery-inspection/",
+    "region": "Delaware",
+    "evidenceKind": "regulatory-list",
+    "lineage": "delaware-3-de-admin-code-806",
+    "scaleNotes": "The current regulation names 39 Invasive Plant List taxa and one Plant Watch List taxon. Chapter 29 restricts import, export, purchase, sale, transport, distribution, and propagation of viable listed material. Invasive-list activities require the Secretary's prior written approval for the statute's disposal, control, research, education, or bounded export purposes. The Watch row instead requires the published tag, label, or sign. Four May 2026 additions have department enforcement dates in 2028 or 2029.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "3-DE-Admin-Code-806-amended-effective-2026-05-11-reviewed-2026-08-26",
+      "sourceUrl": "https://agriculture.delaware.gov/plant-industries/nursery-inspection/",
+      "retrievedOn": "2026-08-26",
+      "sha256": "25653710cf0ddb79730e958a1ea4fd2f6357affa46c953a647aaa4a2db3238bf",
+      "inputs": [
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/delaware-dda-invasive-plants-2026-08-26.html",
+          "bytes": 76331,
+          "sha256": "43598478e999903a71315f079924842a421a3ecf7b700b572b3352ae17675a96",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/delaware-title-3-chapter-29-2026-08-26.html",
+          "bytes": 19758,
+          "sha256": "3475682ae5a3aca3551542e07865defbf9d9fea3356c5a59dac0b1346aef1b0b",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/delaware-register-final-order-2026-05.pdf",
+          "bytes": 1217965,
+          "sha256": "9b303812d44cdb8820417df3eb03efc27b1a9bd0535be55345aaff295fc64674",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/delaware-register-proposed-text-2026-03.pdf",
+          "bytes": 2082069,
+          "sha256": "26985f43870fab4408e0228fcc6e799368b81eef91fc980cb9edb2912b4f44a8",
+          "role": "authoritative"
+        }
+      ]
+    },
+    "regulatoryPublication": {
+      "designationCount": 40,
+      "publishedItemCount": 26,
+      "holdCounts": {
+        "total": 14,
+        "unmatched": 14,
+        "ambiguous": 0,
+        "complex": 0
+      }
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "DE"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "All 39 current Invasive Plant List designations and the single Plant Watch designation are parsed and terminally routed. Thirty-seven species and three subspecies are exact same-rank candidates. Twenty-six unique exact scientific or accepted-name matches publish; fourteen unmatched names remain held. The source synonym and twelve named cultivar exemptions never create synonym or subordinate-page assertions.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "3-DE-Admin-Code-806-amended-effective-2026-05-11-reviewed-2026-08-26"
+      }
+    ],
+    "notes": "The May 2026 final order adopts the March 2026 regulatory text unchanged and makes it effective ten days after publication. The current DDA page supplies the clean complete list, identifies 35 invasive-list rows with enforcement in effect, two additions with enforcement beginning May 1, 2028, two additions beginning May 1, 2029, and twelve current named cultivar exemptions. Chapter 29 supplies the activity and prior-written-approval boundaries. Regulation 806 states that cultivar exemptions are conditional and subject to revocation. Legal status, ecological invasion, and fire performance remain separate dimensions."
   },
   "della-rocca-2015-cypress-lab": {
     "name": "Possible land management uses of common cypress to reduce wildfire initiation risk: a laboratory study",
@@ -305,7 +663,38 @@
       }
     ],
     "scaleNotes": "The paper reports several cone-calorimeter measurements and warns that their rankings are not interchangeable. Verdicts therefore use only the abstract's author-named effective-heat-of-combustion extremes: taxa named high = avoid; taxa named low = recommend; every other measured taxon = mixed. This is a map of the conditioned foliage-and-twig result, not a whole-plant claim.",
-    "notes": "Public full text is hosted by the USDA Forest Service. Thirty-six identified vascular taxa are represented. Vitis sp. and Cynanchum cf. louiseae are excluded because the paper does not provide an exact species identification; three bryophytes and one lichen are excluded because the current directory schema has no defensible nonvascular plant form. Dibble and White overlap the Forest Products Laboratory cone-calorimeter program represented by White et al. 2002 and Weise et al. 2005, so this is one usfs-fpl-cone-tree vote."
+    "notes": "Public full text is hosted by the USDA Forest Service. Thirty-six identified vascular species and one genus-rank Vitis row are represented. Cynanchum cf. louiseae remains held because a cf. determination is not a genus rating; three bryophytes and one lichen remain held because the current directory schema has no defensible nonvascular plant form. Dibble and White overlap the Forest Products Laboratory cone-calorimeter program represented by White et al. 2002 and Weise et al. 2005, so this is one usfs-fpl-cone-tree vote.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official USDA-hosted article PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "USDA-Treesearch-31137-2007",
+      "sourceUrl": "https://research.fs.usda.gov/download/treesearch/31137.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "01243b9c79905d4959547d8bc74f8f9ff919c020c2a86dba84f670e8fd542549"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "ME",
+            "MD",
+            "MA",
+            "NY",
+            "VA"
+          ],
+          "regions": [
+            "Northeastern and mid-Atlantic study sites"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The authors collected foliage and twigs across study sites in Maine, Maryland, Massachusetts, New York, and Virginia, then conditioned and tested the samples in a cone calorimeter. FireApproved publishes 37 exact source owners only as multi-state laboratory context. The source does not establish that every taxon was sampled in every named state, whole-plant behavior, landscape suitability, or state planting guidance.",
+        "asOf": "2007-08-20",
+        "sourceVersion": "USDA-Treesearch-31137-2007"
+      }
+    ]
   },
   "dovetail-ne-minnesota": {
     "name": "Landscaping for Wildfire Defensible Space in Northeastern Minnesota (Firewise)",
@@ -322,7 +711,34 @@
       }
     ],
     "scaleNotes": "Table 2 rates 38 wildfire-resistant, non-invasive plants low or moderate flammability using the UF/IFAS Circular 1453 methodology (Behm, Long, Monroe, Randall, Zipperer, Hermansen-Baez 2004), with the document's own placement mapping — low-flammability plants may be planted 3 to 30 feet from a building, moderate ones beyond 30 feet. Verdict map: low = recommend, moderate = mixed.",
-    "notes": "The only rated Minnesota list; a clean application of the Florida flammability key to northeastern Minnesota natives, with growing-condition columns (form, soil moisture, sun, hardiness zones). The document's boreal-tree flammability table (Table 1) is attributed to Manitoba's FireSmart program and is not part of this source's own ratings."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Dovetail-Northeastern-Minnesota-Firewise-2017",
+      "sourceUrl": "https://dovetailinc.org/land_use_pdfs/mnfirewiselandscapefulllength.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "d2ae26cd78f2246f54435421d6914900cea71475bb70249d1447accf945bb042"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "MN"
+          ],
+          "regions": [
+            "Northeastern Minnesota"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Dovetail applies the UF/IFAS flammability key to northeastern Minnesota natives and publishes placement for 38 exact source owners. FireApproved exposes those rows only as northeastern Minnesota regional context and preserves the 3-to-30-foot versus beyond-30-foot source placement.",
+        "asOf": "2017-01-01",
+        "sourceVersion": "Dovetail-Northeastern-Minnesota-Firewise-2017"
+      }
+    ],
+    "notes": "The only rated Minnesota list; a clean application of the Florida flammability key to northeastern Minnesota natives, with growing-condition columns (form, soil moisture, sun, hardiness zones). The document's boreal-tree flammability table (Table 1) is attributed to Manitoba's FireSmart program and is not part of this source's own ratings. The pinned input is 4,647,325 bytes; SHA-256: d2ae26cd78f2246f54435421d6914900cea71475bb70249d1447accf945bb042."
   },
   "fdacs-south-florida-firewise-guide": {
     "name": "Landscaping to Reduce Wildfire Risk: South Florida Edition",
@@ -339,7 +755,34 @@
       }
     ],
     "scaleNotes": "Narrative hazard callouts rather than a ranked plant table. The guide calls five named invasive plants extremely flammable, flags grape vine as a fire concern, calls palmetto highly combustible, and describes condition-dependent fire spread on cabbage palm.",
-    "notes": "Written and designed for the Florida Forest Service by Melissa Yunas and Victor Hill. The guide links Firewise and University of Florida resources but gives no claim-level provenance or rating method, so its evidence lineage remains unknown. The eight represented owners preserve only taxonomic precision supported by the printed common or genus names. Official PDF SHA-256: 883a3538a62612580f8e4758df34283d91d11b04b5260702138c3c0edf316a89."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Florida-Forest-Service-South-Florida-Edition-2013-04-09",
+      "sourceUrl": "https://www.fdacs.gov/content/download/25648/file/South_Florida_Firewise_Landscaping_Guide.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "883a3538a62612580f8e4758df34283d91d11b04b5260702138c3c0edf316a89"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "FL"
+          ],
+          "regions": [
+            "South Florida"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Florida Forest Service labels this publication the South Florida Edition. FireApproved publishes eight exact owners from its explicit narrative hazard callouts as South Florida context. It is not a statewide ranked list and its source-wide guidance is not projected onto unnamed plants.",
+        "asOf": "2013-04-09",
+        "sourceVersion": "Florida-Forest-Service-South-Florida-Edition-2013-04-09"
+      }
+    ],
+    "notes": "Written and designed for the Florida Forest Service by Melissa Yunas and Victor Hill. The guide links Firewise and University of Florida resources but gives no claim-level provenance or rating method, so its evidence lineage remains unknown. The eight represented owners preserve only taxonomic precision supported by the printed common or genus names. The pinned official PDF is 4,425,484 bytes. Official PDF SHA-256: 883a3538a62612580f8e4758df34283d91d11b04b5260702138c3c0edf316a89."
   },
   "fenz-low-flammability": {
     "name": "Low Flammability Plants directory",
@@ -390,6 +833,33 @@
       }
     ],
     "scaleNotes": "The publication separates named fire-resistant plants from a shorter fire-prone list. It also identifies plants suitable for hedges. Fire Safe Marin says placement, spacing, irrigation, and removal of dead material remain necessary; it does not describe an experimental rating method.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the publisher PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Fire-Safe-Marin-plant-list-2019",
+      "sourceUrl": "https://firesafemarin.org/wp-content/uploads/2021/08/FIRESafe-MARIN_plant-list_2019.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "f848c5e09921cdf7d655b2c7d2ab5c1c1f3fde2567d0102ae47019217fe87e0d"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "CA"
+          ],
+          "regions": [
+            "Marin County"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The publication is explicitly limited to plants common to Marin County. FireApproved publishes 104 exact owners as Marin regional context while retaining its placement, spacing, irrigation, and maintenance boundary. It is not statewide California guidance or parcel suitability.",
+        "asOf": "2019-01-01",
+        "sourceVersion": "Fire-Safe-Marin-plant-list-2019"
+      }
+    ],
     "notes": "The source remains tierless because its selection lineage is only partly documented. Its rows publish Marin's curation and conflicts without creating independent Tier 1 support in the derived rating."
   },
   "firesmart-bc": {
@@ -407,6 +877,14 @@
       }
     ],
     "scaleNotes": "Binary FireSmart-approved chart of 290 plants across eight growth-form categories, each with a Home Ignition Zone suitability (intermediate 10-30 m / extended 30-100 m / extended and beyond) or a needs-more-research flag. Verdict map: approved = recommend.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official plant-tool page",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "FireSmart-BC-plant-chart-modified-2026-02-24",
+      "sourceUrl": "https://firesmartbc.ca/landscaping-hub/fire-resistant-plants/",
+      "retrievedOn": "2026-08-29",
+      "sha256": "682172a7bac7220c61c4652a7b098dc1f372fcb2cd7196160013679665c738c4"
+    },
     "notes": "Tier 2 compiled corroboration: FireSmart BC's chart substantially republishes the PNW-590 species set for BC, so rows landing on records that already carry pnw-590 evidence resolve to that root and add no independence. Zone suitability is preserved as placement guidance; needs-more-research flags travel as claims."
   },
   "firewise-arkansas-plant-guide": {
@@ -424,7 +902,7 @@
       }
     ],
     "scaleNotes": "The page presents its 19-row table as a short representation of Firewise trees, shrubs, and groundcovers homeowners can choose. Every table row maps to recommend. Its unscientific generic avoid examples are held separately.",
-    "notes": "Nineteen exact GBIF species owners were admitted from the visually audited table. Printed Juglans cincerea and Rhus copallinum errors were corrected transparently to Juglans cinerea and Rhus copallina. The generic warning to avoid pine, cedar, and juniper was not converted because it supplies no scientific names and cedar is taxonomically ambiguous. PDF SHA-256: 9b2a00c8c2cbd815c797e67d0d34e0d5207a53e3088e4e97af35036ba1999a20."
+    "notes": "Nineteen exact GBIF species owners were admitted from the visually audited table. Printed Juglans cincerea and Rhus copallinum errors were corrected transparently to Juglans cinerea and Rhus copallina. The generic warning to avoid pine, cedar, and juniper was not converted because it supplies no scientific names and cedar is taxonomically ambiguous. The page contains no byline or Arkansas statement; its filename suggests Arkansas, but the captured 2006 NFPA plant-list index does not include it. State coverage remains deliberately untyped until an archived index or authoring record directly establishes that scope. PDF SHA-256: 9b2a00c8c2cbd815c797e67d0d34e0d5207a53e3088e4e97af35036ba1999a20."
   },
   "firewise-black-hills-sd-plantlist": {
     "name": "Firewise Plant Material for the Black Hills",
@@ -436,12 +914,30 @@
     "lineage": "firewise-national",
     "editions": [
       {
-        "edition": "2004 scan / 2007 archive",
+        "edition": "scan created 2004-11-30 / 2007 archive capture",
         "date": "2004-11-30"
       }
     ],
     "scaleNotes": "The single-page list describes every table row as a fire-resistive plant that can be used in landscaping. Each exact taxon row maps to recommend; the page provides no comparative score or avoid category.",
-    "notes": "Forty-eight printed rows were visually audited. Forty-seven exact GBIF genus or species owners are represented and one unranked infraspecific chokecherry label is held rather than broadened. Nine obvious printed misspellings are preserved in verdictRaw and corrected transparently for matching. PDF SHA-256: 6e2b8c1d6e58801cf206de42e90f1bbd95cb496422bb0fe45d21dd5c7e910f9e."
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "SD"
+          ],
+          "regions": [
+            "Black Hills"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The page explicitly limits itself to the Black Hills, and NFPA Firewise's archived 2006 plant-list index files it under South Dakota. FireApproved publishes 47 exact genus or species owners from 48 printed rows. This is bounded Black Hills context, not statewide South Dakota coverage or a finding that a plant suits a particular site.",
+        "sourceVersion": "firewise-black-hills-scan-2004-11-30"
+      }
+    ],
+    "notes": "Forty-eight printed rows were visually audited. Forty-seven exact GBIF genus or species owners are represented and one unranked infraspecific chokecherry label is held rather than broadened. Nine obvious printed misspellings are preserved in verdictRaw and corrected transparently for matching. The page does not identify an authoring agency; NFPA's archived index supplies the South Dakota filing, while the title supplies the narrower Black Hills scope. The date is PDF creation metadata, not a claimed publication date. PDF SHA-256: 6e2b8c1d6e58801cf206de42e90f1bbd95cb496422bb0fe45d21dd5c7e910f9e. Archived-index HTML SHA-256: d3340235705dc6b89a5bcbeab68b654a9af59778bd1aeefd76b8ce8d591009f4."
   },
   "firewise-uk-dorset-leaflet-2024": {
     "name": "Protecting your home from wildfire — plants and tips that can reduce your risk",
@@ -476,6 +972,14 @@
       }
     ],
     "scaleNotes": "Binary inclusion in Fire-Resistant Plant Materials for Oregon, organized into groundcovers, perennials, broadleaf evergreen shrubs, deciduous shrubs, evergreen trees, and deciduous trees. A few rows carry Central, Eastern, Southern, or Western Oregon placement codes.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated in the publication PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "OSU-Forest-Resource-Note-6-April-2002",
+      "sourceUrl": "https://www.iatp.org/sites/default/files/Fire_Resistant_Plants_for_Oregon_Home_Landscap.pdf",
+      "retrievedOn": "2026-08-29",
+      "sha256": "3e719b3edaf3502e42f384d7972b8c79511aa85cba25d7b3234fd60fac2df954"
+    },
     "notes": "Direct precursor of joint PNW 590 and therefore assigned the same lineage rather than an independent vote. The guide says most listed plants require some irrigation during dry summers and that even fire-resistant plants can burn if not maintained in a healthy condition. Capture SHA-256: 3e719b3edaf3502e42f384d7972b8c79511aa85cba25d7b3234fd60fac2df954."
   },
   "flamits": {
@@ -493,6 +997,59 @@
       }
     ],
     "scaleNotes": "FLAMITS stores 19,972 numeric observations across 40 harmonized variables and five flammability dimensions. Values retain the published variable name, experimental context, and primary-study identifier. They are represented as non-voting measurements because the database does not impose one directional threshold across unlike variables, devices, plant parts, or fuel conditions.",
+    "acquisition": {
+      "upstreamLicense": "CC0-1.0",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Dryad-version-9-2023-12-22",
+      "sourceUrl": "https://doi.org/10.5061/dryad.h18931zr3",
+      "doi": "10.5061/dryad.h18931zr3",
+      "retrievedOn": "2026-08-25",
+      "sha256": "e8b187cc21dfcf6e2d9afd717b57b8ab328b64f2070cd3c61db41dcfd2b20623",
+      "inputs": [
+        {
+          "path": "docs/research/sources/flamits-data.csv",
+          "bytes": 6067614,
+          "sha256": "8c876f4550ac032af98071d018dd2f76fbc96a21d1f26293ca4065537080f39c",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/flamits-taxa.csv",
+          "bytes": 543911,
+          "sha256": "c74a65efef4e2a5ce1cf4fa4afc657a5cf0043fe4602cb411e2eef20a35939b5",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/flamits-sites.csv",
+          "bytes": 47818,
+          "sha256": "31dc09de95a8834372c3b2173719c546d2369cf2c859103c1cbcc3e45a027dce",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/flamits-sources.csv",
+          "bytes": 93704,
+          "sha256": "4e8ca4b94e98b66024e196156413657dd64b41568870ecc326816a221e711ae4",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/flamits-synonymy.csv",
+          "bytes": 11071,
+          "sha256": "4338f677395a7e4cfd116072a12dabd8ce385e1887d21812882bf44f91ebbd55",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/flamits-readme.md",
+          "bytes": 33323,
+          "sha256": "1b40b68faac99acbbe61d42012dace766bc513e6c24188419dbf3577053bdc89",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/flamits-dryad-metadata.json",
+          "bytes": 3978,
+          "sha256": "94eff95cd19e802d229c1f6ab7f5b66c162b18ba88598c785abef53bf1a86a1a",
+          "role": "supplemental"
+        }
+      ]
+    },
     "notes": "CC0 dataset compiled from 295 primary flammability studies. Each evidence row cites both the Dryad dataset and its original source_ID; the complete primary citations are preserved in flamits-sources.csv. Of 19,972 published rows, 19,500 are admitted on 1,736 exact accepted identities. The hold ledger keeps 164 rows whose source_ID is absent from the supplied reference table and 308 rows whose taxon cannot be represented by an exact genus/species identity. Dataset version 9 data-file SHA-256: 8c876f4550ac032af98071d018dd2f76fbc96a21d1f26293ca4065537080f39c."
   },
   "fps-eastern-us": {
@@ -544,7 +1101,34 @@
       }
     ],
     "scaleNotes": "The page presents every row in its Ground Covers, Shrubs, and Large Shrubs and Trees sections as a Firewise plant. Listed taxa map to recommend. The page provides no comparative classes or adverse list.",
-    "notes": "The page describes Firewise plants as generally low-growing, low-debris, and relatively moist, but gives no methodology or source attribution. It remains Tier 2 with unknown lineage. Thirteen explicitly genus-level entries remain genus records; common names were not widened to inferred species. Obvious typographical errors in scientific names were reconciled only to exact GBIF matches and the printed spellings remain in verdictRaw. Raw HTML SHA-256: 895416d7024cfbcb4f5f475d1b8f3b81a0a3999b249dfd3152a75e2bd1f30a88."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the captured source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Fremont-County-Firewise-Plant-List-2011-02-25",
+      "sourceUrl": "http://www.fremontcountyfirewise.com/WyomingFirewisePlantList.htm",
+      "retrievedOn": "2026-08-25",
+      "sha256": "895416d7024cfbcb4f5f475d1b8f3b81a0a3999b249dfd3152a75e2bd1f30a88"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "WY"
+          ],
+          "regions": [
+            "Fremont County"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The source identifies itself as the Fremont County Firewise Plant List. FireApproved publishes its 92 exact source owners as Fremont County regional context. No methodology, current county endorsement, statewide Wyoming scope, or site-specific suitability is inferred.",
+        "asOf": "2011-02-25",
+        "sourceVersion": "Fremont-County-Firewise-Plant-List-2011-02-25"
+      }
+    ],
+    "notes": "The page describes Firewise plants as generally low-growing, low-debris, and relatively moist, but gives no methodology or source attribution. It remains Tier 2 with unknown lineage. Thirteen explicitly genus-level entries remain genus records; common names were not widened to inferred species. Obvious typographical errors in scientific names were reconciled only to exact GBIF matches and the printed spellings remain in verdictRaw. Raw HTML SHA-256: 895416d7024cfbcb4f5f475d1b8f3b81a0a3999b249dfd3152a75e2bd1f30a88. The normalized 37,305-byte research capture is SHA-256 ce5c3830b3b29f26dc8d5ed231e3c0a29cd1abfa202ccc4b13de7b167561a273; it is a research receipt, not republished source content."
   },
   "ganteaume-2013-provence-ornamental-hedges": {
     "name": "Flammability of some ornamental species in wildland-urban interfaces in southeastern France",
@@ -596,6 +1180,14 @@
       }
     ],
     "scaleNotes": "The 289 species fiches use five printed suitability verdicts: muy recomendada, recomendada, desaconsejada, muy desaconsejada, and prohibida. The guide's qualitative balance integrates fire-resistance literature, expert fire-service experience, fuel structure, maintenance, origin, and invasiveness. Prohibida is a regulatory invasive- species outcome and is retained as not-rated rather than converted into a flammability avoid verdict.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated in the official 2020 guide",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Girona-pirojardineria-Spanish-2020",
+      "sourceUrl": "https://interior.gencat.cat/web/.content/home/030_arees_dactuacio/bombers/foc_forestal/publicacions_tecniques_i_normativa/guies_tecniques/prevencio_i_extincio/2020_Guia_de_pirojardineria_es.pdf",
+      "retrievedOn": "2026-08-29",
+      "sha256": "49ad413b9a3252de86bc4ae0c951a5be3567842f926ead07cb907d0a58493539"
+    },
     "notes": "The source says recommended plants may be used inside or outside the 25-metre maximum- risk zone, discouraged plants are not suitable inside it, and very discouraged plants should not be planted in either zone. All suitability judgments assume species-specific garden care and maintenance. Archived PDF SHA-256: 49ad413b9a3252de86bc4ae0c951a5be3567842f926ead07cb907d0a58493539."
   },
   "gonzalez-2022-laguna-blanca-wui": {
@@ -721,8 +1313,117 @@
     "tier": 1,
     "evidenceKind": "field-trial",
     "lineage": "idaho-tree",
+    "editions": [
+      {
+        "edition": "Southern Idaho master database (PDF created 2013-11-08)",
+        "date": "2013-11-08"
+      }
+    ],
     "scaleNotes": "0-10 fire-resistance score mapped by the source to minimum planting distance (10 = acceptable at 10 ft ... 1 = keep 100+ ft away). Verdict thresholds follow CSU's published usage of this scale: 8-10 recommend, 4-7 mixed, 0-3 avoid.",
-    "notes": "The largest scored US dataset (400+ species and cultivars). Cooperative scoring program; its methodology was adopted by CSU/CSFS in 2025."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Idaho-Firewise-Southern-Idaho-Master-2013-11-08",
+      "sourceUrl": "https://idahofirewise.org/assets/library/Homeowner%20Information/Firewise%20Landscaping/Fire%20Resistance%20of%20Plants%20Master%20Database.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "da9a483ed2d1bd998e489caee694dde85f21d92bc8af3855e3bf2c5c022522e4"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "ID"
+          ],
+          "regions": [
+            "Southern Idaho"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The official database labels itself \"For Southern Idaho\" and describes Idaho residents at the urban-rangeland interface. FireApproved publishes 419 existing plant owners that cite its scored rows. This bounded Southern Idaho scope is regional context, not statewide coverage or a conclusion that the score transfers unchanged to every Idaho site.",
+        "asOf": "2013-11-08",
+        "sourceVersion": "Idaho-Firewise-Southern-Idaho-Master-2013-11-08"
+      }
+    ],
+    "notes": "The largest scored US dataset (400+ species and cultivars). Cooperative scoring program; its methodology was adopted by CSU/CSFS in 2025. The current official Idaho Firewise download matched the reviewed 1,607,748-byte input on 2026-08-26; SHA-256: da9a483ed2d1bd998e489caee694dde85f21d92bc8af3855e3bf2c5c022522e4."
+  },
+  "indiana-312-iac-18-3-25-2020": {
+    "name": "Indiana 312 IAC 18-3-25 Prohibited Invasive Terrestrial Plants",
+    "publisher": "Indiana Department of Natural Resources",
+    "url": "https://iar.iga.in.gov/code/2026/312/18#312-18-3-25",
+    "region": "Indiana",
+    "evidenceKind": "regulatory-list",
+    "lineage": "indiana-312-iac-18-3-25",
+    "scaleNotes": "The current rule designates 44 prohibited invasive terrestrial plants. It applies to any part or life stage and prohibits sale, offering or growing for sale, gifting, bartering, exchange, distribution, transport, transfer, and introduction. The rule became effective April 18, 2019; its trade and transport restrictions became fully enforceable April 18, 2020. Possession by a person holding a State Entomologist permit and participation in a State Entomologist-approved destruction project are separate person-level exceptions; the rule does not state a general prohibition on bare possession.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "IAC-2026-312-18-3-25+20190417-IR-312180316FRA+20190417-IR-312190176ACA+20250423-IR-312240574RFA",
+      "sourceUrl": "https://iar.iga.in.gov/code/2026/312/18#312-18-3-25",
+      "retrievedOn": "2026-08-26",
+      "sha256": "776eba771b1b2a3ebb31d48f40a6a16c8a575a8ae9dfa0caeb8ca1774f6b56d9",
+      "inputs": [
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/indiana-nrc-final-adoption-minutes-2019-01.pdf",
+          "bytes": 177723,
+          "sha256": "548a8d6a591ea378cbc0fc1ffd7c0ee1d196c93309e65bbceda65490c578a1a1",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/indiana-nrc-readopted-final-rule-2025-04-23.pdf",
+          "bytes": 270135,
+          "sha256": "720925c84ba50d451e7b20baa9cbc0ab764c70eed01b00932a24eacecfd9ae43",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/indiana-isda-legal-text-cross-pin-2021.pdf",
+          "bytes": 18619092,
+          "sha256": "a22b3031fd81d97435dc861dd3600aad46ee04c0e0b7303486d69300eae3076e",
+          "role": "supplemental"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/indiana-dnr-terrestrial-plant-rule-2026-08-26.html",
+          "bytes": 97110,
+          "sha256": "71c44db279683331a23a002d4c03ef3fad6cd4ce35cd108c60e724812fb23f46",
+          "role": "supplemental"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/indiana-dnr-terrestrial-plant-rule-2024-09.pdf",
+          "bytes": 622301,
+          "sha256": "ff57d17a353359e7fbe33351504f3a809a2936e32cd345f13f145b501d6e8f29",
+          "role": "supplemental"
+        }
+      ]
+    },
+    "regulatoryPublication": {
+      "designationCount": 44,
+      "publishedItemCount": 20,
+      "holdCounts": {
+        "total": 24,
+        "unmatched": 19,
+        "ambiguous": 1,
+        "complex": 4
+      }
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "IN"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "All 44 current designations are parsed with terminal dispositions. Forty simple species rows are exact-match candidates; two hybrid rows, one subspecies row, and the parenthetical Chinese-yam form remain held. Twenty unique exact or accepted-name same-rank matches publish; nineteen unmatched names and one ambiguous name remain receipted.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "IAC-2026-312-18-3-25+20190417-IR-312180316FRA+20190417-IR-312190176ACA+20250423-IR-312240574RFA"
+      }
+    ],
+    "notes": "The NRC January 2019 minutes authenticate final adoption and the correction of row 29 to Lonicera maackii. The NRC 2025 Readopted Final Rule readopts 312 IAC 18-3 and supplies currentness. The Indiana government guidebook supplies a complete pre-errata subsection (a)-(e) cross-pin; its page is explicitly labeled proposed, so it is supplemental. The current DNR page and 9/2024 brochure are separately counted supplemental displays, and their printed botanical variants remain attached to the enacted rows. The current IAR legal home is retained on every assertion. Indiana noxious weeds, aquatic plants, ginseng, kudzu, marijuana, hemp, multiflora rose, and purple loosestrife remain outside this source pack."
   },
   "isees-2021-judean-hills": {
     "name": "השרפה בהרי יהודה – 2021: ניתוח, תובנות והמלצות",
@@ -773,6 +1474,33 @@
       }
     ],
     "scaleNotes": "Binary recommendation by presence in the source's Trees, Shrubs, Perennials, or Groundcovers tables under the heading Fire-resistant Landscape Plants.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official county PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "King-County-Puget-Sound-Basin-2011",
+      "sourceUrl": "https://your.kingcounty.gov/dnrp/library/water-and-land/forestry/forestfire/FirewisePlantsPugetSoundBasin-2011.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "c16362395ccd88331f731130435c51a95c295bf658085a87a3bf2c13faffb597"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "WA"
+          ],
+          "regions": [
+            "Puget Sound Basin"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "King County's current wildfire page links this list for the Puget Sound Basin. FireApproved publishes 82 exact source owners as basin context, not statewide Washington guidance or a site-specific recommendation.",
+        "asOf": "2011-01-01",
+        "sourceVersion": "King-County-Puget-Sound-Basin-2011"
+      }
+    ],
     "notes": "Native-first King County curation for the Puget Sound Basin. Its only named resources are the Washington Native Plant Society and Pojar & MacKinnon's Plants of the Pacific Northwest Coast; it does not cite PNW 590."
   },
   "kkl-2024-fire-prevention-compendium": {
@@ -857,7 +1585,31 @@
       }
     ],
     "scaleNotes": "A prose list of 31 ornamentals \"recommended for firewise landscaping\" in Louisiana, mostly at genus level. Verdict map: listed = recommend. Tier is deliberately omitted — no methodology is cited, so rows are corroboration only and can never move a rating on their own.",
-    "notes": "Louisiana's only named-species list. Same structural treatment as the NC Plant Toolbox: an undocumented assignment corroborates but does not promote."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official web page",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "LSU-Hammond-Firewise-Landscaping-2008-12-02",
+      "sourceUrl": "https://www.lsuagcenter.com/portals/our_offices/research_stations/hammond/features/research-updates/firewise-landscaping",
+      "retrievedOn": "2026-08-26",
+      "sha256": "d4a9cbbab990f696dbf55244704ff88355937e85f05ada4f03157a74f9589409"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "LA"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "LSU AgCenter calls these 31 ornamentals commonly used in Louisiana and recommended for Louisiana firewise landscaping efforts. FireApproved publishes 31 exact source owners, mostly at the source's genus grain. Undocumented curation remains corroborative and is not site suitability.",
+        "asOf": "2008-12-02",
+        "sourceVersion": "LSU-Hammond-Firewise-Landscaping-2008-12-02"
+      }
+    ],
+    "notes": "Louisiana's only named-species list. Same structural treatment as the NC Plant Toolbox: an undocumented assignment corroborates but does not promote. The live official HTML exactly matched the reviewed 106,080-byte input on 2026-08-26; SHA-256: d4a9cbbab990f696dbf55244704ff88355937e85f05ada4f03157a74f9589409."
   },
   "lubin-shelly-1997-ucfpl-compilation": {
     "name": "Defensible Space Landscaping in the Urban/Wildland Interface: A Compilation of Fire Performance Ratings of Residential Landscape Plants",
@@ -874,6 +1626,30 @@
       }
     ],
     "scaleNotes": "The report compiles more than 25 earlier lists. Chapter 2 requires at least three favorable references, Chapter 3 requires at least three unfavorable references, and Chapter 4 identifies conflicting source recommendations. These map to recommend, avoid, and mixed. The report says the underlying lists often lack scientific basis and use undefined terms.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the recovered report",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "UCFPL-Internal-Report-36.01.137-1997-07",
+      "sourceUrl": "https://www.firesafemonterey.org/uploads/1/0/6/5/10653434/uc_forestproductslabdefensiblespaceplantlist_ocr.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "ed316b8451e14fead99f0d082898a860f236330b674f7f52c0e8dd40cfe210b9"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "CA"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The UC Forest Products Laboratory says the guide covers properties of common California landscaping plants and was prepared for California fire agencies. FireApproved publishes 130 exact owners at historical California publication scope. The report is a 1997 compilation, not a current endorsement, site rating, or independent test of every row.",
+        "asOf": "1997-07-01",
+        "sourceVersion": "UCFPL-Internal-Report-36.01.137-1997-07"
+      }
+    ],
     "notes": "Tier 2 compilation and the citation root behind several later California list wrappers. The recovered report is the evidence source. A preserved UCFPL column in the 2024 Living With Fire workbook is used only as a transcription aid for the report's F/U/C marker and reference count; it is not treated as another evidence lineage. Conservative exact reconciliation yields 130 evidence owners (83 favorable, 31 conflicting, 16 unfavorable), with 31 compound or non-exact taxonomy rows held."
   },
   "lucas-2019-biobr-ornamentais": {
@@ -954,6 +1730,54 @@
     "scaleNotes": "Table 1 reports five continuous variables for four live-fuel taxa at similar moisture content and 50 kW/m²: TTI, PHRR, AEHC, MLR, and THR. The authors publish no overall taxon class or composite rank. Rows are therefore direct laboratory evidence with verdict not-rated; all five means and repeatability standard deviations remain in claims.",
     "notes": "Tier 1 bench-scale study from the INIA-CIFOR laboratory. Component directions conflict, so deriving a recommend/avoid verdict would invent a weighting rule. Pinus pinaster uses live needles; the understory shrubs use leaves and fine twigs under 1 cm. Same inia-madrid-tree lineage as the earlier Spanish laboratory program."
   },
+  "maine-chapter-273-invasive-plants-2022-092": {
+    "name": "Maine Chapter 273 Do Not Sell and Special Concern Lists",
+    "publisher": "Maine Department of Agriculture, Conservation and Forestry",
+    "url": "https://www.maine.gov/DACF/php/horticulture/invasiveplants.shtml",
+    "region": "Maine",
+    "evidenceKind": "regulatory-list",
+    "lineage": "maine-chapter-273",
+    "scaleNotes": "Chapter 273 prohibits specified trade and propagation activities for 63 Do Not Sell species and separately allows Rosa rugosa sales only with required disclosure and purchaser guidance. The 29-row Watch List is retained as context only because Chapter 273 explicitly leaves those plants unrestricted.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "Chapter-273-filing-2022-092-format-corrected-2025-09-24",
+      "sourceUrl": "https://www.maine.gov/sos/sites/maine.gov.sos/files/rules/001c273-2022-092.docx",
+      "retrievedOn": "2026-08-26",
+      "sha256": "5c3276a46ca9b4002c7a7eaf7c90eaed1539c1c1d388e1ed9a38cacd3c03b681",
+      "inputs": [
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/maine-invasive-plants-2026-08-26.html",
+          "bytes": 53793,
+          "sha256": "9e8c0df6eef190763494e3a0e30294fbb670c7ae17f3bfccce82643a795fc902",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/maine-chapter-273-filing-2022-092.docx",
+          "bytes": 60372,
+          "sha256": "d79d36919adce36d8fe3d23393bb26c290425f3fd0c2c3dc7208f041a649aa05",
+          "role": "authoritative"
+        }
+      ]
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "ME"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "All 63 Do Not Sell rows, 29 Watch rows, and the sole Special Concern row are parsed with terminal dispositions. Only unique exact same-rank Do Not Sell and Special Concern matches publish. Watch rows never produce a regulatory assertion; synonym-only, ambiguous, and unmatched targets remain held.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "Chapter-273-filing-2022-092-format-corrected-2025-09-24"
+      }
+    ],
+    "notes": "The rule defines species broadly to include synonyms and subordinate taxa, but FireApproved does not project a species result onto cultivar or hybrid pages. Chapter 273 also provides a committee exemption path for researched subordinate taxa; no current approved-exemption roster was located. The upstream pages state no reusable license, so source identity and scope are retained while FireApproved publishes only its derived structured data under CC BY 4.0."
+  },
   "maire-1962-landscape-to-prevent-fire": {
     "name": "Landscape for Fire Protection",
     "publisher": "University of California Agricultural Extension Service",
@@ -971,22 +1795,197 @@
     "scaleNotes": "The Plants for Fire Protection section gives a single conditioned recommendation set, organized as ground covers, shrubs, and trees. It describes these as examples for irrigated hillsides and repeatedly conditions performance on pruning, watering, and removing litter.",
     "notes": "This 1968 AXT-254 edition replaces the physical-only 1962 AXT-64 Landscape to Prevent Fire. HathiTrust permits page-at-a-time viewing but instructed against saving or redistributing the scan; the repository therefore stores retrieval metadata rather than scan bytes. Four headings remain held because they identify a cultivar/form, a broad iceplant group, or an OCR spelling that does not exact-match GBIF."
   },
+  "massachusetts-prohibited-plant-list-2026-05": {
+    "name": "Massachusetts Prohibited Plant List",
+    "publisher": "Massachusetts Department of Agricultural Resources",
+    "url": "https://www.mass.gov/info-details/massachusetts-prohibited-plant-list",
+    "region": "Massachusetts",
+    "evidenceKind": "regulatory-list",
+    "lineage": "massachusetts-prohibited-plant-list",
+    "scaleNotes": "The official page prohibits listed plants statewide and says the scope includes cultivars, varieties, and hybrids. Six newly listed taxa currently have staged existing-stock sales deadlines; no new stock may be imported or propagated. Orchard, bonsai-grower, and permit provisions are modeled as operational conditions, separately from the list's taxonomic scope.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "Massachusetts-Prohibited-Plant-List-May-2026",
+      "sourceUrl": "https://www.mass.gov/files/csv/2026-05/prohibitedplantlistMay2026.csv",
+      "retrievedOn": "2026-08-26",
+      "sha256": "95a7af5fac5d9e264a1808142baa9233843fa70d6a4e171f7c59b04c5bba1b55",
+      "inputs": [
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/massachusetts-prohibited-plant-list-2026-05.csv",
+          "bytes": 6905,
+          "sha256": "76e351198a5866bf7ce919ee4a1b4395dc84e17d14df70ac7ebe4ccf174c5171",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/massachusetts-prohibited-plant-list-2026-08-26.html",
+          "bytes": 191004,
+          "sha256": "875db47643fa3c84a332900f93373693dacf71f936024cce48ba352d040f5bd1",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/massachusetts-prohibited-plant-list-update-2024-09.pdf",
+          "bytes": 232627,
+          "sha256": "3c692c6df04db3ec53e0b4634ab88717141720ccfda3eada5c2adffc99717b5c",
+          "role": "supplemental"
+        }
+      ]
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "MA"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "All 151 official May 2026 CSV rows were parsed and retained. Unique exact same-rank species candidates may publish. Genus rows, abbreviations, infraspecific forms, hybrid expressions, and unmatched names remain terminal review rows. The live official page supplies six phase-outs and the activity and operating-condition context used by the assertions.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "Massachusetts-Prohibited-Plant-List-May-2026"
+      }
+    ],
+    "notes": "The upstream pages state no reusable license. FireApproved retains exact source identity, scope, dates, and operating conditions while publishing its derived structured data under CC BY 4.0. A legal-list result is separate from an ecological invasive assessment and from fire performance. The live page's displayed February 27 update date is stale relative to its linked May 2026 CSV and May 11 additions; the pinned CSV identity controls this source version."
+  },
   "mdfs-firewise-landscaping-plants": {
-    "name": "Firewise Landscaping Plants for Maryland",
-    "publisher": "Maryland Department of Natural Resources Forest Service",
+    "name": "Firewise Landscaping Plants (Maryland, New Jersey, and West Virginia editions)",
+    "publisher": "Maryland DNR, New Jersey DEP, and West Virginia Division of Forestry",
     "url": "https://web.archive.org/web/20250408035155/https://dnr.maryland.gov/forests/documents/fire/firewise_plants.pdf",
-    "region": "Maryland",
+    "region": "Maryland, New Jersey, and West Virginia",
     "tier": 2,
     "evidenceKind": "compiled",
     "lineage": "md-nj-wv-template-family",
     "editions": [
       {
-        "edition": "archived PDF",
+        "edition": "Maryland archived PDF",
         "date": "2015-01-08"
+      },
+      {
+        "edition": "New Jersey official edition",
+        "url": "https://www.nj.gov/dep/parksandforests/fire/docs/Firewise_Landscaping_Plants_for_NJ.pdf"
+      },
+      {
+        "edition": "West Virginia official edition",
+        "url": "https://wvforestry.com/pdf/Firewise%20Landscaping%20Plants%20for%20WV.pdf"
       }
     ],
     "scaleNotes": "One affirmative list: every plant table row is described as relatively resistant to fire and as exhibiting stronger resistance to ignition by wildfires. The source publishes no comparative rating scale or row-level method.",
-    "notes": "Maryland is the canonical master of the Maryland/New Jersey/West Virginia template family; the state derivatives do not add independent votes. All 180 printed plant rows are preserved in an extracted row ledger. One exact botanical-form row is held because the plant schema cannot represent FORM rank; broadening it to the species would be dishonest. Mulch ignitability is outside the plant-evidence scope. PDF SHA-256: b349c0d9e454c1d5fa802f359b523a1f7b5f4da1da83a6b0274caff54234da14."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Maryland-Firewise-Plants-2015-01-08",
+      "sourceUrl": "https://dnr.maryland.gov/forests/documents/fire/firewise_plants.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "b349c0d9e454c1d5fa802f359b523a1f7b5f4da1da83a6b0274caff54234da14"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "MD"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Maryland Forest Service says the list contains plants that can be grown in Maryland and identifies Maryland natives. FireApproved publishes 169 exact source owners from the 180 printed rows; an unrepresentable form and duplicate-owner rows are not broadened. The list calls itself non-comprehensive and does not establish suitability for every Maryland site.",
+        "sourceUrl": "https://web.archive.org/web/20250408035155/https://dnr.maryland.gov/forests/documents/fire/firewise_plants.pdf",
+        "asOf": "2015-01-08",
+        "sourceVersion": "Maryland-Firewise-Plants-2015-01-08"
+      },
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "NJ"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "New Jersey DEP publishes a state edition saying the listed plants can be grown in New Jersey and are relatively resistant to fire. Its same 180 printed taxon occurrences map to the 169 conservative owners already normalized for the template family. The list is non-comprehensive and does not establish suitability for every New Jersey site or override the Pinelands Commission's separate placement and fuel-break rules.",
+        "sourceUrl": "https://www.nj.gov/dep/parksandforests/fire/docs/Firewise_Landscaping_Plants_for_NJ.pdf",
+        "sourceVersion": "New-Jersey-Firewise-Landscaping-Plants-archive-2025-09-01",
+        "notes": "The live official URL is intermittently blocking automated retrieval. The exact official-path Wayback capture is 246,492 bytes with SHA-256 a3c129e3bc973a164e1062677393433d730cc92edc6c4bb03dfefc1a47604657."
+      },
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "WV"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "West Virginia Division of Forestry publishes a state edition saying the listed plants can be grown in West Virginia and are relatively resistant to fire. Its same 180 printed taxon occurrences map to the 169 conservative owners already normalized for the template family. The list is non-comprehensive and provides no comparative or site-specific rating.",
+        "sourceUrl": "https://wvforestry.com/pdf/Firewise%20Landscaping%20Plants%20for%20WV.pdf",
+        "asOf": "2026-08-26",
+        "sourceVersion": "West-Virginia-DOF-Firewise-Landscaping-Plants-live-2026-08-26",
+        "notes": "The current official PDF is 257,033 bytes with SHA-256 3276f4e241b886783bd81211f40d1f5f54d69b728f2d8f99c3466ec6998c0fb4."
+      }
+    ],
+    "notes": "Maryland is the canonical normalized master of the Maryland/New Jersey/West Virginia template family; the official state editions do not add independent votes. All three preserve the same 180 printed taxon occurrences, including West Virginia and New Jersey copies of the Maryland-specific Rudbeckia hirta comment. All rows are preserved in an extracted ledger. One exact botanical-form row is held because the plant schema cannot represent FORM rank; broadening it to the species would be dishonest. Mulch ignitability is outside the plant-evidence scope. The current Maryland official download matched the reviewed 60,120-byte input on 2026-08-26. PDF SHA-256: b349c0d9e454c1d5fa802f359b523a1f7b5f4da1da83a6b0274caff54234da14."
+  },
+  "me-mfs-fire-resistant-plant-list": {
+    "name": "Maine fire-resistant plant list",
+    "publisher": "Maine Forest Service, Forest Protection Division",
+    "url": "https://www.maine.gov/dacf/mfs/forest_protection/firewise/fire_resistant_plant_list.html",
+    "region": "Maine",
+    "tier": 2,
+    "evidenceKind": "compiled",
+    "lineage": "me-mfs-fire-resistant-plants",
+    "editions": [
+      {
+        "edition": "MFS-list-updated-2013-10-23",
+        "url": "https://www.maine.gov/dacf/mfs/forest_protection/firewise/downloads/fire_resistant_plant_list.pdf",
+        "date": "2013-10-23"
+      }
+    ],
+    "scaleNotes": "The official PDF contains 50 individually named tree, shrub, vine/ground-cover, and perennial rows. Listed plants map to recommend only within the source's stated 30-100-foot landscaping placement.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "MFS-list-updated-2013-10-23",
+      "sourceUrl": "https://www.maine.gov/dacf/mfs/forest_protection/firewise/downloads/fire_resistant_plant_list.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "e76beae6f24d46a58d09ab175f5a0efc4a1fa26f5cbc31f93edca0e02daa1578",
+      "inputs": [
+        {
+          "path": "docs/research/sources/maine-forest-service-fire-resistant-plants/fire-resistant-plant-list-mfs-list-updated-2013-10-23.pdf",
+          "bytes": 32587,
+          "sha256": "fafb1d2ad6fc99bd1b52c02e3e9a8d205dd494c51d5eb7d340f9ba7767928615",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/maine-forest-service-fire-resistant-plants/fire-resistant-plant-list-2026-08-26.html",
+          "bytes": 30347,
+          "sha256": "68a64d3efaa3dee7be3977a3d128f969db3db765c09ef077c92ec352e9fe9a4d",
+          "role": "supplemental"
+        }
+      ]
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "ME"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Maine Forest Service presents a partial list for landscaping 30-100 feet from a structure. FireApproved publishes only 39 unique exact current/accepted matches plus Rhus typhina from the source's explicit parenthetical; unresolved, abbreviated, misspelled, absent, and duplicate-owner rows remain held.",
+        "asOf": "2013-10-23",
+        "sourceVersion": "MFS-list-updated-2013-10-23",
+        "notes": "Statewide publication scope does not establish site suitability. Source-wide island, mulch, grass, and fern guidance is not projected into plant-specific rating evidence."
+      }
+    ],
+    "notes": "Tier 2 agency compilation with no stated testing method. The source calls the list partial and limits its use statement to the 30-100-foot portion of the home ignition zone. The 50 printed plant rows are fully accounted for; only conservative unique identity joins publish."
   },
   "molina-2017-ignition-index": {
     "name": "The ignition index based on flammability of vegetation improves planning in the WUI",
@@ -1021,6 +2020,30 @@
       }
     ],
     "scaleNotes": "Binary wildfire-resistant list: Table 1 prints 241 rows (2 annuals, 27 groundcovers, 57 perennials, 86 shrubs, 60 trees, 9 vines) with hardiness zones and a Michigan-native flag. Verdict map: listed = recommend.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated in the archived publisher PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "MSU-Extension-E2948-2007",
+      "sourceUrl": "https://web.archive.org/web/20070714035839/http://www.firewise.org/usa/files/mi_wildfire_resistant.pdf",
+      "retrievedOn": "2026-08-29",
+      "sha256": "f013c0beb43b5e263625ec78810911e5d244b87c9d683145a74f93c97e4f4910"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "MI"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Michigan State University Extension Bulletin E2948 is explicitly a list of wildfire-resistant landscape plants for Michigan and includes a Michigan-native field. FireApproved publishes 221 exact GBIF owners from 226 represented source rows and holds 15 complex or non-exact rows. This dated publication scope is not a current site-suitability determination.",
+        "asOf": "2007-01-01",
+        "sourceVersion": "MSU-Extension-E2948-2007"
+      }
+    ],
     "notes": "Michigan's only wildfire plant list. The current MSU PDF endpoint returned an Incapsula denial on 2026-08-25, so evidence links use the verified 2007 Internet Archive capture. Exact audit represents 226 source rows as 221 GBIF owners and holds 15 cultivar, hybrid-group, subspecies, or non-exact rows. Notable inclusions that collide with other lists — bird's nest spruce, English ivy, common boxwood — carry the usual recommend verdict here and surface as documented conflicts rather than being averaged away."
   },
   "msu-montguide-mt200101ag": {
@@ -1046,10 +2069,34 @@
       }
     ],
     "scaleNotes": "Binary list of fire-resistant species adapted to Montana: 64 groundcover/herbaceous rows, 14 tree rows, and 18 shrub rows. Verdict map: listed = recommend.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated; the PDF carries a 2019 MSU Extension copyright",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "MT200101AG-current-2022-04",
+      "sourceUrl": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt200101ag-fire-resistant-plants.pdf",
+      "retrievedOn": "2026-08-29",
+      "sha256": "bf948079590c25d9980fe6becb0a7ae34f02829a77fae8cdc6fadf65017fd407"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "MT"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The April 2022 MontGuide explicitly presents fire-resistant species adapted to Montana. FireApproved publishes 92 exact plant records from the source while retaining excluded genus, family, and unresolved rows; the guide itself says not every listed species grows in every part of the state.",
+        "asOf": "2022-04-01",
+        "sourceVersion": "MT200101AG-current-2022-04"
+      }
+    ],
     "notes": "Tier 1 original regional expert curation by MSU Extension. The source acknowledges Bob Gough and Jason Lamb as the original authors and explains that some references rated whole genera while others named species. Its single Rosaceae-family row is preserved in the source archive but excluded from plant rating inputs because family is metadata, never a record rank or a cascading verdict."
   },
   "nc-plant-toolbox": {
-    "name": "North Carolina Extension Gardener Plant Toolbox — flammability ratings",
+    "name": "North Carolina Extension Gardener Plant Toolbox — plant profiles and flammability ratings",
     "publisher": "NC State Extension (plants.ces.ncsu.edu)",
     "url": "https://plants.ces.ncsu.edu/find_a_plant/",
     "region": "North Carolina / southeastern US",
@@ -1058,11 +2105,13 @@
     "editions": [
       {
         "edition": "2026",
-        "date": "2026"
+        "date": "2026",
+        "url": "https://plants.ces.ncsu.edu/",
+        "accessedOn": "2026-08-26"
       }
     ],
     "scaleNotes": "Per-plant flammability tags — low / medium / high / extreme — on the Toolbox's plant pages and search facets. Verdict map: low = recommend, medium = mixed, high and extreme = avoid. Tier is deliberately omitted: the Toolbox does not document who assigned its flammability values, so rows count as corroboration only, never sole Tier 1 support. Rows for plants already rated by Bardon's 2005 Firewise Landscaping list resolve to bardon-2005 via the chain-to-root rule.",
-    "notes": "Facts extracted with attribution from the public search facets (240 rated plants, 2026-08-23); Toolbox photos are per-image licensed (many NC/ND) and are not reused. Exact-match audit 2026-08-25: 238 facet rows resolve to 217 existing GBIF owners; 10 rows use nine documented exact synonym/spelling/genus reconciliations, and two cultivar/hybrid labels are held. Three plants appear under both the high and extreme tags; both values are preserved. No undocumented Toolbox row can supply sole Tier 1 support."
+    "notes": "Facts extracted with attribution from the public search facets (240 rated plants, 2026-08-23); Toolbox photos are per-image licensed (many NC/ND) and are not reused. Exact-match audit 2026-08-25: 238 facet rows resolve to 217 existing GBIF owners; 10 rows use nine documented exact synonym/spelling/genus reconciliations, and two cultivar/hybrid labels are held. Three plants appear under both the high and extreme tags; both values are preserved. No undocumented Toolbox row can supply sole Tier 1 support. Hardiness acquisition 2026-08-26 revisited 54 exact profile URLs that lacked typed tolerance data: 53 publish contiguous USDA half-zone series and one, the profile for Symphyotrichum retroflexum (Aster curtisii), publishes no hardiness field. The exact miss is retained rather than inferred."
   },
   "ncsu-ag874": {
     "name": "Fire-Resistant Landscaping in North Carolina (AG-874)",
@@ -1083,7 +2132,150 @@
       }
     ],
     "scaleNotes": "202 North Carolina natives across three tables — 106 low, 61 medium, 35 high flammability — with growth-form groupings and habitat columns. Verdict map: low = recommend, medium = mixed, high = avoid. The successor to Bardon's 2005 Firewise Landscaping list (Bardon is a co-author): the 2005 \"extreme\" class was dropped, so former extreme species reappear here as high.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated in the official publication PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "AG-874-reviewed-2025-03-26",
+      "sourceUrl": "https://content.ces.ncsu.edu/fire-resistant-landscaping-in-north-carolina",
+      "retrievedOn": "2026-08-23",
+      "sha256": "5b72c0229eca59579dcc02a3be3da7906a00fed352be9b535e54e5b942627976"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "NC"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "The complete three-table AG-874 plant list is explicitly for North Carolina and contains 202 low-, medium-, or high-flammability rows. FireApproved accounts for all source rows under its strict taxonomy and lineage rules; source scope does not establish local suitability at a particular North Carolina site.",
+        "asOf": "2025-03-26",
+        "sourceVersion": "AG-874-reviewed-2025-03-26"
+      }
+    ],
     "notes": "Rows whose class is unchanged from the 2005 list resolve to bardon-2005 (same nc-tree lineage, edition corroboration); rows where the class changed carry their own AG-874 evidence naming the delta. Not independent of bardon-2005 or of the NC Plant Toolbox rows that chain to it."
+  },
+  "nevada-nac-555-010-r152-17": {
+    "name": "Nevada NAC 555.010 Category A, B, and C Noxious Weeds",
+    "publisher": "Nevada State Quarantine Officer",
+    "url": "https://www.leg.state.nv.us/NAC/NAC-555.html#NAC555Sec010",
+    "region": "Nevada",
+    "evidenceKind": "regulatory-list",
+    "lineage": "nevada-nac-555-010",
+    "scaleNotes": "NAC 555.010 lists 31 Category A, 12 Category B, and 11 Category C weeds. Category A carries statewide exclusion, eradication wherever found, and nursery-stock-dealer-premises eradication; Category B carries exclusion where possible and dealer-premises eradication; Category C carries dealer-premises eradication. NRS 555.150 separately places control duties on named landowners, occupants, land controllers, companies, counties, cities, and districts in the manner and whenever required by the State Quarantine Officer. The list does not itself state a general sale, import, transport, propagation, purchase, or bare-possession ban.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "NAC-555.010-R152-17-effective-2018-08-30-reviewed-2026-08-26",
+      "sourceUrl": "https://www.leg.state.nv.us/NAC/NAC-555.html#NAC555Sec010",
+      "retrievedOn": "2026-08-26",
+      "sha256": "e4451fb56d1111aff9709a6c9d46d558dfd2d5ee3ff0629012b6fb4e12a62fa2",
+      "inputs": [
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/nevada-nac-555-current-2026-08-26.html",
+          "bytes": 655990,
+          "sha256": "56bfbe6b7e0aaaf7ec95cee3abc406900f14e3de011e13170bbe6911944a004e",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/nevada-nrs-555-current-2026-08-26.html",
+          "bytes": 250114,
+          "sha256": "364bd243d84b702b1995a2be53433f609eeb6d90d3a642858be1f4e97a1a10aa",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/nevada-r152-17ap-effective-2018-08-30.pdf",
+          "bytes": 142835,
+          "sha256": "4592409e29c277b152cc9d3fe30120236230bea34ac293b6899d5aa7efbac8a2",
+          "role": "authoritative"
+        }
+      ]
+    },
+    "regulatoryPublication": {
+      "designationCount": 54,
+      "publishedItemCount": 5,
+      "holdCounts": {
+        "total": 49,
+        "unmatched": 48,
+        "ambiguous": 0,
+        "complex": 1
+      }
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "designationDomain": "whole-plant",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "NV"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "All 54 current NAC 555.010 rows are parsed and terminally routed. Fifty-two simple species rows and the Tamarix genus row are exact same-rank candidates; the compound Lythrum species-and-cultivars row remains held. Five unique exact scientific-name or accepted-name owners publish, and 48 unmatched candidates remain held. Tamarix publishes only on the exact genus owner.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "NAC-555.010-R152-17-effective-2018-08-30-reviewed-2026-08-26"
+      }
+    ],
+    "notes": "R152-17 last amended NAC 555.010 effective August 30, 2018. The current NAC chapter page was revised April 13, 2026 and separately carries the chapter-level marker \"NAC-555 Revised Date: 8-24\"; August 2024 is not represented as the section amendment date. Current NRS Chapter 555 is through the 2025 statutes and was revised April 15, 2026. Notice, county abatement, cost objection/hearing, lien, and federal-law limits remain operational qualifications rather than new plant-list activities. Whole-plant law, seed regulation, ecological invasion, and fire performance remain separate dimensions."
+  },
+  "new-york-6-nycrr-part-575-2015": {
+    "name": "New York 6 NYCRR Part 575 Prohibited and Regulated Invasive Species",
+    "publisher": "New York State Department of Environmental Conservation",
+    "url": "https://dec.ny.gov/nature/invasive-species/resources-regulations/regulations",
+    "region": "New York",
+    "evidenceKind": "regulatory-list",
+    "lineage": "new-york-6-nycrr-part-575",
+    "scaleNotes": "Part 575 distinguishes 69 prohibited plants from six regulated plants. Prohibited plants have specified possession, trade, transport, introduction, propagation, and disposal restrictions. Regulated plants remain legal to possess, sell, buy, propagate, and transport, but introduction into a free-living state is restricted and sale or landscape supply requires the rule's warning and spread-prevention information.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "6-NYCRR-Part-575-effective-2015-03-10-reviewed-2026-08-26",
+      "sourceUrl": "https://dec.ny.gov/nature/invasive-species/resources-regulations/regulations",
+      "retrievedOn": "2026-08-26",
+      "sha256": "fb945defb5b0a8952598044f06634f7c64f48b733cb6647ab36fc4fce84d9c65",
+      "inputs": [
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/new-york-part-575-current-2026-08-26.html",
+          "bytes": 95161,
+          "sha256": "0c788020baca8e1a8c8beab0afdaf6507cebd83cc02d6559ea043b8265d6a093",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/new-york-part-575-list-2014.pdf",
+          "bytes": 46358,
+          "sha256": "0b42d3a6e81f96fd2361febd71a6a516620cf95c896466aa9bf21cdc2a6da06e",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/new-york-part-575-adoption-2014-09-10.pdf",
+          "bytes": 367663,
+          "sha256": "1ec1aa0de6e21018576ab623b8c99bf44b0b59b5d617bae3b72fedcb8b5ac2c5",
+          "role": "authoritative"
+        }
+      ]
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "NY"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "All 75 plant designations in the official printable Part 575 list are parsed and terminally routed: 69 prohibited and six regulated. Seventy-two primary species names are exact-match candidates; three hybrids remain held. Only unique same-rank primary scientific or accepted-name matches publish, producing 31 assertions. Parenthetical source names block unsafe negative receipts but never create synonym-based positives.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "6-NYCRR-Part-575-effective-2015-03-10-reviewed-2026-08-26"
+      }
+    ],
+    "notes": "The current NYSDEC page binds the 2014 printable list to the current program surface, names nine conditionally exempt cultivars under 575.8(a)(4), and identifies the six regulated plants that require labels. The official New York State Register adoption notice establishes filing 753 and the March 10, 2015 effective date and supplies the authority and effect summary. Cultivar exemptions are conditions, not species-wide clearances. The expired Japanese barberry grace period is retained only as history. Ecological invasion, legal status, and fire performance remain separate dimensions."
   },
   "nfs-living-with-fire-nebraska": {
     "name": "Living With Fire — A Homeowner's Guide, Eastern Nebraska Edition",
@@ -1100,7 +2292,75 @@
       }
     ],
     "scaleNotes": "The exact instruction \"Avoid juniper, mugo pine and arborvitae\" maps the taxon-resolvable Juniperus genus and Pinus mugo species to avoid.",
-    "notes": "The guide is adapted from the University of Nevada Living With Fire program. It has no plant table, but its Lean, Clean and Green Area tips contain a direct avoid sentence. Juniper and mugo pine support exact GBIF identities; arborvitae and the guide's other cedar/redcedar wording are held because the common names do not safely identify a single taxon. A currently indexed Western Nebraska companion timed out during retrieval, so no facts were reconstructed from its search result. Eastern-edition PDF SHA-256: 495902d0ae6adfc2f17ec8da69233f0535e5bf795afa29aed0c42af6b3248c90."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the archived official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Nebraska-Forest-Service-Living-With-Fire-East-2011",
+      "sourceUrl": "http://web.archive.org/web/20240626052536/https://nfs.unl.edu/documents/fireprotection/Living%20with%20Fire%20Eastern%20NE%208x11%20low.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "495902d0ae6adfc2f17ec8da69233f0535e5bf795afa29aed0c42af6b3248c90"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "NE"
+          ],
+          "regions": [
+            "Eastern Nebraska"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Nebraska Forest Service labels this the Eastern Nebraska Edition. FireApproved publishes the two exact taxon-resolvable owners from its direct avoid sentence as eastern Nebraska context. Arborvitae and other ambiguous common names remain held; Western Nebraska is not inferred.",
+        "asOf": "2011-01-01",
+        "sourceVersion": "Nebraska-Forest-Service-Living-With-Fire-East-2011"
+      }
+    ],
+    "notes": "The guide is adapted from the University of Nevada Living With Fire program. It has no plant table, but its Lean, Clean and Green Area tips contain a direct avoid sentence. Juniper and mugo pine support exact GBIF identities; arborvitae and the guide's other cedar/redcedar wording are held because the common names do not safely identify a single taxon. A currently indexed Western Nebraska companion timed out during retrieval, so no facts were reconstructed from its search result. Eastern-edition PDF SHA-256: 495902d0ae6adfc2f17ec8da69233f0535e5bf795afa29aed0c42af6b3248c90. The pinned archival PDF is 5,278,436 bytes."
+  },
+  "nm-emnrd-firewise-plant-list": {
+    "name": "FireWise Plant List for New Mexico",
+    "publisher": "New Mexico Energy, Minerals and Natural Resources Department, Forestry Division",
+    "url": "https://www.emnrd.nm.gov/sfd/wp-content/uploads/sites/4/Wui_plantlist.pdf",
+    "region": "New Mexico",
+    "tier": 2,
+    "evidenceKind": "compiled",
+    "lineage": "csu-nmsu-firewise",
+    "editions": [
+      {
+        "edition": "Forestry Division PDF",
+        "date": "2003-10-08"
+      }
+    ],
+    "scaleNotes": "One affirmative FireWise list with separate water, sun/shade, mature-height, elevation, and bloom fields. Elevation cells are source-coded Y = yes, N = not recommended, ? = unknown or doubtful, or blank = not stated. Listed = recommend, with every elevation code retained beside the plant evidence.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "NM-EMNRD-Forestry-WUI-Plant-List-2003-10-08",
+      "sourceUrl": "https://www.emnrd.nm.gov/sfd/wp-content/uploads/sites/4/Wui_plantlist.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "60b99e225fbaf1318bd8212aebd65c0ad7848da3ab8cba16fc82663d26c56b25"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "NM"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "New Mexico Forestry Division publishes this as its FireWise Plant List for New Mexico. FireApproved accounts for all 140 printed rows and publishes 95 exact same-rank owners already represented in the directory; 29 exact taxa without an existing record, 14 unresolved spellings or higher-rank matches, one compound taxon cell, and one species row whose only apparent owner has an infraspecific printed identity remain held. Every published row retains the source's Y, N, ?, or blank elevation cells. Publication scope does not erase those elevation limits or establish suitability for every New Mexico site.",
+        "asOf": "2003-10-08",
+        "sourceVersion": "NM-EMNRD-Forestry-WUI-Plant-List-2003-10-08"
+      }
+    ],
+    "notes": "The Forestry Division's current protecting-your-home page still links the 74,648-byte official PDF as \"NM Fire Resistant Plants.\" The PDF title is FireWise Plant List for New Mexico and its metadata creation date is October 8, 2003. It says the pamphlet borrowed heavily from Chuck Dennis's Colorado State Forest Service / Colorado State University publication, so this source stays in the existing csu-nmsu-firewise lineage and never creates an independent vote beside the related Arizona compilation. The source also says plant choice, spacing, and maintenance are critical; source-wide maintenance prose is not projected into plant-specific maintenance rows. The visually checked extraction contains 36 tree/large-shrub rows, 32 shrub rows, and 72 flower/ground-cover rows. PDF SHA-256: 60b99e225fbaf1318bd8212aebd65c0ad7848da3ab8cba16fc82663d26c56b25."
   },
   "nord-green-1977-psw124": {
     "name": "Low-volume and slow-burning vegetation for planting on clearings in California chaparral",
@@ -1168,7 +2428,35 @@
       }
     ],
     "scaleNotes": "Table 1 prints low, mod, high, or unknown in a Fire Hazard column. Low maps to recommend, mod to mixed, and high to avoid. Unknown rows are not evidence. The guide calls the ratings rough estimates of potential flammability, says they are not based on scientific trials, and says its low/high values were derived from a variety of sources.",
-    "notes": "Tier 2 compiled evidence in the unr-tree lineage. The official 173-page PDF is captured locally with a layout-preserving text extraction. Its 85 rated rows expand to 86 botanical entries and 83 exact evidence owners; two ambiguous backbone matches are held and 43 unknown rows create no evidence. The broader TRPA Recommended Plant List is not treated as a blanket fire recommendation."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Nevada-Extension-Bulletin-06-01-2006",
+      "sourceUrl": "https://forestry.nv.gov/uploads/missions/20210304_AMT_2006_Home_Landscaping_Guide_Lake_Tahoe.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "c856f7f1a965843696f97589b29dc3d3208579e318846deb0be03b4e6188a973"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "CA",
+            "NV"
+          ],
+          "regions": [
+            "Lake Tahoe Basin"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Nevada Division of Forestry and University of Nevada Cooperative Extension publish Bulletin 06-01 for the Lake Tahoe Basin and vicinity. FireApproved publishes 83 exact rated owners as basin context across Nevada and California. Rough estimates are not statewide or site ratings.",
+        "asOf": "2006-01-01",
+        "sourceVersion": "Nevada-Extension-Bulletin-06-01-2006"
+      }
+    ],
+    "notes": "Tier 2 compiled evidence in the unr-tree lineage. The official 173-page PDF is captured locally with a layout-preserving text extraction. Its 85 rated rows expand to 86 botanical entries and 83 exact evidence owners; two ambiguous backbone matches are held and 43 unknown rows create no evidence. The broader TRPA Recommended Plant List is not treated as a blanket fire recommendation. The live official 8,670,759-byte PDF exactly matched the pinned input on 2026-08-26; SHA-256: c856f7f1a965843696f97589b29dc3d3208579e318846deb0be03b4e6188a973."
   },
   "ogm-yardop-circulars": {
     "name": "Yanan Orman Alanlarının Rehabilitasyonu ve Yangına Dirençli Ormanlar Tesisi Projesi — 6976 Sayılı YARDOP Tamimi",
@@ -1187,6 +2475,60 @@
     "scaleNotes": "The circular directs managers to preserve, encourage, or plant taxa it calls fire-resistant, slow-burning, or suitable for fire-prevention belts. These named operational selections map to recommend. Repeated taxa across the general principles, facility, and stream-vegetation clauses cast one row.",
     "notes": "Seventeen unique exact GBIF owners are admitted. Turkish group names use genus rank; species rank is used only for unambiguous named plants. Akasya and katır tırnağı are held as taxonomically ambiguous common names. The parenthetical around existing natural species in red-pine areas is not converted because its exclusion semantics are unclear. HTML SHA-256: 4ddfb1d2b7f28058c843494fdecf9dbe87976755b0cf3820fe288ab9f80f8273."
   },
+  "ohio-oac-901-5-30-01-2023": {
+    "name": "Ohio OAC 901:5-30-01 Invasive Plant Species",
+    "publisher": "Ohio Department of Agriculture",
+    "url": "https://codes.ohio.gov/ohio-administrative-code/rule-901%3A5-30-01",
+    "region": "Ohio",
+    "evidenceKind": "regulatory-list",
+    "lineage": "ohio-oac-901-5-30-01",
+    "scaleNotes": "The rule designates 63 invasive plants and prohibits specified sale, propagation, distribution, import, and dissemination activities. Disposal and control must avoid further spread; research or educational use requires a department compliance agreement. ORC 901.50 excludes cultivated plants grown as food or livestock feed under generally accepted agricultural practices, including USDA APHIS-authorized plants. Reed canary grass sold for animal feed also has a rule-specific active exception. The Callery pear and common privet transition dates are retained only as expired historical facts.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "OAC-901:5-30-01-effective-2023-02-13",
+      "sourceUrl": "https://codes.ohio.gov/ohio-administrative-code/rule-901%3A5-30-01",
+      "retrievedOn": "2026-08-26",
+      "sha256": "4c6bd082f335956c745b2150f13dc5871692eb5e42ccefb362219b8f5ff60c35",
+      "inputs": [
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/ohio-oac-901-5-30-01-2026-08-26.html",
+          "bytes": 23517,
+          "sha256": "78b7024cebd7f8d81a1c60bed032c8ad0fb7d4a97b782835cafb30fe24a3346d",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/ohio-oac-901-5-30-01-effective-2023-02-13.pdf",
+          "bytes": 212037,
+          "sha256": "0db21528a327b06a608ddee706a2c430cbbc414dd5987ad02153594855fcc03c",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/ohio-orc-901-50-2026-08-26.html",
+          "bytes": 16500,
+          "sha256": "e52b5240a8d1a5edf0a365e2d99e816ea707afc818bc06f9ac928a8d6b2a8b64",
+          "role": "authoritative"
+        }
+      ]
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "OH"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "All 63 paragraph (A) designations are parsed with terminal dispositions. Fifty-nine simple species rows are exact-match candidates; three infraspecific rows and one hybrid remain held. Only unique same-rank scientific or accepted-name matches publish, producing 23 assertions.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "OAC-901:5-30-01-effective-2023-02-13"
+      }
+    ],
+    "notes": "ORC 901.50's cultivated food/livestock-feed exclusion and the rule's narrower reed-canary-grass feed exception are modeled as separate material-scope boundaries; neither is a blanket clearance for landscape use. The rule also authorizes the director to exempt a cultivar when scientific evidence shows it is not invasive. No current official exemption roster was located, so FireApproved does not claim that no exemptions exist and does not project a species result onto cultivar pages. Fallopia japonica remains a synonym-only hold under the automatic publication rule. Ohio's separate noxious-weed road-control, seed, and purple-loosestrife permit authorities are not part of this source."
+  },
   "okstate-grow-firewise-plantings-2022": {
     "name": "Firewise Plantings Can Help Protect Property",
     "publisher": "Oklahoma State University Extension",
@@ -1202,6 +2544,22 @@
       }
     ],
     "scaleNotes": "Binary prose guidance. Sedum and hellebore are named as good landscape choices because they remain green in winter; pine, juniper, and Yaupon holly are called highly flammable and should not be planted near a home or other structure.",
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "OK"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Oklahoma State University Extension frames the article around statewide Oklahoma heat, drought, wildfire, and plant selection and publishes five unambiguous genus owners. Ambiguous common names remain excluded, and the prose examples do not establish suitability for every Oklahoma site.",
+        "asOf": "2022-08-28",
+        "sourceVersion": "OSU-Extension-Grow-Firewise-2022-08-28"
+      }
+    ],
     "notes": "Five unambiguous taxa are retained. The common names “ice plant” and “cedars” are excluded because the source does not identify a genus or species. The publisher page and PDF were browser-readable on 2026-08-25 but returned HTTP 403 to command-line capture; the exact taxon-bearing paragraphs are archived in the research capture."
   },
   "onf-dfci-haies-2012": {
@@ -1254,7 +2612,32 @@
       }
     ],
     "scaleNotes": "Five-point flammability rating (VL / L / M / H / VH; the perennials table also uses the ranges L-M and L-H) across eight tables of trees, shrubs, ground covers, vines, perennials, and grasses, plus a mulch table. Verdict map: VL and L = recommend, M = mixed, H and VH = avoid; range ratings = mixed. Ratings are the authors' expert experience, not a published key.",
-    "notes": "The only rated Midwest flammability list; recovered from the defunct firewise.org file area via the Wayback Machine (sole surviving copy). Co-author Larry Steward (OSU ATI) is also the rater behind the Fire Performance Plant Selector, so B921 and FPS are not fully independent. Siting guidance is per plant category, not per row; the mulch table is recorded in guides, not as plant records."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the archived official publication",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "OSU-Extension-Bulletin-921-2006",
+      "sourceUrl": "http://web.archive.org/web/20070714035936/http://www.firewise.org/usa/files/ohio_plantlist.pdf",
+      "retrievedOn": "2026-08-23",
+      "sha256": "a383aab09f3daff6d3600bd2366b27e4ae3a79d442272e691ee236070b6c372b"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "OH"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Ohio State University Extension Bulletin 921 is an Ohio publication that describes Ohio fire seasons and landscape conditions and labels nativity to Ohio. FireApproved publishes 352 exact source-owning plant records from its eight rated tables. This historical publication scope does not assert current extension endorsement or that a listed plant suits every Ohio site.",
+        "asOf": "2006-03-01",
+        "sourceVersion": "OSU-Extension-Bulletin-921-2006",
+        "notes": "The mulch table and category-wide placement prose remain in the companion guide rather than being projected into every plant evidence row."
+      }
+    ],
+    "notes": "The only rated Midwest flammability list; recovered from the defunct firewise.org file area via the Wayback Machine (sole surviving copy). Co-author Larry Steward (OSU ATI) is also the rater behind the Fire Performance Plant Selector, so B921 and FPS are not fully independent. Siting guidance is per plant category, not per row; the mulch table is recorded in guides, not as plant records. The archived PDF is 1,053,160 bytes; SHA-256: a383aab09f3daff6d3600bd2366b27e4ae3a79d442272e691ee236070b6c372b."
   },
   "osu-em-9103": {
     "name": "Fire-resistant Landscape Plants for the Willamette Valley (EM 9103)",
@@ -1271,6 +2654,33 @@
       }
     ],
     "scaleNotes": "Binary recommendation by presence among the publication's 178 individual groundcover, perennial, shrub/woody-vine, and tree profiles. Verdict map: profiled as fire-resistant = recommend.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the captured publication",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "OSU-EM-9103-2015-02",
+      "sourceUrl": "https://www.canbyfire.org/files/074d2a9e3/Fire-Resistant-Plants_Willamette-Valley.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "559d55f0552347220031a05dbb03833574a4b15ba134e7934b7301c6ccd943bb"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "OR"
+          ],
+          "regions": [
+            "Willamette Valley"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "OSU Extension says EM 9103 highlights fire-resistant plants that thrive under Willamette Valley growing conditions. FireApproved publishes 172 exact owners only as valley context. The guide shares the PNW 590 lineage and is not a second independent vote or statewide site clearance.",
+        "asOf": "2015-02-01",
+        "sourceVersion": "OSU-EM-9103-2015-02"
+      }
+    ],
     "notes": "OSU's Willamette Valley companion to PNW 590. The introduction says the guide highlights fire-resistant plants that thrive under Willamette Valley growing conditions and points readers to PNW 590 for more information, so both sources remain one pnw590-tree lineage vote. The legacy OSU and registry PDF endpoints returned 403 on 2026-08-25; the captured complete OSU publication is hosted by Canby Fire District. Exact reconciliation represents 172 profiles on 172 GBIF owners and holds six non-exact printed taxa. Printed valid USDA zone ranges are retained and used only to fill previously empty zone fields."
   },
   "osu-plant-profile-galleries": {
@@ -1288,6 +2698,46 @@
       }
     ],
     "scaleNotes": "Binary recommendation by presence in one of five galleries whose headings direct readers to choose the profiled plants for a fire-resistant landscape. Verdict map: profiled = recommend.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated; gallery pages carry an OSU copyright notice",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "OSU-fire-resistant-plant-galleries-November-2023",
+      "sourceUrl": "https://extension.oregonstate.edu/gallery/fire-resistant-plant-profiles-shrubs",
+      "retrievedOn": "2026-08-25",
+      "sha256": "7dd97156b2e1ccb5e7fec36725570293d0e570ccfa702254c425db6bde987c69",
+      "inputs": [
+        {
+          "path": "docs/research/sources/osu-plant-profile-galleries-broadleaf-evergreens.html",
+          "bytes": 141087,
+          "sha256": "aaca7f353e34a3486118b6583e180e1f0971bd3bfaacef7cd5d4efba07282842",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/osu-plant-profile-galleries-groundcovers.html",
+          "bytes": 177906,
+          "sha256": "6c667a99c64519d035294214b2e1f02ef0fac47d73fbdca81a66d7407255426d",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/osu-plant-profile-galleries-perennials.html",
+          "bytes": 310671,
+          "sha256": "f281ee9b33701f4ce10262acc091dc2b998bd245377396ef19faa33ae466d541",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/osu-plant-profile-galleries-shrubs.html",
+          "bytes": 219715,
+          "sha256": "3835003dbf83627615557ea106c9685b3106efc4ff96d6e0953eacfd5945cf0a",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/osu-plant-profile-galleries-trees.html",
+          "bytes": 226052,
+          "sha256": "c93a39824d14296e4fe557e2777bae38c6796605424a9752e920817390f3c3f4",
+          "role": "authoritative"
+        }
+      ]
+    },
     "notes": "Web presentation of the 2023 PNW 590 list, with descriptive profiles and printed USDA zones. The gallery pages explicitly point to PNW 590 for complete details, so both sources remain one pnw590-tree lineage vote. Exact reconciliation represents 146 printed taxon alternatives from 155 profiles on 145 GBIF owners. Thirteen cultivar-specific, hybrid-group, or non-exact profiles are held; the shrub and tree galleries' two Serviceberry profiles remain separate evidence rows on the shared Amelanchier owner."
   },
   "ozbreed-fire-retardant-plants": {
@@ -1327,6 +2777,32 @@
       }
     ],
     "scaleNotes": "Binary recommend (presence on list). Carries USDA zone ranges per plant.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated in the official publication PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "PNW-590-October-2023",
+      "sourceUrl": "https://extension.oregonstate.edu/sites/extd8/files/documents/lommena/fire-resistant-plants-for-home-landscapes-111423.pdf",
+      "retrievedOn": "2026-08-29",
+      "sha256": "926600eab892ce52962b3cf339d95923f85f1b78e410eab3ce4042c0faf93886"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "ID",
+            "OR",
+            "WA"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The October 2023 joint Pacific Northwest Extension publication explicitly names Oregon, Washington, and Idaho and publishes more than 150 plant profiles. FireApproved has normalized 155 exact plant records from the source; publication scope does not assert that every listed plant suits every site within the three states.",
+        "asOf": "2023-10-01",
+        "sourceVersion": "PNW-590-October-2023"
+      }
+    ],
     "notes": "Root of the largest US derivation tree. Joint publication of three land-grant universities; the most-mirrored fire plant document in the West."
   },
   "radtke-1983-psw-gtr-067": {
@@ -1366,7 +2842,30 @@
       }
     ],
     "scaleNotes": "The source's HIGHLY Flammable Plants section maps to avoid. Its LESS Flammable Plants with some fire resistance section maps to recommend.",
-    "notes": "The two-page brochure was created in January 2005 and later re-hosted by SCFC. It supplies common names only and cites no underlying list or method. Ingestion therefore remains at genus rank: 72 unique source labels have a conservative genus identity, collapsing to 63 exact accepted-GBIF evidence owners. Arborvitae, pine straw, and Cleyera are held because the labels do not support a single safe genus mapping; the repeated Spirea bullet is represented once. No species were inferred from common names. Tier remains unset and lineage unknown. Official PDF SHA-256: e75db5c74551ea0977b0fb08cfd258b40328f29e7c4b4586cebdcb38bd3a5f57."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "SCFC-Fire-Smart-Plant-List-2005",
+      "sourceUrl": "https://www.scfc.gov/wp-content/uploads/2021/03/ignition-resistant-landscaping-plant-list.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "e75db5c74551ea0977b0fb08cfd258b40328f29e7c4b4586cebdcb38bd3a5f57"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "SC"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "South Carolina Forestry Commission publishes this explicitly as its Fire Smart Plant List for South Carolina. FireApproved publishes 63 exact genus owners from 72 unique common-name labels; unsafe common-name mappings and duplicates are not broadened. The brochure calls the list non-inclusive and does not establish species-level or site-specific suitability.",
+        "sourceVersion": "SCFC-Fire-Smart-Plant-List-2005"
+      }
+    ],
+    "notes": "The two-page brochure was created in January 2005 and later re-hosted by SCFC. It supplies common names only and cites no underlying list or method. Ingestion therefore remains at genus rank: 72 unique source labels have a conservative genus identity, collapsing to 63 exact accepted-GBIF evidence owners. Arborvitae, pine straw, and Cleyera are held because the labels do not support a single safe genus mapping; the repeated Spirea bullet is represented once. No species were inferred from common names. Tier remains unset and lineage unknown. The current official 218,806-byte download exactly matched the reviewed input on 2026-08-26. Official PDF SHA-256: e75db5c74551ea0977b0fb08cfd258b40328f29e7c4b4586cebdcb38bd3a5f57."
   },
   "sdsu-protecting-home-landscape": {
     "name": "Protecting Your Home and Landscape Against Wildfires",
@@ -1383,7 +2882,35 @@
       }
     ],
     "scaleNotes": "The sentence naming common flammable trees maps Juniperus, Pinus, Abies, and Picea genus rows to avoid. The adjacent text discourages conifers in the immediate and intermediate Home Ignition Zones.",
-    "notes": "The page supplies four safe genus identities and no separate low-flammability taxon list. Its references include South Dakota Wildland Fire, NFPA, USDA Black Hills National Forest, CSU, and USU, but the genus sentence has no cell-level provenance or method, so lineage remains unknown. Official HTML SHA-256: f9a7b9901ef1b6e4301e75adb59905e01ed641cbf5264f0e0be41fba510c9d63."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official web page",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "SDSU-Extension-web-2026-04-08",
+      "sourceUrl": "https://extension.sdstate.edu/protecting-your-home-and-landscape-against-wildfires",
+      "retrievedOn": "2026-08-25",
+      "sha256": "f9a7b9901ef1b6e4301e75adb59905e01ed641cbf5264f0e0be41fba510c9d63"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "SD"
+          ],
+          "regions": [
+            "Western South Dakota",
+            "Black Hills"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The current SDSU Extension page explicitly addresses western South Dakota, particularly the Black Hills. FireApproved publishes its four exact genus owners. This is current bounded regional context, not statewide South Dakota coverage or a finding that every member of a genus behaves alike.",
+        "asOf": "2026-04-08",
+        "sourceVersion": "SDSU-Extension-web-2026-04-08"
+      }
+    ],
+    "notes": "The page supplies four safe genus identities and no separate low-flammability taxon list. Its references include South Dakota Wildland Fire, NFPA, USDA Black Hills National Forest, CSU, and USU, but the genus sentence has no cell-level provenance or method, so lineage remains unknown. Official HTML is 57,705 bytes and was retrieved 2026-08-25. Official HTML SHA-256: f9a7b9901ef1b6e4301e75adb59905e01ed641cbf5264f0e0be41fba510c9d63."
   },
   "shan-2003-leaf-fire-ranking": {
     "name": "Ordering and sorting of fire resistance of tree leaves",
@@ -1454,6 +2981,33 @@
       }
     ],
     "scaleNotes": "The source defines flammability hazard as the ease that a plant can burn at high temperatures for a prolonged time and says ratings above Medium should not be planted within five feet of a building. Very low and low map to recommend, medium/med maps to mixed, and high/very high maps to avoid.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the archived publisher PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Sun-City-Texas-Firewise-guide-2015-01-14",
+      "sourceUrl": "http://web.archive.org/web/20250114065810/https://www.sariverauthority.org/wp-content/uploads/2023/09/FIREWISE-PLANT-LIST-Sun-City.pdf",
+      "retrievedOn": "2026-08-25",
+      "sha256": "c97257e859255787dfec41cac2f8bf19fc1ba2592aedb2af5a3359e7108d3e6d"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "TX"
+          ],
+          "regions": [
+            "Sun City Texas, Georgetown"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The guide is authored for the Sun City Texas community in Georgetown. FireApproved publishes 142 exact owners only as community-level context. It is an archived HOA exhibit with unknown rating lineage, not a current statewide Texas source or an independent Tier 1 determination.",
+        "asOf": "2015-01-14",
+        "sourceVersion": "Sun-City-Texas-Firewise-guide-2015-01-14"
+      }
+    ],
     "notes": "The 11-page guide contains 159 rows with a populated flammability-hazard cell. Fifteen cultivar-specific or otherwise inexact identities are held rather than generalized to a species. The remaining 145 taxon-resolvable occurrences collapse to 142 exact accepted-GBIF evidence owners. Rows carrying only the separate INVASIVE warning and no flammability cell are not fire evidence. The guide says its information came from USDA PLANTS, Firewise Communities USA, Native and Adapted Landscape Plants, and other sources, but it gives no cell-level provenance or rating method, so lineage remains unknown. Archived PDF SHA-256: c97257e859255787dfec41cac2f8bf19fc1ba2592aedb2af5a3359e7108d3e6d."
   },
   "tadaki-kira-fire-classification": {
@@ -1475,6 +3029,14 @@
       }
     ],
     "scaleNotes": "Table 10-2 classifies 83 printed tree or plant labels by fire-protection power: large (大), medium (中), small (小), or unsuitable for fire protection (防火には不適). Large is ingested as recommend, unsuitable as avoid, and the two intermediate categories remain mixed.",
+    "acquisition": {
+      "upstreamLicense": "All rights reserved on the Kagoshima Prefecture page",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Kagoshima-web-reproduction-2025-01-30",
+      "sourceUrl": "https://www.pref.kagoshima.jp/ah12/kurashi-kankyo/sumai/kankyo/hoshin3/theme10/273.html",
+      "retrievedOn": "2026-08-29",
+      "sha256": "186fa9b5423f67bfe25f33bc82b19eed23eafee1f8625356831ec32a859d487a"
+    },
     "notes": "The Kagoshima page attributes the complete table to Tadaki and Kira's 1982 book. Exact Japanese vernacular names in the GBIF backbone support the species/variety mappings; explicit source groups such as camellias and maples are retained at genus rank. Labels without a unique exact bridge are held. Web capture SHA-256: 186fa9b5423f67bfe25f33bc82b19eed23eafee1f8625356831ec32a859d487a."
   },
   "tamfs-firewise-landscaping-in-texas": {
@@ -1492,7 +3054,31 @@
       }
     ],
     "scaleNotes": "Twelve common-name examples appear in three placement bands: acceptable in the first 10 feet, 10 to 30 feet, and 30 feet and beyond. Ten labels resolve honestly at genus rank; Primrose and Bluebells remain taxonomy-held.",
-    "notes": "The guide says its general framework is adapted from the UF/IFAS-USFS Fire in the Wildland-Urban Interface series, while the Texas plant choices are its own. The plant rows therefore use a Texas-specific lineage rather than adding a duplicate UF/IFAS vote."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Texas-AM-Forest-Service-Firewise-Landscaping-2012-10-08",
+      "sourceUrl": "https://tfsweb.tamu.edu/wp-content/uploads/2024/05/EDITED202012firelandscape.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "3375a2fd9c38f3c487c9cc2c01d46b5ada22519c4f5fc8f5165d7297ae0edfc1"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "TX"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Texas A&M Forest Service says the guide's landscape elements apply across Texas and at all scales. FireApproved publishes ten exact genus owners from its placement-band examples and holds Primrose and Bluebells rather than guessing taxa. The examples are not a complete Texas plant palette.",
+        "asOf": "2012-10-08",
+        "sourceVersion": "Texas-AM-Forest-Service-Firewise-Landscaping-2012-10-08"
+      }
+    ],
+    "notes": "The guide says its general framework is adapted from the UF/IFAS-USFS Fire in the Wildland-Urban Interface series, while the Texas plant choices are its own. The plant rows therefore use a Texas-specific lineage rather than adding a duplicate UF/IFAS vote. The live official 13,504,978-byte PDF exactly matched the pinned input on 2026-08-26; SHA-256: 3375a2fd9c38f3c487c9cc2c01d46b5ada22519c4f5fc8f5165d7297ae0edfc1."
   },
   "tfs-fire-resisting": {
     "name": "Fire Resisting Garden Plants for the Urban Fringe and Rural Areas",
@@ -1513,6 +3099,14 @@
       }
     ],
     "scaleNotes": "Three flammability groups — High (do not plant or keep inside the Building Protection Zone; avoid in the Fuel Modified Zone), Moderate (avoid in the Building Protection Zone), and Low (acceptable in the Building Protection Zone). Verdict map: low = recommend, moderate = mixed, high = avoid. Native codes: TN Tasmanian native, AN mainland Australian native, E exotic, X known environmental weed in Tasmania.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated in the Tasmania Fire Service brochure",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "TFS-brochure-v8-August-2017",
+      "sourceUrl": "https://www.fire.tas.gov.au/mysite/publications/1709%20Brochure.pdf",
+      "retrievedOn": "2026-08-23",
+      "sha256": "064e9a6e7cc3eae077cd8d52dc47ffeaef4ce8c682bab85597709b35aa03ea2c"
+    },
     "notes": "The Tasmania Fire Service brochure rooted in Tasmania's flammability research lineage (Dickinson & Kirkpatrick 1985; Sheridan 1996). The 2017 printing (v8) carries content unchanged since Revision 3, 2006. Its columns defeat text extraction, so the table was transcribed explicitly from the rendered pages: 57 high, 53 moderate, 17 low."
   },
   "travis-county-agrilife-firewise": {
@@ -1530,7 +3124,27 @@
       }
     ],
     "scaleNotes": "Four explicitly named examples of fire resistance or resistant growth characteristics map to recommend. Plants the page says should be restricted to zones 2 or 3, and plants its all-zone warning calls highly flammable, map to avoid.",
-    "notes": "The page was published 2020-07-09 and modified 2024-01-16. Its 64 safely taxon-resolvable occurrences collapse to 56 exact accepted-GBIF owners; the page repeats Sabal minor and Salvia rosmarinus within its Zone 1 list, then repeats five species and the Ilex genus in its all-zone warning. The broader phrases \"any type of palm\", \"ornamental grasses\", and \"sedges\" were held rather than inferred to a taxon. Source spelling damage and obsolete combinations remain in parser claims and are corrected only in explicit GBIF queries. Jo Anne Hargraves is credited with compiling the Zone 1 list, but the page does not identify its taxon-level lineage or method; linked firewise publications appear under Additional Resources rather than as list citations. Official HTML SHA-256: c61d8083ba57e91b6cb8463066a44a6bc58f11e6c88e51e83dce6ba0bbb7c960."
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "TX"
+          ],
+          "regions": [
+            "Travis County",
+            "Austin area"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Texas A&M AgriLife Extension publishes this page through its Travis County horticulture program. FireApproved publishes 56 exact owners and retains the source's zone and warning conditions. This is county/Austin regional context, not a second statewide Texas table or site clearance.",
+        "asOf": "2024-01-16",
+        "sourceVersion": "Travis-County-AgriLife-Firewise-2024-01-16"
+      }
+    ],
+    "notes": "The page was published 2020-07-09 and modified 2024-01-16. Its 64 safely taxon-resolvable occurrences collapse to 56 exact accepted-GBIF owners; the page repeats Sabal minor and Salvia rosmarinus within its Zone 1 list, then repeats five species and the Ilex genus in its all-zone warning. The broader phrases \"any type of palm\", \"ornamental grasses\", and \"sedges\" were held rather than inferred to a taxon. Source spelling damage and obsolete combinations remain in parser claims and are corrected only in explicit GBIF queries. Jo Anne Hargraves is credited with compiling the Zone 1 list, but the page does not identify its taxon-level lineage or method; linked firewise publications appear under Additional Resources rather than as list citations. Official HTML SHA-256: c61d8083ba57e91b6cb8463066a44a6bc58f11e6c88e51e83dce6ba0bbb7c960. The live page remained 95,482 bytes on 2026-08-26 but its dynamic rendering changed the file hash, so no new immutable acquisition claim is made."
   },
   "ua-az1289": {
     "name": "FIREWISE Plant Materials for 3,000 ft. and Higher Elevations (AZ1289)",
@@ -1551,18 +3165,64 @@
       }
     ],
     "scaleNotes": "Binary FIREWISE tables covering 25 tree rows, 16 grass rows, and 31 shrub rows. Verdict map: listed = recommend.",
-    "notes": "Tier 2 compiled evidence. The publication says it is based on and borrowed heavily from Chuck Dennis's Colorado State Forest Service / Colorado State University FIREWISE Plant Materials and a New Mexico State University Extension publication. It does not identify a root per row, so rows stay with this compiled source and never create an independent Tier 1 vote. The official site still serves the 2011 revision; no 2025 AZ1289 was found."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "UA-Extension-AZ1289-2011-12",
+      "sourceUrl": "https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1289.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "9771e4c376b2c47d2da806015feec8b58f691d757e3b8ff7365ce282569661b2"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "AZ"
+          ],
+          "regions": [
+            "Arizona at or above 3,000 feet"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "AZ1289 is explicitly limited to Arizona elevations of 3,000 feet and higher. FireApproved publishes 69 exact owners as regional Arizona context, retaining every water and elevation condition. It is never promoted to statewide low-desert guidance or an independent Tier 1 vote.",
+        "asOf": "2011-12-01",
+        "sourceVersion": "UA-Extension-AZ1289-2011-12"
+      }
+    ],
+    "notes": "Tier 2 compiled evidence. The publication says it is based on and borrowed heavily from Chuck Dennis's Colorado State Forest Service / Colorado State University FIREWISE Plant Materials and a New Mexico State University Extension publication. It does not identify a root per row, so rows stay with this compiled source and never create an independent Tier 1 vote. The official site still serves the same 572,329-byte 2011 revision as of 2026-08-26; no 2025 AZ1289 was found. SHA-256: 9771e4c376b2c47d2da806015feec8b58f691d757e3b8ff7365ce282569661b2."
   },
   "uc-anr-firewise": {
-    "name": "Firewise Fire Resistant Plants",
-    "publisher": "UC ANR",
-    "url": "https://ucanr.edu/program/uc-anr-fire-network/right-plant-right-place-right-care",
-    "region": "CA",
+    "name": "Firewise: Fire Resistant Plants",
+    "publisher": "UC Master Gardeners of Butte County",
+    "url": "https://ucanr.edu/blog/real-dirt/article/firewise-fire-resistant-plants-0",
+    "region": "Butte County and California's North State",
     "tier": 1,
     "evidenceKind": "expert-curated",
     "lineage": "uc-tree",
     "scaleNotes": "Curated recommendations within the Right Plant, Right Place, Right Care framing.",
-    "notes": "UC ANR curation. Note the Fire Network's broader position is list-skeptical (\"placement matters more than plant type\") — cite alongside that context."
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "CA"
+          ],
+          "regions": [
+            "Butte County and California's North State"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "UC Master Gardeners of Butte County frame the article for North State residents. FireApproved publishes only the two taxonomically exact owners from its prose examples and keeps them as northern California regional context. Generic maples, broom, Echinacea, creeping thyme, and Oregon grape remain held rather than being projected to species. The article is not a statewide list or site clearance.",
+        "asOf": "2023-06-02",
+        "sourceVersion": "UC-Butte-Real-Dirt-2023-06-02"
+      }
+    ],
+    "notes": "UC ANR curation. The statewide Fire Network's broader position is list-skeptical (\"placement is more important than plant type\"); that page is context, not the source of these examples. A 2026-08-26 reconciliation removed five earlier over-specific species joins from generic prose labels; only Eucalyptus at genus rank and Salvia rosmarinus remain exact owners."
   },
   "ufifas-circ-1445": {
     "name": "Fire in the Wildland-Urban Interface: Selecting and Maintaining Firewise Plants for Landscaping",
@@ -1630,7 +3290,30 @@
       }
     ],
     "scaleNotes": "The publication is guidance rather than a ranked plant list. Its Immediate Zone paragraph names five genus-level examples among the vegetation that can grow within 0–5 feet of a structure when carefully maintained and limited in quantity. Only Sedum and Senecio are explicitly described as low-flammability; Phlox, Iris, and Viola are admitted as maintained herbaceous examples.",
-    "notes": "The plant-flammability section explicitly cites UF/IFAS Circular 1445 and FOR272, so this source remains in the UF/IFAS–Southern Research Station lineage rather than counting as an independent vote. Capture SHA-256: 6c3f9c3a6579af413dc3cb2dc3ab47e4b5a974fff77d1da6db832184011b8bd5."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official publication",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "UGA-WSFNR-20-96A-2020",
+      "sourceUrl": "https://bugwoodcloud.org/resource/files/18516.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "6c3f9c3a6579af413dc3cb2dc3ab47e4b5a974fff77d1da6db832184011b8bd5"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "GA"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "UGA Warnell's WSFNR-20-96A is explicitly firescaping guidance for Georgia. FireApproved publishes the five exact genus owners named in its Immediate Zone examples while retaining the source's maintenance and quantity conditions. This is partial example coverage, not a statewide planting list.",
+        "sourceVersion": "UGA-WSFNR-20-96A-2020"
+      }
+    ],
+    "notes": "The plant-flammability section explicitly cites UF/IFAS Circular 1445 and FOR272, so this source remains in the UF/IFAS–Southern Research Station lineage rather than counting as an independent vote. Capture SHA-256: 6c3f9c3a6579af413dc3cb2dc3ab47e4b5a974fff77d1da6db832184011b8bd5. The current official 2,231,493-byte download exactly matched the reviewed input on 2026-08-26."
   },
   "uk-forfs": {
     "name": "Save Your Home from Wildfire (ForFS 17-01)",
@@ -1647,7 +3330,31 @@
       }
     ],
     "scaleNotes": "Prose guidance naming three highly flammable plants to remove near the home (eastern red cedar, any pine, holly) and ten trees and shrubs that work well in defensible space. Verdict map: named-flammable = avoid, works-well = recommend. Thirteen taxa, resolved from common names with the resolution recorded on each row.",
-    "notes": "Kentucky's only named-species wildfire guidance. Tier 2: the mentions are a prose sentence, not a rated table."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "UK-KDF-FORFS-17-01-2017-01",
+      "sourceUrl": "https://forestry.mgcafe.uky.edu/files/forfs17-01_save_your_home_from_wildfire.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "29825c5115cb56bcceb556280deea4123d2da56b6fbc1ca2eb653564248f29b2"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "KY"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "University of Kentucky Cooperative Extension and the Kentucky Division of Forestry publish this small-woodland guidance for Kentuckians. FireApproved exposes its 13 exact species or genus owners while retaining the prose-example grain. It is not a scored or comprehensive state table.",
+        "asOf": "2017-01-01",
+        "sourceVersion": "UK-KDF-FORFS-17-01-2017-01"
+      }
+    ],
+    "notes": "Kentucky's only named-species wildfire guidance. Tier 2: the mentions are a prose sentence, not a rated table. The live official 1,458,364-byte PDF exactly matched the pinned input on 2026-08-26; SHA-256: 29825c5115cb56bcceb556280deea4123d2da56b6fbc1ca2eb653564248f29b2."
   },
   "unr-compilation-good-plant-choices": {
     "name": "A Compilation of Good Plant Choices for Nevada's High Fire Hazard Areas (SP-05-16)",
@@ -1664,6 +3371,30 @@
       }
     ],
     "scaleNotes": "Binary compilation of plants reported as fire resistant, firewise, or favorably rated by at least two of eight named western source lists. An asterisk means some publication reviewers considered the plant a poor choice; those rows map to mixed rather than recommend.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated; publisher page carries a copyright notice",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "UNR-Extension-SP-05-16-2005-live-page-2026-08-29",
+      "sourceUrl": "https://extension.unr.edu/publication.aspx?PubID=4762",
+      "retrievedOn": "2026-08-29",
+      "sha256": "cae7d674125d5e5efa8adfcbb0ded0b6b58707b3e05c200182b84bdd42bdadc2"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "NV"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "University of Nevada Cooperative Extension compiled plants suited to Nevada climate zones and reported favorably by at least two upstream firewise lists. FireApproved publishes 126 exact source owners at Nevada publication scope. The source explicitly makes no independent flammability determination, so these rows remain corroborative.",
+        "asOf": "2005-01-01",
+        "sourceVersion": "UNR-Extension-SP-05-16-2005"
+      }
+    ],
     "notes": "Tier 2 corroboration only. The source explicitly disclaims making its own flammability determination and exposes the contributing AZ, CA, CO, ID, MT, OR, and UT source columns per row. Those columns are preserved in row claims, but the compilation never creates a new Tier 1 lineage vote."
   },
   "unr-fs-97-36-greenstrips": {
@@ -1683,16 +3414,318 @@
     "scaleNotes": "Table 1 names 15 common perennial plants used in greenstrips and gives characteristics important to establishment and use. Listed = recommend only within the recorded northern Nevada greenstrip placement. Fourteen rows fit the current taxon-rank schema; Poa canbyi is held out because its exact GBIF match resolves to a subspecies rank the schema cannot represent.",
     "notes": "Tier 1 extension curation with stated selection requirements: adaptation, establishment amid annual weeds, separated growth, low mature height, low fuel production, long green period, post-burn survival, and grazing tolerance. The note says greenstrips should be grazed or mown frequently enough to reduce fuel buildup. Same greenstrip-tree lineage as BLM, NRCS, and the cited 1986 University of Nevada fact sheet."
   },
+  "us-riis-v2": {
+    "name": "United States Register of Introduced and Invasive Species, version 2.0",
+    "publisher": "United States Geological Survey",
+    "url": "https://www.usgs.gov/data/us-register-introduced-and-invasive-species-us-riis-all-versions",
+    "region": "Alaska, Hawaii, and the conterminous United States",
+    "evidenceKind": "status-registry",
+    "lineage": "usgs-us-riis",
+    "editions": [
+      {
+        "edition": "Alaska register, version 2.0",
+        "url": "https://ipt.gbif.us/archive.do?r=akriis",
+        "date": "2022"
+      },
+      {
+        "edition": "Hawaii register, version 2.0",
+        "url": "https://ipt.gbif.us/archive.do?r=hiriis",
+        "date": "2022"
+      },
+      {
+        "edition": "Conterminous United States register, version 2.0",
+        "url": "https://ipt.gbif.us/archive.do?r=l48riis",
+        "date": "2022"
+      }
+    ],
+    "scaleNotes": "Degree C3 is introduced and established, D2 is invasive, and E is widespread invasive. FireApproved preserves those as three statuses rather than turning every source row into the same warning.",
+    "acquisition": {
+      "upstreamLicense": "CC0 1.0 Universal",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "2.0 (November 2022)",
+      "sourceUrl": "https://www.usgs.gov/data/us-register-introduced-and-invasive-species-us-riis-all-versions",
+      "doi": "10.5066/P9KFFTOD",
+      "retrievedOn": "2026-08-26",
+      "sha256": "1196260aa143b2db69a950b21c56b594302eff5110f332cbd319c8bafd99a225",
+      "inputs": [
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/us-riis-v2-ak.zip",
+          "bytes": 140880,
+          "sha256": "f24c7f745a0cab31e1203071f9666d39fe2447c5866d02a7e57183568d1715b8",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/us-riis-v2-hi.zip",
+          "bytes": 1213558,
+          "sha256": "8056e1e48d34135fe063f4c7fabbf8f1b20f3aef43df2953baf299261b7f9283",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/us-riis-v2-l48.zip",
+          "bytes": 1840752,
+          "sha256": "a1bc5b60d861e00f4df87ea5f194a726c68e6821c38aff6698b04d790f7e2a25",
+          "role": "authoritative"
+        }
+      ]
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "aggregate-region",
+          "regions": [
+            "AK"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The complete official Alaska archive was parsed; only conservative exact identifier or exact name, rank, and family matches publish to current FireApproved taxa, so source absence is not a negative ecological claim.",
+        "asOf": "2022-10-23",
+        "sourceVersion": "2.0 (November 2022)"
+      },
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "aggregate-region",
+          "regions": [
+            "HI"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The complete official Hawaii archive was parsed; only conservative exact identifier or exact name, rank, and family matches publish to current FireApproved taxa, so source absence is not a negative ecological claim.",
+        "asOf": "2022-10-23",
+        "sourceVersion": "2.0 (November 2022)"
+      },
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "aggregate-region",
+          "regions": [
+            "L48"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "The complete official conterminous-U.S. archive was parsed; only conservative exact identifier or exact name, rank, and family matches publish. L48 never becomes an exact-state claim or state filter.",
+        "asOf": "2022-10-23",
+        "sourceVersion": "2.0 (November 2022)"
+      }
+    ],
+    "notes": "USGS publishes the source under CC0 1.0. FireApproved's derived structured rows are CC BY 4.0. The three committed source archives, exact official URLs, versions, byte counts, SHA-256 hashes, and license separation are pinned in docs/research/us-riis-v2-source.yaml. The deterministic ingest preserves occurrenceID, modified date, source name and rank, degree code, and associated references. No production build fetches the archives."
+  },
+  "usda-ams-state-noxious-weed-seed-2026": {
+    "name": "USDA AMS 2026 State Noxious-Weed Seed Requirements",
+    "publisher": "USDA Agricultural Marketing Service, Seed Regulatory and Testing Division",
+    "url": "https://www.ams.usda.gov/sites/default/files/media/StateNoxiousWeedsSeedList.pdf",
+    "region": "All 50 U.S. states; District of Columbia retained in the terminal source artifact",
+    "evidenceKind": "regulatory-list",
+    "lineage": "usda-ams-state-noxious-weed-seed",
+    "scaleNotes": "Revised July 2026 state labeling requirements and prohibitions for noxious-weed seed. This source answers a seed-material question only. It does not establish whole-plant possession, planting, nursery-sale, transport, ecological-invasive, product, or fire status.",
+    "acquisition": {
+      "upstreamLicense": "U.S. federal government work; source terms not separately stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "USDA-AMS-State-Noxious-Weed-Seed-Requirements-Revised-July-2026",
+      "sourceUrl": "https://www.ams.usda.gov/rules-regulations/fsa",
+      "retrievedOn": "2026-08-26",
+      "sha256": "2746d57156fd0bb3a7d8a0b4b7be4eb3a49ca95b36f8623a074890870cba4da3",
+      "inputs": [
+        {
+          "path": "docs/research/sources/usda-ams-state-noxious-weed-seed-2026/StateNoxiousWeeds.xlsx",
+          "bytes": 488397,
+          "sha256": "723a5304a48ed575d67b67605f1af5bed86f1972f2890e0ba5592f63accaba4c",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/usda-ams-state-noxious-weed-seed-2026/StateNoxiousWeedsSeedList.pdf",
+          "bytes": 6395916,
+          "sha256": "a5aafe117b75aa13fe71d644639b626232ae408ff50a21c415c8f9874d82b873",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/usda-ams-state-noxious-weed-seed-2026/federal-seed-act.html",
+          "bytes": 52216,
+          "sha256": "7974d8d2fa51425ffe5f527501e277d537f90d14aa657c907c05f14207e1a974",
+          "role": "supplemental"
+        }
+      ]
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "designationDomain": "seed",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "AL",
+            "AK",
+            "AZ",
+            "AR",
+            "CA",
+            "CO",
+            "CT",
+            "DE",
+            "FL",
+            "GA",
+            "HI",
+            "ID",
+            "IL",
+            "IN",
+            "IA",
+            "KS",
+            "KY",
+            "LA",
+            "ME",
+            "MD",
+            "MA",
+            "MI",
+            "MN",
+            "MS",
+            "MO",
+            "MT",
+            "NE",
+            "NV",
+            "NH",
+            "NJ",
+            "NM",
+            "NY",
+            "NC",
+            "ND",
+            "OH",
+            "OK",
+            "OR",
+            "PA",
+            "RI",
+            "SC",
+            "SD",
+            "TN",
+            "TX",
+            "UT",
+            "VT",
+            "VA",
+            "WA",
+            "WV",
+            "WI",
+            "WY"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "Every nonblank row and all 1,890 scientific-name designation rows in the 50 state sheets plus the District of Columbia sheet are terminally accounted. Plant assertions publish only for unique exact scientific or accepted-name identities at the same rank; Qualified seed-kind and identity-note rows fail closed. Connecticut, Delaware, New Mexico, New York, and Virginia currently have no publishable strict plant-owner match, but retain complete sheet counts, source identity, and terminal review dispositions.",
+        "sourceUrl": "https://www.ams.usda.gov/sites/default/files/media/StateNoxiousWeeds.xlsx",
+        "asOf": "2026-08-26",
+        "sourceVersion": "USDA-AMS-State-Noxious-Weed-Seed-Requirements-Revised-July-2026"
+      }
+    ],
+    "notes": "The workbook and 173-page PDF are pinned in the research source pack. Appendix A and B are archived but never used to bridge a taxon name because USDA warns that their variants may not exactly match state law. The normalized artifact preserves sheet rows, categories, printed names, limitations, notes, hashes, URLs, and terminal review dispositions."
+  },
+  "usda-aphis-federal-noxious-7-cfr-360-200": {
+    "name": "Federal noxious weed designations, 7 CFR 360.200",
+    "publisher": "USDA Animal and Plant Health Inspection Service and the Office of the Federal Register",
+    "url": "https://www.ecfr.gov/current/title-7/subtitle-B/chapter-III/part-360/section-360.200",
+    "region": "United States",
+    "evidenceKind": "regulatory-list",
+    "lineage": "federal-register-ecfr",
+    "editions": [
+      {
+        "edition": "eCFR Title 7, Part 360, up to date 2026-08-24",
+        "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-24/title-7.xml?part=360",
+        "date": "2026-08-24"
+      },
+      {
+        "edition": "APHIS Federal Noxious Weed List",
+        "url": "https://www.aphis.usda.gov/organism-soil-imports/federal-noxious-weeds",
+        "date": "2025-07-30"
+      }
+    ],
+    "acquisition": {
+      "upstreamLicense": "U.S.-government-work",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "eCFR-up-to-date-2026-08-24",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2026-08-24/title-7.xml?part=360",
+      "extractedOn": "2026-08-24",
+      "retrievedOn": "2026-08-26",
+      "sha256": "4ab0c640fcf597db17442427a2b6ca1f95494033ef4298080ce81b9295cb023c"
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "federal",
+          "regions": [
+            "United States"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "The complete current 7 CFR 360.200 designation section and its explicit Cuscuta and Orobanche exception rows were successfully parsed. Exact same-rank publication is narrower than the law's stated subordinate-taxon reach; higher-rank applicability needs a reviewed target projection.",
+        "asOf": "2026-08-24",
+        "sourceVersion": "eCFR-up-to-date-2026-08-24"
+      }
+    ],
+    "scaleNotes": "Federal noxious weed is a legal designation, not an ecological degree or a FireApproved fire-performance classification. Section 360.200 states that a named taxon includes its subordinate taxa and supplies explicit exceptions.",
+    "notes": "The exact current eCFR XML and supplemental APHIS PDF are committed for reproducibility. Snapshot hashes, dates, terms, and the no-automatic- subordinate-projection policy are recorded in docs/research/federal-noxious-weed-source.yaml."
+  },
+  "usda-plants-characteristics": {
+    "name": "USDA PLANTS Database — Plant Characteristics",
+    "publisher": "USDA Natural Resources Conservation Service",
+    "url": "https://plants.usda.gov/assets/docs/PLANTS_Help_Document_2022.pdf",
+    "region": "United States",
+    "tier": 1,
+    "evidenceKind": "hardiness-reference",
+    "lineage": "usda-plants-characteristics",
+    "editions": [
+      {
+        "edition": "PLANTS Help Document 2022",
+        "date": "2022"
+      }
+    ],
+    "scaleNotes": "The Temperature, Minimum (°F) characteristic is an exact temperature, not a plant-zone range. FireApproved retains the measurement and maps it only to the containing 2023 PHZM half-zone for comparison.",
+    "acquisition": {
+      "upstreamLicense": "License not stated on the API or PLANTS Help Document",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "API cache refreshed 2026-08-25; definitions from PLANTS Help Document 2022",
+      "sourceUrl": "https://plantsservices.sc.egov.usda.gov/api",
+      "retrievedOn": "2026-08-25",
+      "sha256": "f7f0ffd74bb9c0fe5be840bfb5c208644125b01d97dc30c678493abc124f8523"
+    },
+    "notes": "USDA defines the value as the lowest temperature recorded in the plant's historical range, or a record low January temperature within the current range when the former is unavailable. USDA states that the definition does not apply to summer annuals. Rows with an annual duration or missing duration therefore remain applicability-uncertain. Exact values outside the published PHZM scale are retained without clamping."
+  },
   "usfs-feis": {
     "name": "Fire Effects Information System (FEIS)",
     "publisher": "USDA Forest Service, Missoula Fire Sciences Laboratory",
-    "url": "https://www.feis-crs.org/feis/",
+    "url": "https://research.fs.usda.gov/feis/species-reviews",
     "region": "national (US)",
     "tier": 2,
     "evidenceKind": "compiled",
     "lineage": "unknown",
     "scaleNotes": "Narrative species reviews; no single rating scale.",
-    "notes": "Public-domain federal fire-ecology syntheses, one review per taxon, each citing the primary literature it summarizes. Registered 2026-08-24 as the approved corroborator and context source for genus/species prose (genus-notes): it synthesizes other people's measurements and observations, so it counts as corroboration and citation context, NEVER as an independent Tier 1 line of evidence, and it never votes in a derivation."
+    "acquisition": {
+      "upstreamLicense": "No blanket corpus license stated; review imagery carries mixed rights",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "feis-species-reviews-2026-08-26-sha256-904b6f178d41",
+      "sourceUrl": "https://research.fs.usda.gov/feis/species-reviews/download",
+      "retrievedOn": "2026-08-26",
+      "sha256": "8b3413b5de5b7da74a7fb7122fd6578ecfbe06c316c7c41a5ddc44084467448a"
+    },
+    "coverage": [
+      {
+        "channel": "fire-ecology",
+        "geography": {
+          "grain": "aggregate-region",
+          "regions": [
+            "United States"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Six exact-species reviews manually curated from the 1,092-row official catalog; no unattended page crawl",
+        "asOf": "2026-08-26",
+        "sourceVersion": "feis-species-reviews-2026-08-26-sha256-904b6f178d41",
+        "notes": "The full catalog join is terminally queued; only section-verified paraphrases publish."
+      }
+    ],
+    "notes": "Federal fire-ecology syntheses that cite the primary literature they summarize. Registered as a corroborator and context source for genus/species prose: it synthesizes other people's measurements and observations, so it counts as citation context, NEVER as an independent Tier 1 line of evidence, and it never votes in a derivation. FireApproved publishes concise authored paraphrases and exact section links; no FEIS imagery is republished."
   },
   "usu-firewise-plants-utah": {
     "name": "Firewise Plants for Utah Landscapes (NR/FF/002)",
@@ -1713,7 +3746,31 @@
       }
     ],
     "scaleNotes": "Binary list of 83 plants or plant groups that the source says can be firewise when properly placed and maintained. Verdict map: listed = recommend. Asterisks identify plants that may become weedy; they do not change the source's firewise verdict.",
-    "notes": "Tier 1 expert curation by Michael Kuhns. Utah FFSL's 2007 Firewise Landscaping for Utah book was authored by Kuhns and Barbara Daniels and expands this fact sheet, so both publications belong to the single usu-kuhns lineage and never count as independent votes."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "USU-NR-FF-002-2005-02",
+      "sourceUrl": "https://extension.usu.edu/smallfarms/files/FirewisePlantsUtLandscapes.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "10ce740ce69b496a6b6742b66cd4fa97eadc82047881f69207e75531d9de84d8"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "UT"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Utah State University Extension states that this fact sheet selects examples for Utah landscapes and that they require proper placement and maintenance. FireApproved publishes 83 exact source owners at Utah publication scope. The table is not a site-specific planting clearance.",
+        "asOf": "2005-02-01",
+        "sourceVersion": "USU-NR-FF-002-2005-02"
+      }
+    ],
+    "notes": "Tier 1 expert curation by Michael Kuhns. Utah FFSL's 2007 Firewise Landscaping for Utah book was authored by Kuhns and Barbara Daniels and expands this fact sheet, so both publications belong to the single usu-kuhns lineage and never count as independent votes. The live official 183,034-byte PDF exactly matched the pinned input on 2026-08-26; SHA-256: 10ce740ce69b496a6b6742b66cd4fa97eadc82047881f69207e75531d9de84d8."
   },
   "ut-sp685": {
     "name": "Landscaping Guidelines to Protect Your Home from Wildfire (SP685)",
@@ -1730,7 +3787,31 @@
       }
     ],
     "scaleNotes": "Binary Firewise plant tables (78 taxa). Verdict map: listed = recommend.",
-    "notes": "A carrier, not an independent rater: SP685's plant tables are verbatim copies of Virginia Firescapes 430-300 rows (confirmed by row-text comparison; 430-300 is cited in its references), so rows landing on records with va-firescapes evidence resolve to that root. A handful of Tennessee-specific additions (Chinese fringetree, cornelian cherry, rabbiteye blueberry, Thunberg spirea) stay as SP685's own Tier 2 rows."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "UT-Extension-SP685-2006-10-24",
+      "sourceUrl": "https://utia.tennessee.edu/publications/wp-content/uploads/sites/269/2023/10/SP685.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "c29cd2953f5e770d50367d5d523458f722c0a2814b532cb781fe42edc0adfebd"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "TN"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "University of Tennessee Extension SP685 is Tennessee landscape guidance and publishes 78 represented plant owners. Most table rows are a carrier of Virginia Firescapes rather than an independent rating; Tennessee source scope does not change that lineage or establish site suitability.",
+        "asOf": "2006-10-24",
+        "sourceVersion": "UT-Extension-SP685-2006-10-24"
+      }
+    ],
+    "notes": "A carrier, not an independent rater: SP685's plant tables are verbatim copies of Virginia Firescapes 430-300 rows (confirmed by row-text comparison; 430-300 is cited in its references), so rows landing on records with va-firescapes evidence resolve to that root. A handful of Tennessee-specific additions (Chinese fringetree, cornelian cherry, rabbiteye blueberry, Thunberg spirea) stay as SP685's own Tier 2 rows. The current official PDF is 846,154 bytes; SHA-256: c29cd2953f5e770d50367d5d523458f722c0a2814b532cb781fe42edc0adfebd."
   },
   "utah-ffsl-firewise-landscaping": {
     "name": "Firewise Landscaping for Utah (2007)",
@@ -1748,6 +3829,40 @@
     ],
     "scaleNotes": "The book expands Michael Kuhns's 1998/2005 USU Firewise Plants for Utah Landscapes fact sheet and is the same evidence lineage. Its recommend tables are not duplicated. The separately printed PLANTS TO AVOID passage supplies four tree-genus pyrophyte rows and one cheatgrass row.",
     "notes": "The live FFSL file is gone; the recovered 40-page PDF and layout-preserving text are archived locally. Five avoid rows are ingested from page 15. The recommend tables remain represented by the 2005 USU root and never count as a second independent vote. No images were fetched."
+  },
+  "utah-r68-9-noxious-weeds": {
+    "name": "State of Utah Noxious Weed List (R68-9)",
+    "publisher": "Utah Department of Agriculture and Food",
+    "url": "https://ag.utah.gov/plant-industry/noxious-weed/state-of-utah-noxious-weed-list/",
+    "region": "Utah",
+    "evidenceKind": "regulatory-list",
+    "lineage": "utah-r68-9",
+    "scaleNotes": "Classes 1A and 1B are early-detection priorities, Class 2 is control, Class 3 is containment, and Class 4 is prohibited for sale or propagation. The page gives Cynodon dactylon a Washington County exception, which is retained on its assertion rather than erased by a statewide label.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "R68-9-list-accessed-2026-08-26",
+      "sourceUrl": "https://ag.utah.gov/plant-industry/noxious-weed/state-of-utah-noxious-weed-list/",
+      "retrievedOn": "2026-08-26",
+      "sha256": "5bba9ad8568766c2084674afcc99a65d6ffad96a9ec529874747ecc60a875877"
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "UT"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "All 55 designations across the five classes on the complete official page were parsed, including two plain-text Sorghum rows, genus-level spp. rows, the incomplete Phragmites source label, and the Washington County bermudagrass exception. Only unique exact same-rank matches publish.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "R68-9-list-accessed-2026-08-26"
+      }
+    ],
+    "notes": "The official page did not state a reusable upstream license. FireApproved retains the source wording and attribution while publishing its own derived structured data under CC BY 4.0. The exact HTML snapshot is committed at docs/research/sources/plant-invasive-regulation/utah-noxious-weeds.html."
   },
   "uts-2023-street-trees": {
     "name": "Shoot flammability patterns in native and exotic street tree species at the WUI of eastern Australia",
@@ -1782,7 +3897,31 @@
       }
     ],
     "scaleNotes": "The article explicitly separates examples of fire-prone plants from examples of fire-resistant plants and plants for a Firewise landscape. Fire-prone maps to avoid; fire-resistant and Firewise examples map to recommend.",
-    "notes": "Ten examples have unambiguous species or genus identities. “Most conifers,” cottonwood, aspens, mahogany, mountain maple, succulents, herbaceous species, wildflowers, and groundcovers were held because the printed common or group name does not define one exact taxon. Repeated examples were represented once. PDF SHA-256: 77cd64f5ff73ce54877f0892b7d14a6498008fcf36d5b524321b358f3d31ba77."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "UW-Extension-Barnyards-Backyards-Spring-2005",
+      "sourceUrl": "https://www.uwyo.edu/barnbackyard/_files/documents/magazine/2005/spring/firewise-spring-barnyards-2005.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "77cd64f5ff73ce54877f0892b7d14a6498008fcf36d5b524321b358f3d31ba77"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "WY"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "University of Wyoming Extension published these Firewise examples for its Wyoming rural-living audience and points readers to Firewise Wyoming. FireApproved publishes ten exact source owners while holding broad plant groups. State publication scope is not suitability across every basin.",
+        "asOf": "2005-04-01",
+        "sourceVersion": "UW-Extension-Barnyards-Backyards-Spring-2005"
+      }
+    ],
+    "notes": "Ten examples have unambiguous species or genus identities. “Most conifers,” cottonwood, aspens, mahogany, mountain maple, succulents, herbaceous species, wildflowers, and groundcovers were held because the printed common or group name does not define one exact taxon. Repeated examples were represented once. The live official 195,199-byte PDF exactly matched the pinned input on 2026-08-26. PDF SHA-256: 77cd64f5ff73ce54877f0892b7d14a6498008fcf36d5b524321b358f3d31ba77."
   },
   "va-firescapes": {
     "name": "Virginia Firescapes — Firewise Landscaping for Woodland Homes (430-300)",
@@ -1799,7 +3938,31 @@
       }
     ],
     "scaleNotes": "Three-point flammability rating (H / M / L, \"more or less forest fire-prone\") across six tables of deciduous and evergreen trees and shrubs, groundcovers, and vines. Verdict map: L = recommend, M = mixed, H = avoid. Every evergreen tree and shrub in the list is rated H.",
-    "notes": "Produced by the Virginia Firewise Landscaping Task Force (Virginia Tech, Virginia Department of Forestry, soil and water district, and Larry Steward). Steward also rated the Fire Performance Plant Selector and co-authored OSU B921, so the three lists share a rater and are not fully independent of one another. Nativity column marks Virginia natives; a blank cell means not marked native, not a verdict. Clematis virginiana's rating cell is blank in the printed source (verified against the page image) and is recorded as not-rated. The Ilex x 'Nellie R. Stevens' cultivar row is taxonomy-held because GBIF has no exact cultivar match; it is not broadened to the genus or a parent hybrid."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the archived official publication",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "Virginia-VCE-430-300-2009",
+      "sourceUrl": "http://web.archive.org/web/20090709143736/http://pubs.ext.vt.edu/430/430-300/430-300.pdf",
+      "retrievedOn": "2026-08-23",
+      "sha256": "eb65d1215fc6039a854315958a9bf3304e69a478b7e027134aaa9e50af63c295"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "VA"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Virginia Cooperative Extension's publication opens with Virginia wildfire conditions, identifies its Virginia Firewise Landscaping Task Force, and labels plants native to Virginia. FireApproved publishes 306 exact source owners. Publication scope does not establish parcel suitability or current endorsement of this archived 2009 list.",
+        "asOf": "2009-04-15",
+        "sourceVersion": "Virginia-VCE-430-300-2009"
+      }
+    ],
+    "notes": "Produced by the Virginia Firewise Landscaping Task Force (Virginia Tech, Virginia Department of Forestry, soil and water district, and Larry Steward). Steward also rated the Fire Performance Plant Selector and co-authored OSU B921, so the three lists share a rater and are not fully independent of one another. Nativity column marks Virginia natives; a blank cell means not marked native, not a verdict. Clematis virginiana's rating cell is blank in the printed source (verified against the page image) and is recorded as not-rated. The Ilex x 'Nellie R. Stevens' cultivar row is taxonomy-held because GBIF has no exact cultivar match; it is not broadened to the genus or a parent hybrid. Reviewed PDF: 441,864 bytes; SHA-256: eb65d1215fc6039a854315958a9bf3304e69a478b7e027134aaa9e50af63c295."
   },
   "valette-1990": {
     "name": "Inflammabilités des espèces forestières méditerranéennes (Valette 1990)",
@@ -1836,6 +3999,76 @@
     "scaleNotes": "Table 2 applies Valette's 0-5 live-leaf flammability index. Verdict map: 0-1 = recommend; 2-3 = mixed; 4-5 = avoid. Ignition frequency and mean ignition time are retained per species.",
     "notes": "Complete CC-BY full text and Table 2 are public. All five exact taxa are represented. Guerrero/UTFSM, the Peñuelas study site, and the species panel overlap the 2020 thermochemistry paper, so both remain one guerrero-utfsm-tree vote despite the new epiradiator measurements."
   },
+  "virginia-2vac5-317-noxious-weeds-2024": {
+    "name": "Virginia 2VAC5-317 Tier 1, Tier 2, and Tier 3 Noxious Weeds",
+    "publisher": "Virginia Board of Agriculture and Consumer Services",
+    "url": "https://law.lis.virginia.gov/admincode/title2/agency5/chapter317/section20/",
+    "region": "Virginia",
+    "evidenceKind": "regulatory-list",
+    "lineage": "virginia-2vac5-317-noxious-weeds",
+    "scaleNotes": "The current regulation names three Tier 1, seven Tier 2, and sixteen Tier 3 noxious weeds. The tiers describe presence and feasibility of eradication or suppression; they do not create three uniform sales classes. Section 30 prohibits movement of a regulated article unless it is accompanied by a valid certificate or permit. Section 10 defines a regulated article as a listed weed or an article carrying or capable of carrying one. It separately defines a certificate as commissioner-issued or authorized documentation of noncontamination and a permit as movement to restricted destinations for limited handling, utilization, processing, or scientific purposes.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "2VAC5-317-20-amended-effective-2024-07-04-reviewed-2026-08-26",
+      "sourceUrl": "https://law.lis.virginia.gov/admincode/title2/agency5/chapter317/section20/",
+      "retrievedOn": "2026-08-26",
+      "sha256": "b0c3d1b10a0e4b9a1a2afeba39f06b03b0a4826536c639e34d1b7f8700018495",
+      "inputs": [
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/virginia-2vac5-317-10-2026-08-26.html",
+          "bytes": 36209,
+          "sha256": "12940edf11177fc7dbd51b38f5df8df87f20c508f066c5ff4be1df58e55c61f8",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/virginia-2vac5-317-20-2026-08-26.html",
+          "bytes": 32812,
+          "sha256": "7863bebbabf7e954f7b91113db4d7e822692b9cc6a7ea854ec36a5b30040f82c",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/virginia-2vac5-317-30-2026-08-26.html",
+          "bytes": 28437,
+          "sha256": "feb4e965e30d9cb4989e4d41b6242b4833c2281fbd57928a324d93ee29a2f33c",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/virginia-register-r21-6889-final-2024-06-03.html",
+          "bytes": 15390,
+          "sha256": "fcb9ed06a26d8a87baa5a6f84464230fe976ad95cd9085554b7a5fca9cdb37af",
+          "role": "authoritative"
+        }
+      ]
+    },
+    "regulatoryPublication": {
+      "designationCount": 26,
+      "publishedItemCount": 14,
+      "holdCounts": {
+        "total": 12,
+        "unmatched": 11,
+        "ambiguous": 0,
+        "complex": 1
+      }
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "VA"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "All 26 current 2VAC5-317-20 designations are parsed and terminally routed. Twenty-five species are exact same-rank candidates; the printed Oplismenus infraspecific row remains held. Fourteen unique exact scientific-name or accepted-name matches publish, and eleven unmatched species names remain held.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "2VAC5-317-20-amended-effective-2024-07-04-reviewed-2026-08-26"
+      }
+    ],
+    "notes": "The official Virginia Register final record, VA.R. Doc. No. R21-6889, filed May 15, 2024 and effective July 4, 2024, adds one Tier 2 and eleven Tier 3 species and prints the same 26-row list as the current code page. The current Section 10 definitions and Section 30 movement rule supply the legal effect, including the distinct certificate and permit meanings under the rule's either-or operating path. The amendment date identifies the current list edition; it is not assigned as the original designation date of every older row. Legal status, ecological invasion, seed regulation, and fire performance remain separate dimensions."
+  },
   "wa-dnr-eastern-wa": {
     "name": "Fire-Resistant Plants for Eastern Washington",
     "publisher": "Washington State Department of Natural Resources",
@@ -1845,7 +4078,142 @@
     "evidenceKind": "compiled",
     "lineage": "unknown",
     "scaleNotes": "Binary recommend.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "WA-DNR-Eastern-Washington-live-2026-08-26",
+      "sourceUrl": "https://dnr.wa.gov/sites/default/files/publications/rp_fire_resistant_plants_guide_easternwa.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "1f9dea91c13335f01886ad6b6bd6756a01fe80d90f1a61f98800a2923a08192d"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "WA"
+          ],
+          "regions": [
+            "Eastern Washington"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Washington DNR publishes the guide for Eastern Washington and says it compiles plants from other Firewise documents that are likely to thrive there. FireApproved publishes 46 exact owners only as eastern Washington context. The rows are corroborative, not empirical or statewide.",
+        "sourceVersion": "WA-DNR-Eastern-Washington-live-2026-08-26"
+      }
+    ],
     "notes": "Master Gardener compilation. Its own acknowledgments state it \"lists only fire-resistant plants that are in other Firewise documents\" and that no empirical research was performed. Lineage unknown but likely overlaps the PNW 590 tree; WA DNR separately hosts PNW 590 (2006) verbatim. Counts as corroboration, never as an independent Tier 1 line of evidence."
+  },
+  "washington-wac-16-750-2026": {
+    "name": "Washington State Noxious Weed List (WAC 16-750)",
+    "publisher": "Washington State Noxious Weed Control Board and Washington State Legislature",
+    "url": "https://app.leg.wa.gov/WAC/default.aspx?cite=16-750",
+    "region": "Washington",
+    "evidenceKind": "regulatory-list",
+    "lineage": "washington-wac-16-750",
+    "scaleNotes": "Class A weeds require eradication. Class B control requirements depend on the WAC region, and counties may require control of Class C weeds. The class and this distinction remain attached to every published assertion.",
+    "acquisition": {
+      "upstreamLicense": "License-not-stated",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "WAC-16-750-current-through-2026-list-amendments",
+      "sourceUrl": "https://app.leg.wa.gov/WAC/default.aspx?cite=16-750",
+      "retrievedOn": "2026-08-26",
+      "sha256": "845af7e6e9cfe4d349bb8d637402c459e070f3094d4d96c9a6d70e1ebb426313",
+      "inputs": [
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/washington-wac-16-750-005.html",
+          "bytes": 122039,
+          "sha256": "5b36e0a013cfe7fcba85f5a25625740bed206f6b1ef98f72718ce4e4d8cd8240",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/washington-wac-16-750-011.html",
+          "bytes": 207083,
+          "sha256": "3ed47c6c03f2b9d0fd87e61c9e74c1f77f503f275a3a5757f73696a58c8d60ee",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/washington-wac-16-750-015.html",
+          "bytes": 126514,
+          "sha256": "4200f71ffe0b3402be890316cb319f2dab88fa255095e49e8a3ae960ea982629",
+          "role": "authoritative"
+        },
+        {
+          "path": "docs/research/sources/plant-invasive-regulation/washington-2026-state-noxious-weeds-scientific.pdf",
+          "bytes": 310142,
+          "sha256": "6ce5491634795fe90a8c8532b6320bfeea5245b072e87d0fb6e4e728630a9fe0",
+          "role": "supplemental"
+        }
+      ]
+    },
+    "coverage": [
+      {
+        "channel": "status",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "WA"
+          ]
+        },
+        "completeness": "complete",
+        "reviewStatus": "reviewed",
+        "scope": "All designation-bearing rows in current WAC 16-750-005, -011, and -015 were parsed. Only uncomplicated, unique, exact same-rank species matches publish; compound taxa, hybrids, cultivars, abbreviations, genus scopes, and exception-bearing rows remain reviewed without projection.",
+        "asOf": "2026-08-26",
+        "sourceVersion": "WAC-16-750-current-through-2026-list-amendments"
+      }
+    ],
+    "notes": "Exact official HTML snapshots for Classes A, B, and C and the official 2026 scientific-name PDF are committed under the L2 research source directory. The official source does not state a reusable upstream license; FireApproved's derived structured output remains CC BY 4.0."
+  },
+  "wcvp-v16": {
+    "name": "World Checklist of Vascular Plants, version 16",
+    "publisher": "Royal Botanic Gardens, Kew",
+    "url": "https://sftp.kew.org/pub/data-repositories/WCVP/wcvp.zip",
+    "region": "global",
+    "evidenceKind": "range-database",
+    "lineage": "kew-wcvp",
+    "scaleNotes": "Accepted taxonomy and native or introduced distribution at WGSRPD level 3. Distribution and nativity are separate from FireApproved fire evidence and this source never votes in a fire classification.",
+    "acquisition": {
+      "upstreamLicense": "CC-BY-3.0",
+      "derivedOutputLicense": "CC-BY-4.0",
+      "sourceVersion": "16",
+      "sourceUrl": "https://sftp.kew.org/pub/data-repositories/WCVP/wcvp.zip",
+      "doi": "10.15468/6h8ucr",
+      "extractedOn": "2026-06-04",
+      "retrievedOn": "2026-08-26",
+      "sha256": "d32ea2b3a85e489b14e83bcc9eae7274532e1d113753f7be290d4b2dfde573fa"
+    },
+    "publicationScopes": {
+      "usPageProjection": {
+        "plantCount": 1467,
+        "assertionCount": 20698,
+        "scope": "Exact U.S. state, District of Columbia, and Puerto Rico page assertions."
+      },
+      "retainedWorldwideDerivative": {
+        "plantCount": 2852,
+        "acceptedTaxonCount": 2847,
+        "assertionCount": 69253,
+        "scope": "Worldwide WCVP v16 WGSRPD localities retained once in the normalized research derivative."
+      }
+    },
+    "coverage": [
+      {
+        "channel": "range",
+        "geography": {
+          "grain": "global",
+          "regions": [
+            "World"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "WCVP v16 was matched against every current FireApproved plant with exact Unicode taxon, rank, family, and accepted-name rules; only automatic same-taxon matches publish. Routed names do not support absence claims.",
+        "asOf": "2026-06-04",
+        "sourceVersion": "16"
+      }
+    ],
+    "notes": "Source archive extracted 2026-06-04 and retrieved 2026-08-26. Its bundled README states CC BY 3.0 and prints DOI 10.34885/egs6-cp24; that DOI returned 404 during retrieval and is retained verbatim rather than silently changed. Kew's registered GBIF WCVP dataset DOI, 10.15468/6h8ucr, resolves; it is recorded separately and does not relicense the native archive used here. The native Kew endpoint is mutable. Its hash detects drift, but because the exact archive is not stored here it is not described as a frozen snapshot. FireApproved publishes derived structured rows under CC BY 4.0 with this attribution. Archive SHA-256 d32ea2b3a85e489b14e83bcc9eae7274532e1d113753f7be290d4b2dfde573fa."
   },
   "wdnr-uwex": {
     "name": "Firewise Landscaping — A Guide to Protecting Your Home from Wildfire",
@@ -1862,7 +4230,23 @@
       }
     ],
     "scaleNotes": "Binary-recommend guide: named \"Firewise Plant\" profiles plus a table of suggested firewise plants also suitable for shoreland buffers. Verdict map: listed = recommend. The archived extract yields 22 verifiable taxa (7 sidebar profiles + 15 wet-habitat table species).",
-    "notes": "Minnesota DNR defers to this Wisconsin guide, so its rows also serve the Minnesota audience. Small corroborator; several profile species already carry stronger evidence in the corpus."
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "state",
+          "stateCodes": [
+            "WI"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "Wisconsin DNR and UW-Extension co-published this Wisconsin guide, which the current DNR property-preparation page still links. FireApproved publishes 21 exact owners from the profiles and shoreland table. The co-publication is one lineage and does not establish site suitability.",
+        "asOf": "2009-02-01",
+        "sourceVersion": "Wisconsin-DNR-UWEX-GWQ049-FR417-2008"
+      }
+    ],
+    "notes": "Minnesota DNR defers to this Wisconsin guide, so its rows also serve the Minnesota audience. Small corroborator; several profile species already carry stronger evidence in the corpus. Minnesota's hosting is not projected as exact Minnesota publication scope or counted as a second vote."
   },
   "white-etal-2002-cone-update": {
     "name": "Cone calorimeter testing of vegetation — an update",
@@ -1915,6 +4299,15 @@
       }
     ],
     "scaleNotes": "Figure 2 assigns all 60 tested species to k-means clusters on the first principal-component axis: low, low/moderate, moderate, moderate/high, high, or very high. Verdict map: low and low/moderate = recommend; moderate and moderate/high = mixed; high and very high = avoid. The map is applied once for this source and does not infer thresholds from plotted positions.",
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated in the repository-hosted article PDF",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "International-Journal-of-Wildland-Fire-WF15047-2016",
+      "sourceUrl": "https://researcharchive.lincoln.ac.nz/server/api/core/bitstreams/f71e918c-7752-443a-a5ed-8307c07ae635/content",
+      "doi": "10.1071/WF15047",
+      "retrievedOn": "2026-08-29",
+      "sha256": "d271dbec2a070f621814fc8814f3c3621501ef77b2c8657c2d1bd299ec20c405"
+    },
     "notes": "Direct shoot-flammability evidence from the Lincoln University program. Freshly collected shoots were air-dried for 24 hours before testing. This is the same lincoln-nz-tree as later Cui/Curran papers and the FENZ directory, so it is one lineage vote. The full article is publicly available from the Lincoln University Research Archive; DOI 10.1071/WF15047."
   },
   "yavapai-34": {
@@ -1931,6 +4324,33 @@
       }
     ],
     "scaleNotes": "The bulletin has two named lists. Its 150 usable Fire-Resistant Plants entries map to recommend, and its 50 usable Fire-Prone Plants entries map to avoid. The bulletin says resistant plants are not fireproof and require irrigation and maintenance; fire-prone plants may ignite readily and burn intensely.",
-    "notes": "Ingested every usable scientific entry in the two tables. Entries printed at genus rank remain genus records, including four labels that an earlier parser draft had silently widened to species. \"Arborvitae — Thuja, Platycladus\" is represented by its two explicitly printed genera. The invalid scientific cell \"Pinion\" and ten informal, family-level, or taxon-free entries were held rather than inferred from their common names. Obvious extraction damage and botanical spelling errors were repaired only when the printed identity was unambiguous; accepted-name reconciliation required exact GBIF matches. The bulletin states no methods or citations, so its tier is left unset and lineage remains unknown. Official PDF SHA-256: 38b1bce8d164c27b5fb23d3bad51a23d92dc69dc0f24a69e899d72a2536b382a."
+    "acquisition": {
+      "upstreamLicense": "No reuse license stated on the official source",
+      "derivedOutputLicense": "CC BY 4.0",
+      "sourceVersion": "UA-Yavapai-Bulletin-34-v1.2-2025-03-14",
+      "sourceUrl": "https://www.extension.arizona.edu/sites/default/files/2025-03/FirewisePlants3-14-2025.pdf",
+      "retrievedOn": "2026-08-26",
+      "sha256": "38b1bce8d164c27b5fb23d3bad51a23d92dc69dc0f24a69e899d72a2536b382a"
+    },
+    "coverage": [
+      {
+        "channel": "fire-performance",
+        "geography": {
+          "grain": "aggregate-region",
+          "stateCodes": [
+            "AZ"
+          ],
+          "regions": [
+            "Yavapai County"
+          ]
+        },
+        "completeness": "partial",
+        "reviewStatus": "reviewed",
+        "scope": "University of Arizona Cooperative Extension authors Bulletin 34 for Yavapai County. FireApproved publishes 198 exact source owners from its resistant and prone tables and keeps the county boundary visible. County publication scope is regional Arizona context, never statewide scope.",
+        "asOf": "2025-03-14",
+        "sourceVersion": "UA-Yavapai-Bulletin-34-v1.2-2025-03-14"
+      }
+    ],
+    "notes": "Ingested every usable scientific entry in the two tables. Entries printed at genus rank remain genus records, including four labels that an earlier parser draft had silently widened to species. \"Arborvitae — Thuja, Platycladus\" is represented by its two explicitly printed genera. The invalid scientific cell \"Pinion\" and ten informal, family-level, or taxon-free entries were held rather than inferred from their common names. Obvious extraction damage and botanical spelling errors were repaired only when the printed identity was unambiguous; accepted-name reconciliation required exact GBIF matches. The bulletin states no methods or citations, so its tier is left unset and lineage remains unknown. The live official 565,414-byte PDF exactly matched the pinned input on 2026-08-26. Official PDF SHA-256: 38b1bce8d164c27b5fb23d3bad51a23d92dc69dc0f24a69e899d72a2536b382a."
   }
 }

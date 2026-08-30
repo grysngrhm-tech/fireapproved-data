@@ -18,7 +18,7 @@
       "path": "datasets/plants-evidence/plants-evidence.csv",
       "format": "csv",
       "title": "Plant flammability evidence directory",
-      "description": "3801 plants carrying 26878 cited flammability evidence rows, plus the 112-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
+      "description": "3801 plants carrying 27007 cited flammability evidence rows, plus the 130-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
       "homepage": "https://fireapproved.com/plants/"
     },
     {
@@ -26,7 +26,7 @@
       "path": "datasets/plants-evidence/plants-evidence.jsonl",
       "format": "jsonl",
       "title": "Plant flammability evidence directory",
-      "description": "3801 plants carrying 26878 cited flammability evidence rows, plus the 112-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
+      "description": "3801 plants carrying 27007 cited flammability evidence rows, plus the 130-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
       "homepage": "https://fireapproved.com/plants/"
     },
     {
@@ -34,7 +34,7 @@
       "path": "datasets/plants-evidence/plant-sources.csv",
       "format": "csv",
       "title": "Plant flammability evidence directory",
-      "description": "3801 plants carrying 26878 cited flammability evidence rows, plus the 112-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
+      "description": "3801 plants carrying 27007 cited flammability evidence rows, plus the 130-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
       "homepage": "https://fireapproved.com/plants/"
     },
     {
@@ -42,7 +42,7 @@
       "path": "datasets/plants-evidence/plant-sources.json",
       "format": "json",
       "title": "Plant flammability evidence directory",
-      "description": "3801 plants carrying 26878 cited flammability evidence rows, plus the 112-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
+      "description": "3801 plants carrying 27007 cited flammability evidence rows, plus the 130-source registry they are attributed to. Each row keeps the source's own wording of its finding, the edition, and the date the document was read. Classifications are computed from the evidence by a published rule, so they can be reproduced.",
       "homepage": "https://fireapproved.com/plants/"
     },
     {
